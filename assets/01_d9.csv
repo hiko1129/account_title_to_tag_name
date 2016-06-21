@@ -1,0 +1,821 @@
+貸借対照表（鉄道事業）,,,,,,,,,,,,,,,,,,,,,,
+科目分類,標準ラベル（日本語）,冗長ラベル（日本語）,用途別ラベル（日本語）,業種ラベル（日本語）,連結,四半期個別,四半期連結,中間個別,中間連結,標準ラベル（英語）,用途別ラベル（英語）,業種ラベル（英語）,名前空間プレフィックス,要素名,type,enumerations,substitutionGroup,periodType,balance,abstract,nillable,depth
+-,貸借対照表,貸借対照表、タイトル項目,,,連結貸借対照表[標準],四半期貸借対照表[標準],四半期連結貸借対照表[標準],中間貸借対照表[標準],中間連結貸借対照表[標準],Balance sheets,,,jpfr-t-cte,BalanceSheetsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,0
+A,資産の部,資産の部、タイトル項目,,,,,,,,Assets,,,jpfr-t-cte,AssetsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,1
+A,流動資産,流動資産、タイトル項目,,,,,,,,Current assets,,,jpfr-t-cte,CurrentAssetsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,2
+A,現金及び預金,現金及び預金,,,,,,,,Cash and deposits,,,jpfr-t-cte,CashAndDeposits,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,受取手形,受取手形,,,,,,,,Notes receivable-trade,,,jpfr-t-cte,NotesReceivableTrade,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,未収運賃,未収運賃、流動資産、鉄道事業,,,,,,,,Railway fares receivables,,,jpfr-t-rwy,RailwayFaresReceivablesCARWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,未収金,未収金、流動資産、鉄道事業,,,,,,,,Accounts receivable,,,jpfr-t-rwy,AccountsReceivableCARWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,未収収益,未収収益,,,,,,,,Accrued income,,,jpfr-t-cte,AccruedIncome,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,短期貸付金,短期貸付金,,,,,,,,Short-term loans receivable,,,jpfr-t-cte,ShortTermLoansReceivable,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,有価証券,有価証券,,,,,,,,Securities,,,jpfr-t-cte,ShortTermInvestmentSecurities,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,たな卸資産,たな卸資産,,,,,,,,Inventories,,,jpfr-t-cte,Inventories,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,商品及び製品,商品及び製品,,,,,,,,Merchandise and finished goods,,,jpfr-t-cte,MerchandiseAndFinishedGoods,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,仕掛品,仕掛品,,,,,,,,Work in process,,,jpfr-t-cte,WorkInProcess,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,原材料及び貯蔵品,原材料及び貯蔵品,,,,,,,,Raw materials and supplies,,,jpfr-t-cte,RawMaterialsAndSupplies,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,貯蔵品,貯蔵品,,,,,,,,Supplies,,,jpfr-t-cte,Supplies,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,前払金,前払金、流動資産、鉄道事業,,,,,,,,Advance payments,,,jpfr-t-rwy,AdvancePaymentsCARWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,前払費用,前払費用,,,,,,,,Prepaid expenses,,,jpfr-t-cte,PrepaidExpenses,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,繰延税金資産,繰延税金資産、流動資産,,,,,,,,Deferred tax assets,,,jpfr-t-cte,DeferredTaxAssetsCA,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,特定都市鉄道整備積立金,特定都市鉄道整備積立金、流動資産、鉄道事業,,,,,,,,Special reserve for expansion of railway transport capacity,,,jpfr-t-rwy,SpecialReserveForExpansionOfRailwayTransportCapacityCARWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+B,販売土地及び建物,販売土地及び建物、流動資産、鉄道事業,,,,,,,,Land and buildings for sale,,,jpfr-t-rwy,LandAndBuildingsForSaleCARWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,その他,その他、流動資産,,その他の流動資産[標準|業],,,,,,Other,,Other current assets[標準|業],jpfr-t-cte,OtherCA,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,貸倒引当金,貸倒引当金、流動資産、一括控除,,,,,,,,Allowance for doubtful accounts,,,jpfr-t-cte,AllowanceForDoubtfulAccountsCA,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,流動資産,流動資産,流動資産合計[合計],,,,,,,Current assets,Total current assets[合計],,jpfr-t-cte,CurrentAssets,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+B,受取手形、売掛金及び未収運賃,受取手形、売掛金及び未収運賃、鉄道事業,,,,,,,,"Notes, accounts receivable-trade and accrued freight",,,jpfr-t-rwy,NotesAccountsReceivableTradeAndAccruedFreightRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,固定資産,固定資産、タイトル項目,,,,,,,,Noncurrent assets,,,jpfr-t-cte,NoncurrentAssetsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,2
+A,鉄道事業固定資産,鉄道事業固定資産、タイトル項目、鉄道事業,,,,,,,,Noncurrent assets-railway business,,,jpfr-t-rwy,NoncurrentAssetsRailwayBusinessAbstractRWY,xbrli:stringItemType,,xbrli:item,instant,,true,true,3
+A,有形固定資産,有形固定資産、鉄道事業固定資産,,,,,,,,"Property, plant and equipment",,,jpfr-t-rwy,PropertyPlantAndEquipmentNCARailway,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,減価償却累計額,減価償却累計額、鉄道事業有形固定資産,,,,,,,,Accumulated depreciation,,,jpfr-t-rwy,AccumulatedDepreciationPPERailway,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+A,有形固定資産（純額）,有形固定資産（純額）、鉄道事業固定資産,,,,,,,,"Property, plant and equipment, net",,,jpfr-t-rwy,PropertyPlantAndEquipmentNetNCARailway,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,建物,建物、鉄道事業,,,,,,,,Buildings,,,jpfr-t-rwy,BuildingsRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,機械及び装置,機械及び装置、鉄道事業,,,,,,,,Machinery and equipment,,,jpfr-t-rwy,MachineryAndEquipmentRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,構築物,構築物、鉄道事業,,,,,,,,Structures,,,jpfr-t-rwy,StructuresRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,工具、器具及び備品,工具、器具及び備品、鉄道事業,,,,,,,,"Tools, furniture and fixtures",,,jpfr-t-rwy,ToolsFurnitureAndFixturesRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,車両,車両、鉄道事業,,,,,,,,Rolling stock,,,jpfr-t-rwy,RollingStockRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,土地,土地、鉄道事業,,,,,,,,Land,,,jpfr-t-rwy,LandRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+A,無形固定資産,無形固定資産、鉄道事業固定資産,,,,,,,,Intangible assets,,,jpfr-t-rwy,IntangibleAssetsNCARWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,ソフトウエア,ソフトウエア、鉄道事業,,,,,,,,Software,,,jpfr-t-rwy,SoftwareRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,施設利用権,施設利用権、鉄道事業,,,,,,,,Right of using facilities,,,jpfr-t-rwy,RightOfUsingFacilitiesRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,借地権,借地権、鉄道事業,,,,,,,,Leasehold right,,,jpfr-t-rwy,LeaseholdRightRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,電話加入権,電話加入権、鉄道事業,,,,,,,,Telephone subscription right,,,jpfr-t-rwy,TelephoneSubscriptionRightRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,相互直通施設利用権,相互直通施設利用権、鉄道事業,,,,,,,,Right of using facilities of mutual direct communication,,,jpfr-t-rwy,RightOfUsingFacilitiesOfMutualDirectCommunicationRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,鉄道連絡通行施設利用権仮勘定,鉄道連絡通行施設利用権仮勘定、鉄道事業,,,,,,,,Right of using railway communication facilities in progress,,,jpfr-t-rwy,RightOfUsingRailwayCommunicationFacilitiesInProgressRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+A,鉄道事業固定資産,鉄道事業固定資産、鉄道事業,鉄道事業固定資産合計[合計],"鉄道事業固定資産[標準|業]
+計[合計|業]",,,,,,Noncurrent assets-railway,Total noncurrent assets-railway business[合計],"Noncurrent assets-railway[標準|業]
+Total[合計|業]",jpfr-t-rwy,NoncurrentAssetsRailwayRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,関連事業固定資産,関連事業固定資産、タイトル項目、鉄道事業,,,,,,,,Noncurrent assets-related,,,jpfr-t-rwy,NoncurrentAssetsRelatedAbstractRWY,xbrli:stringItemType,,xbrli:item,instant,,true,true,3
+A,有形固定資産,有形固定資産、関連事業固定資産、鉄道事業,,,,,,,,"Property, plant and equipment",,,jpfr-t-rwy,PropertyPlantAndEquipmentNCARelatedRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,減価償却累計額,減価償却累計額、関連事業有形固定資産、鉄道事業,,,,,,,,Accumulated depreciation,,,jpfr-t-rwy,AccumulatedDepreciationPPERelatedRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+A,有形固定資産（純額）,有形固定資産（純額）、関連事業固定資産、鉄道事業,,,,,,,,"Property, plant and equipment, net",,,jpfr-t-rwy,PropertyPlantAndEquipmentNetNCARelatedRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+A,無形固定資産,無形固定資産、関連事業固定資産、鉄道事業,,,,,,,,Intangible assets,,,jpfr-t-rwy,IntangibleAssetsRelatedRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,関連事業固定資産,関連事業固定資産、鉄道事業,関連事業固定資産合計[合計],"関連事業固定資産[標準|業]
+計[合計|業]",,,,,,Noncurrent assets-related,Total noncurrent assets-related business[合計],"Noncurrent assets-related[標準|業]
+Total[合計|業]",jpfr-t-rwy,NoncurrentAssetsRelatedRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,各事業関連固定資産,各事業関連固定資産、タイトル項目、鉄道事業,,,,,,,,Noncurrent assets-affiliated,,,jpfr-t-rwy,NoncurrentAssetsAffiliatedAbstractRWY,xbrli:stringItemType,,xbrli:item,instant,,true,true,3
+A,有形固定資産,有形固定資産、各事業関連固定資産、鉄道事業,,,,,,,,"Property, plant and equipment",,,jpfr-t-rwy,PropertyPlantAndEquipmentNCAAffiliatedRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,減価償却累計額,減価償却累計額、各事業関連固定資産、鉄道事業,,,,,,,,Accumulated depreciation,,,jpfr-t-rwy,AccumulatedDepreciationNCAAffiliatedRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+A,有形固定資産（純額）,有形固定資産（純額）、各事業関連固定資産、鉄道事業,,,,,,,,"Property, plant and equipment, net",,,jpfr-t-rwy,PropertyPlantAndEquipmentNetNCAAffiliatedRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+A,無形固定資産,無形固定資産、各事業関連固定資産、鉄道事業,,,,,,,,Intangible assets,,,jpfr-t-rwy,IntangibleAssetsAffiliatedRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,各事業関連固定資産,各事業関連固定資産、鉄道事業,各事業関連固定資産合計[合計],"各事業関連固定資産[標準|業]
+計[合計|業]",,,,,,Noncurrent assets-affiliated,Total noncurrent assets-affiliated[合計],"Noncurrent assets-affiliated[標準|業]
+Total[合計|業]",jpfr-t-rwy,NoncurrentAssetsAffiliatedRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,建設仮勘定,建設仮勘定、タイトル項目、鉄道事業,,,,,,,,Construction in progress,,,jpfr-t-rwy,ConstructionInProgressAbstractRWY,xbrli:stringItemType,,xbrli:item,instant,,true,true,3
+A,鉄道事業,鉄道事業、建設仮勘定、鉄道事業,,,,,,,,Construction in progress-railway,,,jpfr-t-rwy,ConstructionInProgressRailwayRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,建設仮勘定,建設仮勘定、鉄道事業,建設仮勘定合計[合計],"建設仮勘定[標準|業]
+計[合計|業]",,,,,,Construction in progress,Total construction in progress[合計],"Construction in progress[標準|業]
+Total[合計|業]",jpfr-t-rwy,ConstructionInProgressRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,その他,その他、建設仮勘定、鉄道事業,,,,,,,,Construction in progress-other,,,jpfr-t-rwy,ConstructionInProgressOtherRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,その他の事業,その他の事業、建設仮勘定、鉄道事業,,,,,,,,Construction in progress-other business,,,jpfr-t-rwy,ConstructionInProgressOtherBusinessRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,不動産事業,不動産事業、建設仮勘定、鉄道事業,,,,,,,,Construction in progress-real estate,,,jpfr-t-rwy,ConstructionInProgressRealEstateRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,関連事業,関連事業、建設仮勘定、鉄道事業,,,,,,,,Construction in progress-related,,,jpfr-t-rwy,ConstructionInProgressRelatedRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,自動車事業,自動車事業、建設仮勘定、鉄道事業,,,,,,,,Construction in progress-automobile,,,jpfr-t-rwy,ConstructionInProgressAutomobileRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,鉄軌道事業,鉄軌道事業、建設仮勘定、鉄道事業,,,,,,,,Construction in progress-railroad,,,jpfr-t-rwy,ConstructionInProgressRailroadRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,付帯事業,付帯事業、建設仮勘定、鉄道事業,,,,,,,,Construction in progress-incidental,,,jpfr-t-rwy,ConstructionInProgressIncidentalRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,開発事業,開発事業、建設仮勘定、鉄道事業,,,,,,,,Construction in progress-development,,,jpfr-t-rwy,ConstructionInProgressDevelopmentRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,兼業,兼業、建設仮勘定、鉄道事業,,,,,,,,Construction in progress-side line,,,jpfr-t-rwy,ConstructionInProgressSideLineRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,各事業関連,各事業関連、建設仮勘定、鉄道事業,,,,,,,,Construction in progress-affiliated,,,jpfr-t-rwy,ConstructionInProgressAffiliatedRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,投資その他の資産,投資その他の資産、タイトル項目,,,,,,,,Investments and other assets,,,jpfr-t-cte,InvestmentsAndOtherAssetsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,3
+A,関係会社株式,関係会社株式,,,,,,,,Stocks of subsidiaries and affiliates,,,jpfr-t-cte,StocksOfSubsidiariesAndAffiliates,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,投資有価証券,投資有価証券,,,,,,,,Investment securities,,,jpfr-t-cte,InvestmentSecurities,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,関係会社出資金,関係会社出資金,,,,,,,,Investments in capital of subsidiaries and affiliates,,,jpfr-t-cte,InvestmentsInCapitalOfSubsidiariesAndAffiliates,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,出資金,出資金,,,,,,,,Investments in capital,,,jpfr-t-cte,InvestmentsInCapital,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,長期貸付金,長期貸付金,,,,,,,,Long-term loans receivable,,,jpfr-t-cte,LongTermLoansReceivable,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,長期前払費用,長期前払費用,,,,,,,,Long-term prepaid expenses,,,jpfr-t-cte,LongTermPrepaidExpenses,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,繰延税金資産,繰延税金資産、投資その他の資産,,,,,,,,Deferred tax assets,,,jpfr-t-cte,DeferredTaxAssetsIOA,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,その他,その他、投資その他の資産,,その他の投資等[標準|業],,,,,,Other,,Investments and other assets[標準|業],jpfr-t-cte,OtherIOA,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,貸倒引当金,貸倒引当金、投資その他の資産、一括控除,,,,,,,,Allowance for doubtful accounts,,,jpfr-t-cte,AllowanceForDoubtfulAccountsIOAByGroup,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,投資その他の資産,投資その他の資産,投資その他の資産合計[合計],,,,,,,Investments and other assets,Total investments and other assets[合計],,jpfr-t-cte,InvestmentsAndOtherAssets,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,固定資産,固定資産,固定資産合計[合計],,,,,,,Noncurrent assets,Total noncurrent assets[合計],,jpfr-t-cte,NoncurrentAssets,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+B,鉄軌道事業固定資産,鉄軌道事業固定資産、タイトル項目、鉄道事業,,,,,,,,Noncurrent assets-railroad,,,jpfr-t-rwy,NoncurrentAssetsRailroadAbstractRWY,xbrli:stringItemType,,xbrli:item,instant,,true,true,3
+B,有形固定資産,有形固定資産、鉄軌道事業、鉄道事業,,,,,,,,"Property, plant and equipment",,,jpfr-t-rwy,PropertyPlantAndEquipmentRailroadRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,減価償却累計額,減価償却累計額、鉄軌道事業、鉄道事業,,,,,,,,Accumulated depreciation,,,jpfr-t-rwy,AccumulatedDepreciationRailroadRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,有形固定資産（純額）,有形固定資産（純額）、鉄軌道事業、鉄道事業,,,,,,,,"Property, plant and equipment, net",,,jpfr-t-rwy,PropertyPlantAndEquipmentNetRailroadRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,無形固定資産,無形固定資産、鉄軌道事業、鉄道事業,,,,,,,,Intangible assets,,,jpfr-t-rwy,IntangibleAssetsRailroadRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,鉄軌道事業固定資産,鉄軌道事業固定資産、鉄道事業,鉄軌道事業固定資産合計[合計],,,,,,,Noncurrent assets-railroad,Total noncurrent assets-railroad[合計],,jpfr-t-rwy,NoncurrentAssetsRailroadRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,自動車事業固定資産,自動車事業固定資産、タイトル項目、鉄道事業,,,,,,,,Noncurrent assets-automobile,,,jpfr-t-rwy,NoncurrentAssetsAutomobileAbstractRWY,xbrli:stringItemType,,xbrli:item,instant,,true,true,3
+B,有形固定資産,有形固定資産、自動車事業、鉄道事業,,,,,,,,"Property, plant and equipment",,,jpfr-t-rwy,PropertyPlantAndEquipmentAutomobileRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,車両,車両、自動車事業、鉄道事業,,,,,,,,Vehicles,,,jpfr-t-rwy,VehiclesAutomobileRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,減価償却累計額,減価償却累計額、自動車事業、鉄道事業,,,,,,,,Accumulated depreciation,,,jpfr-t-rwy,AccumulatedDepreciationAutomobileRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,有形固定資産（純額）,有形固定資産（純額）、自動車事業、鉄道事業,,,,,,,,"Property, plant and equipment, net",,,jpfr-t-rwy,PropertyPlantAndEquipmentNetAutomobileRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,無形固定資産,無形固定資産、自動車事業、鉄道事業,,,,,,,,Intangible assets,,,jpfr-t-rwy,IntangibleAssetsAutomobileRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,自動車事業固定資産,自動車事業固定資産、鉄道事業,自動車事業固定資産合計[合計],,,,,,,Noncurrent assets-automobile,Total noncurrent assets-automobile[合計],,jpfr-t-rwy,NoncurrentAssetsAutomobileRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,不動産事業固定資産,不動産事業固定資産、タイトル項目、鉄道事業,,,,,,,,Noncurrent assets-real estate,,,jpfr-t-rwy,NoncurrentAssetsRealEstateAbstractRWY,xbrli:stringItemType,,xbrli:item,instant,,true,true,3
+B,有形固定資産,有形固定資産、不動産事業、鉄道事業,,,,,,,,"Property, plant and equipment",,,jpfr-t-rwy,PropertyPlantAndEquipmentRealEstateRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,減価償却累計額,減価償却累計額、不動産事業、鉄道事業,,,,,,,,Accumulated depreciation,,,jpfr-t-rwy,AccumulatedDepreciationRealEstateRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,有形固定資産（純額）,有形固定資産（純額）、不動産事業、鉄道事業,,,,,,,,"Property, plant and equipment, net",,,jpfr-t-rwy,PropertyPlantAndEquipmentNetRealEstateRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,無形固定資産,無形固定資産、不動産事業、鉄道事業,,,,,,,,Intangible assets,,,jpfr-t-rwy,IntangibleAssetsRealEstateRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,不動産事業固定資産,不動産事業固定資産、不動産事業、鉄道事業,不動産事業固定資産合計[合計],,,,,,,Noncurrent assets-real estate,Total noncurrent assets-real estate[合計],,jpfr-t-rwy,NoncurrentAssetsRealEstateHotelRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,開発事業固定資産,開発事業固定資産、タイトル項目、鉄道事業,,,,,,,,Noncurrent assets-development,,,jpfr-t-rwy,NoncurrentAssetsDevelopmentAbstractRWY,xbrli:stringItemType,,xbrli:item,instant,,true,true,3
+B,有形固定資産,有形固定資産、開発事業、鉄道事業,,,,,,,,"Property, plant and equipment",,,jpfr-t-rwy,PropertyPlantAndEquipmentDevelopmentRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,減価償却累計額,減価償却累計額、開発事業、鉄道事業,,,,,,,,Accumulated depreciation,,,jpfr-t-rwy,AccumulatedDepreciationDevelopmentRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,有形固定資産（純額）,有形固定資産（純額）、開発事業、鉄道事業,,,,,,,,"Property, plant and equipment, net",,,jpfr-t-rwy,PropertyPlantAndEquipmentNetDevelopmentRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,無形固定資産,無形固定資産、開発事業、鉄道事業,,,,,,,,Intangible assets,,,jpfr-t-rwy,IntangibleAssetsDevelopmentRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,開発事業固定資産,開発事業固定資産、開発事業、鉄道事業,開発事業固定資産合計[合計],,,,,,,Noncurrent assets-development,Total noncurrent assets-development[合計],,jpfr-t-rwy,NoncurrentAssetsDevelopmentDevelopmentRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,付帯事業固定資産,付帯事業固定資産、タイトル項目、鉄道事業,,,,,,,,Noncurrent assets-incidental,,,jpfr-t-rwy,NoncurrentAssetsIncidentalAbstractRWY,xbrli:stringItemType,,xbrli:item,instant,,true,true,3
+B,有形固定資産,有形固定資産、付帯事業、鉄道事業,,,,,,,,"Property, plant and equipment",,,jpfr-t-rwy,PropertyPlantAndEquipmentIncidentalRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,減価償却累計額,減価償却累計額、付帯事業、鉄道事業,,,,,,,,Accumulated depreciation,,,jpfr-t-rwy,AccumulatedDepreciationIncidentalRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,有形固定資産（純額）,有形固定資産（純額）、付帯事業、鉄道事業,,,,,,,,"Property, plant and equipment, net",,,jpfr-t-rwy,PropertyPlantAndEquipmentNetIncidentalRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,無形固定資産,無形固定資産、付帯事業、鉄道事業,,,,,,,,Intangible assets,,,jpfr-t-rwy,IntangibleAssetsIncidentalRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,付帯事業固定資産,付帯事業固定資産、付帯事業、鉄道事業,付帯事業固定資産合計[合計],,,,,,,Noncurrent assets-incidental,Total noncurrent assets-incidental business[合計],,jpfr-t-rwy,NoncurrentAssetsIncidentalBusinessIncidentalRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,兼業固定資産,兼業固定資産、タイトル項目、鉄道事業,,,,,,,,Noncurrent assets-side line,,,jpfr-t-rwy,NoncurrentAssetsSideLineAbstractRWY,xbrli:stringItemType,,xbrli:item,instant,,true,true,3
+B,有形固定資産,有形固定資産、兼業、鉄道事業,,,,,,,,"Property, plant and equipment",,,jpfr-t-rwy,PropertyPlantAndEquipmentSideLineRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,減価償却累計額,減価償却累計額、兼業、鉄道事業,,,,,,,,Accumulated depreciation,,,jpfr-t-rwy,AccumulatedDepreciationSideLineRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,有形固定資産（純額）,有形固定資産（純額）、兼業、鉄道事業,,,,,,,,"Property, plant and equipment, net",,,jpfr-t-rwy,PropertyPlantAndEquipmentNetSideLineRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,無形固定資産,無形固定資産、兼業、鉄道事業,,,,,,,,Intangible assets,,,jpfr-t-rwy,IntangibleAssetsSideLineRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,兼業固定資産,兼業固定資産、兼業、鉄道事業,兼業固定資産合計[合計],,,,,,,Noncurrent assets-side line,Total noncurrent assets-another business[合計],,jpfr-t-rwy,NoncurrentAssetsSideLineSideLineRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,その他事業固定資産,その他事業固定資産、タイトル項目、鉄道事業,,,,,,,,Noncurrent assets-other,,,jpfr-t-rwy,NoncurrentAssetsOtherAbstractRWY,xbrli:stringItemType,,xbrli:item,instant,,true,true,3
+B,有形固定資産,有形固定資産、その他事業、鉄道事業,,,,,,,,"Property, plant and equipment",,,jpfr-t-rwy,PropertyPlantAndEquipmentOtherRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,減価償却累計額,減価償却累計額、その他事業、鉄道事業,,,,,,,,Accumulated depreciation,,,jpfr-t-rwy,AccumulatedDepreciationOtherRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,有形固定資産（純額）,有形固定資産（純額）、その他事業、鉄道事業,,,,,,,,"Property, plant and equipment, net",,,jpfr-t-rwy,PropertyPlantAndEquipmentNetOtherRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,無形固定資産,無形固定資産、その他事業、鉄道事業,,,,,,,,Intangible assets,,,jpfr-t-rwy,IntangibleAssetsOtherRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,その他事業固定資産,その他事業固定資産、その他事業、鉄道事業,その他事業固定資産合計[合計],,,,,,,Noncurrent assets-other,Total noncurrent assets-other[合計],,jpfr-t-rwy,NoncurrentAssetsOtherOtherRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,広告業固定資産,広告業固定資産、その他事業、鉄道事業,広告業固定資産合計[合計],,,,,,,Noncurrent assets-advertising,Total noncurrent assets-advertising[合計],,jpfr-t-rwy,NoncurrentAssetsAdvertisingOtherRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,航空貨物業固定資産,航空貨物業固定資産、その他事業、鉄道事業,航空貨物業固定資産合計[合計],,,,,,,Noncurrent assets-air cargo,Total noncurrent assets-air cargo[合計],,jpfr-t-rwy,NoncurrentAssetsAirCargoOtherRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,その他の固定資産,その他の固定資産、タイトル項目、鉄道事業,,,,,,,,Other noncurrent assets,,,jpfr-t-rwy,OtherNoncurrentAssetsAbstractRWY,xbrli:stringItemType,,xbrli:item,instant,,true,true,3
+B,有形固定資産,有形固定資産、その他の固定資産、鉄道事業,,,,,,,,"Property, plant and equipment",,,jpfr-t-rwy,PropertyPlantAndEquipmentOtherNCARWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,減価償却累計額,減価償却累計額、その他の固定資産、鉄道事業,,,,,,,,Accumulated depreciation,,,jpfr-t-rwy,AccumulatedDepreciationOtherNoncurrentAssetsRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,有形固定資産（純額）,有形固定資産（純額）、その他の固定資産、鉄道事業,,,,,,,,"Property, plant and equipment, net",,,jpfr-t-rwy,PropertyPlantAndEquipmentNetOtherNCARWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+B,無形固定資産,無形固定資産、その他の固定資産、鉄道事業,,,,,,,,Intangible assets,,,jpfr-t-rwy,IntangibleAssetsOtherNCARWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,その他の固定資産,その他の固定資産、鉄道事業,その他の固定資産合計[合計],,,,,,,Other noncurrent assets,Total other noncurrent assets[合計],,jpfr-t-rwy,OtherNoncurrentAssetsAffiliatedRWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,繰延資産,繰延資産、タイトル項目,,,,,,,,Deferred assets,,,jpfr-t-cte,DeferredAssetsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,2
+A,災害損失等繰延額,災害損失等繰延額、繰延資産、鉄道事業,,,,,,,,Deferred disaster loss,,,jpfr-t-rwy,DeferredDisasterLossDARWY,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,繰延資産,繰延資産,繰延資産合計[合計],,,,,,,Deferred assets,Total deferred assets[合計],,jpfr-t-cte,DeferredAssets,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,資産,資産,資産合計[合計],,,,,,,Assets,Total assets[合計],,jpfr-t-cte,Assets,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,2
+A,負債の部,負債の部、タイトル項目,,,,,,,,Liabilities,,,jpfr-t-cte,LiabilitiesAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,1
+A,流動負債,流動負債、タイトル項目,,,,,,,,Current liabilities,,,jpfr-t-cte,CurrentLiabilitiesAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,2
+A,支払手形,支払手形,,,,,,,,Notes payable-trade,,,jpfr-t-cte,NotesPayableTrade,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,短期借入金,短期借入金,,,,,,,,Short-term loans payable,,,jpfr-t-cte,ShortTermLoansPayable,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,1年内償還予定の社債,1年内償還予定の社債,,1年以内償還社債[標準|業],,,,,,Current portion of bonds,,Current portion of bonds[標準|業],jpfr-t-cte,CurrentPortionOfBonds,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,未払金,未払金,,,,,,,,Accounts payable-other,,,jpfr-t-cte,AccountsPayableOther,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,未払費用,未払費用,,,,,,,,Accrued expenses,,,jpfr-t-cte,AccruedExpenses,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,未払法人税等,未払法人税等,,,,,,,,Income taxes payable,,,jpfr-t-cte,IncomeTaxesPayable,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,繰延税金負債,繰延税金負債、流動負債,,,,,,,,Deferred tax liabilities,,,jpfr-t-cte,DeferredTaxLiabilitiesCL,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,預り連絡運賃,預り連絡運賃、流動負債、鉄道事業,,,,,,,,Inter-line fares received,,,jpfr-t-rwy,InterLineFaresReceivedCLRWY,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,預り金,預り金,,,,,,,,Deposits received,,,jpfr-t-cte,DepositsReceived,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,前受運賃,前受運賃、流動負債、鉄道事業,,,,,,,,Prepaid fares received,,,jpfr-t-rwy,PrepaidFaresReceivedCLRWY,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,前受金,前受金,,,,,,,,Advances received,,,jpfr-t-cte,AdvancesReceived,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,前受収益,前受収益,,,,,,,,Unearned revenue,,,jpfr-t-cte,UnearnedRevenue,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+B,鉄道施設購入未払金,鉄道施設購入未払金、流動負債、鉄道事業,,,,,,,,Accounts payable-railway equipment,,,jpfr-t-rwy,AccountsPayableRailwayEquipmentCLRWY,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+B,1年内に支払う鉄道施設購入長期未払金,1年内に支払う鉄道施設購入長期未払金、流動負債、鉄道事業,,,,,,,,Current portion of long-term accounts payable-railway equipment,,,jpfr-t-rwy,CurrentPortionOfLongTermAccountsPayableRailwayEquipmentCLRWY,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,その他,その他、流動負債,,その他の流動負債[標準|業],,,,,,Other,,Other current liabilities[標準|業],jpfr-t-cte,OtherCL,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,流動負債,流動負債,流動負債合計[合計],,,,,,,Current liabilities,Total current liabilities[合計],,jpfr-t-cte,CurrentLiabilities,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,固定負債,固定負債、タイトル項目,,,,,,,,Noncurrent liabilities,,,jpfr-t-cte,NoncurrentLiabilitiesAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,2
+A,社債,社債,,,,,,,,Bonds payable,,,jpfr-t-cte,BondsPayable,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,長期借入金,長期借入金,,,,,,,,Long-term loans payable,,,jpfr-t-cte,LongTermLoansPayable,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,繰延税金負債,繰延税金負債、固定負債,,,,,,,,Deferred tax liabilities,,,jpfr-t-cte,DeferredTaxLiabilitiesNCL,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+B,負ののれん,負ののれん,,,,,,,,Negative goodwill,,,jpfr-t-cte,NegativeGoodwill,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,新幹線鉄道大規模改修引当金,新幹線鉄道大規模改修引当金、固定負債、鉄道事業,,,,,,,,Provision for large scale renovation of the Shinkansen infrastructure,,,jpfr-t-rwy,ProvisionForLargeScaleRenovationOfTheShinkansenInfrastructureNCLRWY,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+B,鉄道施設購入長期未払金,鉄道施設購入長期未払金、固定負債、鉄道事業,,,,,,,,Long-term accounts payable-railway equipment,,,jpfr-t-rwy,LongTermAccountsPayableRailwayEquipmentNCLRWY,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+B,鉄道・運輸機構長期未払金,鉄道・運輸機構長期未払金、固定負債、鉄道事業,,,,,,,,"Long-term accounts payable to Japan railway construction, transport and technology agency",,,jpfr-t-rwy,LongTermAccountsPayableToJapanRailwayConstructionTransportAndTechnologyAgencyNCLRWY,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,その他,その他、固定負債,,その他の固定負債[標準|業],,,,,,Other,,Other noncurrent liabilities[標準|業],jpfr-t-cte,OtherNCL,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,固定負債,固定負債,固定負債合計[合計],,,,,,,Noncurrent liabilities,Total noncurrent liabilities[合計],,jpfr-t-cte,NoncurrentLiabilities,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,特別法上の準備金,特別法上の準備金、タイトル項目,,,,,,,,Reserves under the special laws,,,jpfr-t-cte,ReservesUnderTheSpecialLawsAbstract1,xbrli:stringItemType,,xbrli:item,instant,,true,true,2
+A,特定都市鉄道整備準備金,特定都市鉄道整備準備金、鉄道事業,,,,,,,,Special reserve for expansion of railway transport capacity,,,jpfr-t-rwy,SpecialReserveForExpansionOfRailwayTransportCapacityRWY,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,特別法上の準備金,特別法上の準備金,特別法上の準備金合計[合計],,,,,,,Reserves under the special laws,Total reserves under the special laws[合計],,jpfr-t-cte,ReservesUnderTheSpecialLaws1,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,負債,負債,負債合計[合計],,,,,,,Liabilities,Total liabilities[合計],,jpfr-t-cte,Liabilities,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,2
+A,純資産の部,純資産の部、タイトル項目,,,,,,,,Net assets,,,jpfr-t-cte,NetAssetsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,1
+A,株主資本,株主資本、タイトル項目,,,,,,,,Shareholders' equity,,,jpfr-t-cte,ShareholdersEquityAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,2
+A,資本金,資本金,"当期首残高[期首]
+当期末残高[期末]",,,,,"資本金[標準]
+当期首残高[期首]
+当中間期末残高[期末]","資本金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Capital stock,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,CapitalStock,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,新株式申込証拠金,新株式申込証拠金,"当期首残高[期首]
+当期末残高[期末]",,,,,"新株式申込証拠金[標準]
+当期首残高[期首]
+当中間期末残高[期末]","新株式申込証拠金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Deposit for subscriptions to shares,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,DepositForSubscriptionsToShares,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,資本剰余金,資本剰余金、タイトル項目,,,,,,,,Capital surplus,,,jpfr-t-cte,CapitalSurplusAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,3
+A,資本準備金,資本準備金,"当期首残高[期首]
+当期末残高[期末]",,,,,"資本準備金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",,Legal capital surplus,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,LegalCapitalSurplus,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+A,その他資本剰余金,その他資本剰余金,"その他資本剰余金合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,,,,"その他資本剰余金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",,Other capital surplus,"Total other capital surplus[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,OtherCapitalSurplus,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+A,資本剰余金,資本剰余金,"資本剰余金合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,,,,"資本剰余金[標準]
+当期首残高[期首]
+当中間期末残高[期末]","資本剰余金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Capital surplus,"Total capital surpluses[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,CapitalSurplus,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+A,利益剰余金,利益剰余金、タイトル項目,,,,,,,,Retained earnings,,,jpfr-t-cte,RetainedEarningsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,3
+A,利益準備金,利益準備金,"当期首残高[期首]
+当期末残高[期末]",,,,,"利益準備金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",,Legal retained earnings,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,LegalRetainedEarnings,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+A,その他利益剰余金,その他利益剰余金、タイトル項目,,,,,,,,Other retained earnings,,,jpfr-t-cte,OtherRetainedEarningsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,4
+A,繰越利益剰余金,繰越利益剰余金,"当期首残高[期首]
+当期末残高[期末]",,,,,"繰越利益剰余金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",,Retained earnings brought forward,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,RetainedEarningsBroughtForward,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,5
+A,利益剰余金,利益剰余金,"利益剰余金合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,,,,"利益剰余金[標準]
+当期首残高[期首]
+当中間期末残高[期末]","利益剰余金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Retained earnings,"Total retained earnings[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,RetainedEarnings,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+A,自己株式,自己株式,"当期首残高[期首]
+当期末残高[期末]",,,,,"自己株式[標準]
+当期首残高[期首]
+当中間期末残高[期末]","自己株式[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Treasury stock,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,TreasuryStock,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,自己株式申込証拠金,自己株式申込証拠金,"当期首残高[期首]
+当期末残高[期末]",,,,,"自己株式申込証拠金[標準]
+当期首残高[期首]
+当中間期末残高[期末]","自己株式申込証拠金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Deposit for subscriptions to treasury stock,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,DepositForSubscriptionsToTreasuryStock,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,株主資本,株主資本,"株主資本合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,,,,"株主資本[標準]
+当期首残高[期首]
+当中間期末残高[期末]","株主資本[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Shareholders' equity,"Total shareholders' equity[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,ShareholdersEquity,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,評価・換算差額等,評価・換算差額等、タイトル項目,,,その他の包括利益累計額[標準],,その他の包括利益累計額[標準],,その他の包括利益累計額[標準],Valuation and translation adjustments,,,jpfr-t-cte,ValuationAndTranslationAdjustmentsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,2
+A,その他有価証券評価差額金,その他有価証券評価差額金,"当期首残高[期首]
+当期末残高[期末]",,,,,"その他有価証券評価差額金[標準]
+当期首残高[期首]
+当中間期末残高[期末]","その他有価証券評価差額金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Valuation difference on available-for-sale securities,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,ValuationDifferenceOnAvailableForSaleSecurities,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,繰延ヘッジ損益,繰延ヘッジ損益,"当期首残高[期首]
+当期末残高[期末]",,,,,"繰延ヘッジ損益[標準]
+当期首残高[期首]
+当中間期末残高[期末]","繰延ヘッジ損益[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Deferred gains or losses on hedges,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,DeferredGainsOrLossesOnHedges,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,土地再評価差額金,土地再評価差額金,"当期首残高[期首]
+当期末残高[期末]",,,,,"土地再評価差額金[標準]
+当期首残高[期首]
+当中間期末残高[期末]","土地再評価差額金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Revaluation reserve for land,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,RevaluationReserveForLand,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,評価・換算差額等,評価・換算差額等,"評価・換算差額等合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,"その他の包括利益累計額[標準]
+その他の包括利益累計額合計[合計]",,"その他の包括利益累計額[標準]
+その他の包括利益累計額合計[合計]","評価・換算差額等[標準]
+当期首残高[期首]
+当中間期末残高[期末]","その他の包括利益累計額[標準]
+その他の包括利益累計額合計[合計]
+当期首残高[期首]
+当中間期末残高[期末]",Valuation and translation adjustments,"Total valuation and translation adjustments[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,ValuationAndTranslationAdjustments,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,新株予約権,新株予約権,"当期首残高[期首]
+当期末残高[期末]",,,,,"新株予約権[標準]
+当期首残高[期首]
+当中間期末残高[期末]","新株予約権[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Subscription rights to shares,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,SubscriptionRightsToShares,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,2
+A,純資産,純資産,"純資産合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,,,,"純資産[標準]
+当期首残高[期首]
+当中間期末残高[期末]","純資産[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Net assets,"Total net assets[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,NetAssets,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,2
+A,負債純資産,負債純資産,負債純資産合計[合計],,,,,,,Liabilities and net assets,Total liabilities and net assets[合計],,jpfr-t-cte,LiabilitiesAndNetAssets,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,1
+,,,,,,,,,,,,,,,,,,,,,,
+損益計算書（鉄道事業）,,,,,,,,,,,,,,,,,,,,,,
+科目分類,標準ラベル（日本語）,冗長ラベル（日本語）,用途別ラベル（日本語）,業種ラベル（日本語）,連結,四半期個別,四半期連結,中間個別,中間連結,標準ラベル（英語）,用途別ラベル（英語）,業種ラベル（英語）,名前空間プレフィックス,要素名,type,enumerations,substitutionGroup,periodType,balance,abstract,nillable,depth
+-,損益計算書,損益（及び包括利益）計算書、タイトル項目,,,連結損益（及び包括利益）計算書[標準],四半期損益計算書[標準],四半期連結損益（及び包括利益）計算書[標準],中間損益計算書[標準],中間連結損益（及び包括利益）計算書[標準],Statements of income,,,jpfr-t-cte,StatementsOfIncomeAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,0
+A,鉄道事業営業利益,鉄道事業営業利益、タイトル項目、鉄道事業,,,,,,,,Operating income-railway,,,jpfr-t-rwy,OperatingIncomeRailwayAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,営業収益,営業収益、鉄道事業営業利益、タイトル項目、鉄道事業,,,,,,,,Operating revenue,,,jpfr-t-rwy,OperatingRevenueRailwayAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+A,旅客運輸収入,旅客運輸収入、営業収益、鉄道事業,,,,,,,,Passenger transportation,,,jpfr-t-rwy,PassengerTransportationORRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+A,貨物運輸収入,貨物運輸収入、営業収益、鉄道事業,,,,,,,,Freight transportation,,,jpfr-t-rwy,FreightTransportationORRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+A,鉄道線路使用料収入,鉄道線路使用料収入、営業収益、鉄道事業,,,,,,,,Trackage revenue,,,jpfr-t-rwy,TrackageRevenueORRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+A,鉄道線路譲渡収入,鉄道線路譲渡収入、営業収益、鉄道事業,,,,,,,,Transfer of railroad line,,,jpfr-t-rwy,TransferOfRailroadLineORRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+A,運輸雑収,運輸雑収、営業収益、鉄道事業,,,,,,,,Miscellaneous income of transportation,,,jpfr-t-rwy,MiscellaneousIncomeOfTransportationORRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+A,鉄道事業営業収益,鉄道事業営業収益、鉄道事業,鉄道事業営業収益合計[合計],,,"営業収益[標準]
+営業収益合計[合計]",,"営業収益[標準]
+営業収益合計[合計]",,Operating revenue-railway,Total operating revenue-railway business[合計],,jpfr-t-rwy,OperatingRevenueRailwayRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+A,営業費,営業費、鉄道事業営業利益、タイトル項目、鉄道事業,,,,,,,,Operating expenses,,,jpfr-t-rwy,OperatingExpensesRailwayAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+A,運送費,運送費、営業費、鉄道事業,,,,,,,,Transportation expenses,,,jpfr-t-rwy,TransportationExpensesOERWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+A,案内宣伝費,案内宣伝費、営業費、鉄道事業,,,,,,,,Advertising expenses,,,jpfr-t-rwy,AdvertisingExpensesOERWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+A,厚生福利施設費,厚生福利施設費、営業費、鉄道事業,,,,,,,,Welfare facilities expenses,,,jpfr-t-rwy,WelfareFacilitiesExpensesOERWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+A,一般管理費,一般管理費、営業費、鉄道事業,,,,,,,,General and administrative expenses,,,jpfr-t-rwy,GeneralAndAdministrativeExpensesOERWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+A,諸税,諸税、営業費、鉄道事業,,,,,,,,Taxes,,,jpfr-t-rwy,TaxesOERWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+A,減価償却費,減価償却費、営業費、鉄道事業,,,,,,,,Depreciation,,,jpfr-t-rwy,DepreciationOERWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,運送営業費,運送営業費、営業費、鉄道事業,,,,,,,,Transportation operating expenses,,,jpfr-t-rwy,TransportationOperatingExpensesOERWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,施設運営費,施設運営費、営業費、鉄道事業,,,,,,,,Facility expenses,,,jpfr-t-rwy,FacilityExpensesOERWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,運輸営業費,運輸営業費、営業費、鉄道事業,,,,,,,,Operating expenses-transportation,,,jpfr-t-rwy,OperatingExpensesTransportationOERWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+A,鉄道事業営業費,鉄道事業営業費、鉄道事業,鉄道事業営業費合計[合計],,,"営業費[標準]
+営業費合計[合計]",,"営業費[標準]
+営業費合計[合計]",,Operating expenses-railway,Total operating expenses-railway business[合計],,jpfr-t-rwy,OperatingExpensesRailwayRWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+A,鉄道事業営業利益,鉄道事業営業利益、鉄道事業,"鉄道事業営業損失（△）[負値]
+鉄道事業営業利益又は鉄道事業営業損失（△）[正負]",,,,,,,Operating income-railway,"Operating loss-railway[負値]
+Operating income (loss)-railway[正負]",,jpfr-t-rwy,OperatingIncomeRailwayRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+B,鋼索鉄道事業営業利益,鋼索鉄道事業営業利益、鉄道事業,"鋼索鉄道事業営業損失（△）[負値]
+鋼索鉄道事業営業利益又は鋼索鉄道事業営業損失（△）[正負]",,,,,,,Operating income-cable railway,"Operating loss-cable railway[負値]
+Operating income (loss)-cable railway[正負]",,jpfr-t-rwy,OperatingIncomeCableRailwayRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+B,索道事業営業利益,索道事業営業利益、鉄道事業,"索道事業営業損失（△）[負値]
+索道事業営業利益又は索道事業営業損失（△）[正負]",,,,,,,Operating income-cableway,"Operating loss-cableway[負値]
+Operating income (loss)-cableway[正負]",,jpfr-t-rwy,OperatingIncomeCablewayRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,関連事業営業利益,関連事業営業利益、タイトル項目、鉄道事業,,,,,,,,Operating income-related,,,jpfr-t-rwy,OperatingIncomeRelatedAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,営業収益,営業収益、関連事業営業利益、タイトル項目、鉄道事業,,,,,,,,Operating revenue,,,jpfr-t-rwy,OperatingRevenueRelatedAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+B,不動産賃貸事業収入,不動産賃貸事業収入、営業収益、関連事業,,,,,,,,Revenue-real estate lease,,,jpfr-t-rwy,RevenueRealEstateLeaseORRelated,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,カード事業収入,カード事業収入、営業収益、関連事業,,,,,,,,Revenue-card,,,jpfr-t-rwy,RevenueCardORRelated,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,雑収入,雑収入、営業収益、関連事業,,,,,,,,Miscellaneous revenue,,,jpfr-t-rwy,MiscellaneousRevenueORRelated,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+A,関連事業営業収益,関連事業営業収益、鉄道事業,関連事業営業収益合計[合計],,,"営業収益[標準]
+営業収益合計[合計]",,"営業収益[標準]
+営業収益合計[合計]",,Operating revenue-related,Total operating revenue-related[合計],,jpfr-t-rwy,OperatingRevenueRelatedRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+A,営業費,営業費、関連事業営業利益、タイトル項目、鉄道事業,,,,,,,,Operating expenses,,,jpfr-t-rwy,OperatingExpensesRelatedAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+B,売上原価,売上原価、営業費、関連事業,,,,,,,,Cost of sales,,,jpfr-t-rwy,CostOfSalesOERelated,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,販売費及び一般管理費,販売費及び一般管理費、営業費、関連事業,,,,,,,,"Selling, general and administrative expenses",,,jpfr-t-rwy,SellingGeneralAndAdministrativeExpensesOERelated,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,諸税,諸税、営業費、関連事業,,,,,,,,Taxes,,,jpfr-t-rwy,TaxesOERelated,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,減価償却費,減価償却費、営業費、関連事業,,,,,,,,Depreciation,,,jpfr-t-rwy,DepreciationOERelated,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+A,関連事業営業費,関連事業営業費、鉄道事業,関連事業営業費合計[合計],,,"営業費[標準]
+営業費合計[合計]",,"営業費[標準]
+営業費合計[合計]",,Operating expenses-related,Total operating expenses-related[合計],,jpfr-t-rwy,OperatingExpensesRelatedRWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+A,関連事業営業利益,関連事業営業利益、鉄道事業,"関連事業営業損失（△）[負値]
+関連事業営業利益又は関連事業営業損失（△）[正負]",,,,,,,Operating income-related,"Operating loss-related[負値]
+Operating income (loss)-related[正負]",,jpfr-t-rwy,OperatingIncomeRelatedRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+B,自動車事業営業利益,自動車事業営業利益、タイトル項目、鉄道事業,,,,,,,,Operating income-automobile,,,jpfr-t-rwy,OperatingIncomeAutomobileAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+B,営業収益,営業収益、自動車事業営業利益、タイトル項目、鉄道事業,,,,,,,,Operating revenue,,,jpfr-t-rwy,OperatingRevenueAutomobileAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+B,旅客運輸収入,旅客運輸収入、営業収益、自動車事業,,,,,,,,Passenger transportation,,,jpfr-t-rwy,PassengerTransportationORAutomobile,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,旅客運送収入,旅客運送収入、営業収益、自動車事業,,,,,,,,Passenger transportation revenue,,,jpfr-t-rwy,PassengerTransportationRevenueORAutomobile,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,運輸雑収,運輸雑収、営業収益、自動車事業,,,,,,,,Revenue-transportation miscellaneous,,,jpfr-t-rwy,RevenueTransportationMiscellaneousORAutomobile,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,運送雑収,運送雑収、営業収益、自動車事業,,,,,,,,Revenue-automobile miscellaneous,,,jpfr-t-rwy,RevenueAutomobileMiscellaneousOEAutomobile,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,自動車事業営業収益,自動車事業営業収益、鉄道事業,自動車事業営業収益合計[合計],,,"営業収益[標準]
+営業収益合計[合計]",,"営業収益[標準]
+営業収益合計[合計]",,Operating revenue-automobile,Total operating revenue-automobile[合計],,jpfr-t-rwy,OperatingRevenueAutomobileRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,営業費,営業費、自動車事業営業利益、タイトル項目、鉄道事業,,,,,,,,Operating expenses,,,jpfr-t-rwy,OperatingExpensesAutomobileAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+B,一般管理費,一般管理費、営業費、自動車事業,,,,,,,,General and administrative expenses,,,jpfr-t-rwy,GeneralAndAdministrativeExpensesOEAutomobile,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,運送営業費,運送営業費、営業費、自動車事業,,,,,,,,Transportation operating expenses,,,jpfr-t-rwy,TransportationOperatingExpensesOEAutomobile,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,減価償却費,減価償却費、営業費、自動車事業,,,,,,,,Depreciation,,,jpfr-t-rwy,DepreciationOEAutomobile,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,諸税,諸税、営業費、自動車事業,,,,,,,,Taxes,,,jpfr-t-rwy,TaxesOEAutomobile,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,自動車事業営業費,自動車事業営業費、鉄道事業,自動車事業営業費合計[合計],,,"営業費[標準]
+営業費合計[合計]",,"営業費[標準]
+営業費合計[合計]",,Operating expenses-automobile,Total operating expenses-automobile[合計],,jpfr-t-rwy,OperatingExpensesAutomobileRWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,自動車事業営業利益,自動車事業営業利益、鉄道事業,"自動車事業営業損失（△）[負値]
+自動車事業営業利益又は自動車事業営業損失（△）[正負]",,,,,,,Operating income-automobile,"Operating loss-automobile[負値]
+Operating income (loss)-automobile[正負]",,jpfr-t-rwy,OperatingIncomeAutomobileRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+B,一般旅客自動車運送事業営業利益,一般旅客自動車運送事業営業利益、鉄道事業,"一般旅客自動車運送事業営業損失（△）[負値]
+一般旅客自動車運送事業営業利益又は一般旅客自動車運送事業営業損失（△）[正負]",,,,,,,Operating income-general passenger automobile traffic,"Operating loss-general passenger automobile traffic[負値]
+Operating income (loss)-general passenger automobile traffic[正負]",,jpfr-t-rwy,OperatingIncomeGeneralPassengerAutomobileTrafficOEAutomobile,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+B,不動産事業営業利益,不動産事業営業利益、タイトル項目、鉄道事業,,,,,,,,Operating income-real estate,,,jpfr-t-rwy,OperatingIncomeRealEstateAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+B,営業収益,営業収益、不動産事業営業利益、タイトル項目、鉄道事業,,,,,,,,Operating revenue,,,jpfr-t-rwy,OperatingRevenueRealEstateAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+B,不動産販売事業収入,不動産販売事業収入、営業収益、不動産事業,,,,,,,,Revenue-real estate sales,,,jpfr-t-rwy,RevenueRealEstateSalesORRealEstate,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,不動産事業収入,不動産事業収入、営業収益、不動産事業,,,,,,,,Revenue-real estate,,,jpfr-t-rwy,RevenueRealEstateORRealEstate,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,売上高,売上高、営業収益、不動産事業,,,,,,,,Net sales,,,jpfr-t-rwy,NetSalesORRealEstate,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,その他の収入,その他の収入、営業収益、不動産事業,,,,,,,,Revenue-other,,,jpfr-t-rwy,RevenueOtherORRealEstate,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,賃貸収入,賃貸収入、営業収益、不動産事業,,,,,,,,Revenue-lease,,,jpfr-t-rwy,RevenueLeaseORRealEstate,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,不動産事業営業収益,不動産事業営業収益、鉄道事業,不動産事業営業収益合計[合計],,,"営業収益[標準]
+営業収益合計[合計]",,"営業収益[標準]
+営業収益合計[合計]",,Operating revenue-real estate,Total operating revenue-real estate[合計],,jpfr-t-rwy,OperatingRevenueRealEstateRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,営業費,営業費、不動産事業営業利益、タイトル項目、鉄道事業,,,,,,,,Operating expenses,,,jpfr-t-rwy,OperatingExpensesRealEstateAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+B,売上原価,売上原価、営業費、不動産事業,,,,,,,,Cost of sales,,,jpfr-t-rwy,CostOfSalesOERealEstate,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,不動産事業売上原価,不動産事業売上原価、営業費、不動産事業,,,,,,,,Cost of sales-real estate,,,jpfr-t-rwy,CostOfSalesRealEstateOERealEstate,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,販売費及び一般管理費,販売費及び一般管理費、営業費、不動産事業,,,,,,,,"Selling, general and administrative expenses",,,jpfr-t-rwy,SellingGeneralAndAdministrativeExpensesOERealEstate,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,一般管理費,一般管理費、営業費、不動産事業,,,,,,,,General and administrative expenses,,,jpfr-t-rwy,GeneralAndAdministrativeExpensesOERealEstate,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,諸税,諸税、営業費、不動産事業,,,,,,,,Taxes,,,jpfr-t-rwy,TaxesOERealEstate,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,減価償却費,減価償却費、営業費、不動産事業,,,,,,,,Depreciation,,,jpfr-t-rwy,DepreciationOERealEstate,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,賃貸事業営業費,賃貸事業営業費、営業費、不動産事業,,,,,,,,Operating income-lease,,,jpfr-t-rwy,OperatingIncomeLeaseOERealEstate,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,不動産事業営業費,不動産事業営業費、鉄道事業,不動産事業営業費合計[合計],,,"営業費[標準]
+営業費合計[合計]",,"営業費[標準]
+営業費合計[合計]",,Operating expenses-real estate,Total operating expenses-real estate[合計],,jpfr-t-rwy,OperatingExpensesRealEstateRWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,不動産事業営業利益,不動産事業営業利益、鉄道事業,"不動産事業営業損失（△）[負値]
+不動産事業営業利益又は不動産事業営業損失（△）[正負]",,,,,,,Operating income-real estate,"Operating loss-real estate[負値]
+Operating income (loss)-real estate[正負]",,jpfr-t-rwy,OperatingIncomeRealEstateRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+B,開発事業営業利益,開発事業営業利益、タイトル項目、鉄道事業,,,,,,,,Operating income-development,,,jpfr-t-rwy,OperatingIncomeDevelopmentAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+B,営業収益,営業収益、開発事業営業利益、タイトル項目、鉄道事業,,,,,,,,Operating revenue,,,jpfr-t-rwy,OperatingRevenueDevelopmentAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+B,土地建物分譲収入,土地建物分譲収入、営業収益、開発事業,,,,,,,,Revenue-land and building sale in lots,,,jpfr-t-rwy,RevenueLandAndBuildingSaleInLotsORDevelopment,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,土地建物賃貸収入,土地建物賃貸収入、営業収益、開発事業,,,,,,,,Revenue-land and building lease,,,jpfr-t-rwy,RevenueLandAndBuildingLeaseORDevelopment,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,賃貸収入,賃貸収入、営業収益、開発事業,,,,,,,,Revenue-lease,,,jpfr-t-rwy,RevenueLeaseORDevelopment,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,スポーツ施設収入,スポーツ施設収入、営業収益、開発事業,,,,,,,,Revenue-sports facilities,,,jpfr-t-rwy,RevenueSportsFacilitiesORDevelopment,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,ホテル事業収入,ホテル事業収入、営業収益、開発事業,,,,,,,,Revenue-hotel,,,jpfr-t-rwy,RevenueHotelORDevelopment,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,その他のレジャー事業収入,その他のレジャー事業収入、営業収益、開発事業,,,,,,,,Revenue-other leisure,,,jpfr-t-rwy,RevenueOtherLeisureORIncidental,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,その他の収入,その他の収入、営業収益、開発事業,,,,,,,,Revenue-other,,,jpfr-t-rwy,RevenueOtherORDevelopment,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,開発事業営業収益,開発事業営業収益、鉄道事業,開発事業営業収益合計[合計],,,"営業収益[標準]
+営業収益合計[合計]",,"営業収益[標準]
+営業収益合計[合計]",,Operating revenue-development,Total operating revenue-development[合計],,jpfr-t-rwy,OperatingRevenueDevelopmentRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,営業費,営業費、開発事業営業利益、タイトル項目、鉄道事業,,,,,,,,Operating expenses,,,jpfr-t-rwy,OperatingExpensesDevelopmentAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+B,売上原価,売上原価、営業費、開発事業,,,,,,,,Cost of sales,,,jpfr-t-rwy,CostOfSalesOEDevelopment,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,販売費及び一般管理費,販売費及び一般管理費、営業費、開発事業,,,,,,,,"Selling, general and administrative expenses",,,jpfr-t-rwy,SellingGeneralAndAdministrativeExpensesOEDevelopment,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,減価償却費,減価償却費、営業費、開発事業,,,,,,,,Depreciation,,,jpfr-t-rwy,DepreciationOEDevelopment,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,諸税,諸税、営業費、開発事業,,,,,,,,Taxes,,,jpfr-t-rwy,TaxesOEDevelopment,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,開発事業営業費,開発事業営業費、鉄道事業,開発事業営業費合計[合計],,,"営業費[標準]
+営業費合計[合計]",,"営業費[標準]
+営業費合計[合計]",,Operating expenses-development,Total operating expenses-development[合計],,jpfr-t-rwy,OperatingExpensesDevelopmentRWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,開発事業営業利益,開発事業営業利益、鉄道事業,"開発事業営業損失（△）[負値]
+開発事業営業利益又は開発事業営業損失（△）[正負]",,,,,,,Operating income-development,"Operating loss-development[負値]
+Operating income (loss)-development[正負]",,jpfr-t-rwy,OperatingIncomeDevelopmentRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+B,付帯事業営業利益,付帯事業営業利益、タイトル項目、鉄道事業,,,,,,,,Operating income-incidental,,,jpfr-t-rwy,OperatingIncomeIncidentalAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+B,営業収益,営業収益、付帯事業営業利益、タイトル項目、鉄道事業,,,,,,,,Operating revenue,,,jpfr-t-rwy,OperatingRevenueIncidentalAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+B,不動産賃貸事業収入,不動産賃貸事業収入、営業収益、付帯事業,,,,,,,,Revenue-real estate lease,,,jpfr-t-rwy,RevenueRealEstateLeaseORIncidental,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,不動産販売事業収入,不動産販売事業収入、営業収益、付帯事業,,,,,,,,Revenue-real estate sales,,,jpfr-t-rwy,RevenueRealEstateSalesORIncidental,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,土地建物売上高,土地建物売上高、営業収益、付帯事業,,,,,,,,Land and building sales,,,jpfr-t-rwy,LandAndBuildingSalesORIncidental,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,土地建物賃貸収入,土地建物賃貸収入、営業収益、付帯事業,,,,,,,,Revenue-land and building lease,,,jpfr-t-rwy,RevenueLandAndBuildingLeaseORIncidental,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,広告収入,広告収入、営業収益、付帯事業,,,,,,,,Revenue-advertising,,,jpfr-t-rwy,RevenueAdvertisingORIncidental,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,不動産事業収入,不動産事業収入、営業収益、付帯事業,,,,,,,,Revenue-real estate,,,jpfr-t-rwy,RevenueRealEstateORIncidental,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,保険代理店事業収入,保険代理店事業収入、営業収益、付帯事業,,,,,,,,Revenue-insurance agency,,,jpfr-t-rwy,RevenueInsuranceAgencyORIncidental,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,流通事業収入,流通事業収入、営業収益、付帯事業,,,,,,,,Revenue-merchandise,,,jpfr-t-rwy,RevenueMerchandiseORIncidental,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,遊園事業収入,遊園事業収入、営業収益、付帯事業,,,,,,,,Revenue-play garden,,,jpfr-t-rwy,RevenuePlayGardenORIncidental,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,土地建物事業収入,土地建物事業収入、営業収益、付帯事業,,,,,,,,Revenue-land and building,,,jpfr-t-rwy,RevenueLandAndBuildingORIncidental,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,レジャー事業収入,レジャー事業収入、付帯事業,,,,,,,,Revenue-leisure,,,jpfr-t-rwy,RevenueLeisureIncidental,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,観光事業収入,観光事業収入、営業収益、付帯事業,,,,,,,,Revenue-tourism,,,jpfr-t-rwy,RevenueTourismORIncidental,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,駐車場事業収入,駐車場事業収入、営業収益、付帯事業,,,,,,,,Revenue-parking area,,,jpfr-t-rwy,RevenueParkingAreaORIncidental,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,土地建物分譲収入,土地建物分譲収入、営業収益、付帯事業,,,,,,,,Revenue-land and building sale in lots,,,jpfr-t-rwy,RevenueLandAndBuildingSaleInLotsORIncidental,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,自動車整備収入,自動車整備収入、営業収益、付帯事業,,,,,,,,Revenue-automobile maintenance,,,jpfr-t-rwy,RevenueAutomobileMaintenanceORIncidental,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,その他の事業収入,その他の事業収入、営業収益、付帯事業,,,,,,,,Revenue-other,,,jpfr-t-rwy,RevenueOtherBusinessORIncidental,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,その他の収入,その他の収入、営業収益、付帯事業,,,,,,,,Revenue-other,,,jpfr-t-rwy,RevenueOtherORIncidental,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,付帯事業営業収益,付帯事業営業収益、鉄道事業,付帯事業営業収益合計[合計],,,"営業収益[標準]
+営業収益合計[合計]",,"営業収益[標準]
+営業収益合計[合計]",,Operating revenue-incidental,Total operating revenue-incidental[合計],,jpfr-t-rwy,OperatingRevenueIncidentalRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,営業費,営業費、付帯事業営業利益、タイトル項目、鉄道事業,,,,,,,,Operating expenses,,,jpfr-t-rwy,OperatingExpensesIncidentalAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+B,売上原価,売上原価、営業費、付帯事業,,,,,,,,Cost of sales,,,jpfr-t-rwy,CostOfSalesOEIncidental,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,減価償却費,減価償却費、営業費、付帯事業,,,,,,,,Depreciation,,,jpfr-t-rwy,DepreciationOEIncidental,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,販売費及び一般管理費,販売費及び一般管理費、営業費、付帯事業,,,,,,,,"Selling, general and administrative expenses",,,jpfr-t-rwy,SellingGeneralAndAdministrativeExpensesOEIncidental,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,諸税,諸税、営業費、付帯事業,,,,,,,,Taxes,,,jpfr-t-rwy,TaxesOEIncidental,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,土地建物営業費,土地建物営業費、営業費、付帯事業,,,,,,,,Operating expenses-land and building,,,jpfr-t-rwy,OperatingExpensesLandAndBuildingOEIncidental,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,付帯事業営業費,付帯事業営業費、鉄道事業,付帯事業営業費合計[合計],,,"営業費[標準]
+営業費合計[合計]",,"営業費[標準]
+営業費合計[合計]",,Operating expenses-incidental,Total operating expenses-incidental[合計],,jpfr-t-rwy,OperatingExpensesIncidentalRWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,付帯事業営業利益,付帯事業営業利益、鉄道事業,"付帯事業営業損失（△）[負値]
+付帯事業営業利益又は付帯事業営業損失（△）[正負]",,,,,,,Operating income-incidental,"Operating loss-incidental[負値]
+Operating income (loss)-incidental[正負]",,jpfr-t-rwy,OperatingIncomeIncidentalRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+B,その他事業営業利益,その他事業営業利益、タイトル項目、鉄道事業,,,,,,,,Operating income-other,,,jpfr-t-rwy,OperatingIncomeOtherAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+B,営業収益,営業収益、その他事業営業利益、タイトル項目、鉄道事業,,,,,,,,Operating revenue,,,jpfr-t-rwy,OperatingRevenueOtherAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+B,その他の収入,その他の収入、営業収益、その他事業,,,,,,,,Revenue-other,,,jpfr-t-rwy,RevenueOtherOROther,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,不動産事業収入,不動産事業収入、営業収益、その他事業,,,,,,,,Revenue-real estate,,,jpfr-t-rwy,RevenueRealEstateOROther,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,その他の事業収入,その他の事業収入、営業収益、その他事業,,,,,,,,Revenue-other,,,jpfr-t-rwy,RevenueOtherBusinessOROther,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,物品販売業収入,物品販売業収入、営業収益、その他事業,,,,,,,,Revenue-goods sales,,,jpfr-t-rwy,RevenueGoodsSalesOROther,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,商品売上高,商品売上高、営業収益、その他事業,,,,,,,,Goods sales,,,jpfr-t-rwy,GoodsSalesOROther,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,食堂収入,食堂収入、営業収益、その他事業,,,,,,,,Revenue-restaurant,,,jpfr-t-rwy,RevenueRestaurantOROther,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,売店収入,売店収入、営業収益、その他事業,,,,,,,,Revenue-stand,,,jpfr-t-rwy,RevenueStandOROther,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,旅行業収入,旅行業収入、営業収益、その他事業,,,,,,,,Revenue-travel,,,jpfr-t-rwy,RevenueTravelOROther,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,その他事業営業収益,その他事業営業収益、鉄道事業,その他事業営業収益合計[合計],,,"営業収益[標準]
+営業収益合計[合計]",,"営業収益[標準]
+営業収益合計[合計]",,Operating revenue-other,Total operating revenue-other[合計],,jpfr-t-rwy,OperatingRevenueOtherRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,営業費,営業費、その他事業営業利益、タイトル項目、鉄道事業,,,,,,,,Operating expenses,,,jpfr-t-rwy,OperatingExpensesOtherAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+B,売上原価,売上原価、営業費、その他事業、鉄道事業,,,,,,,,Cost of sales,,,jpfr-t-rwy,CostOfSalesOEOtherRWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,商品売上原価,商品売上原価、営業費、その他事業,,,,,,,,Cost of goods sales,,,jpfr-t-rwy,CostOfGoodsSalesOEOther,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,販売費及び一般管理費,販売費及び一般管理費、営業費、その他事業,,,,,,,,"Selling, general and administrative expenses",,,jpfr-t-rwy,SellingGeneralAndAdministrativeExpensesOEOther,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,諸税,諸税、営業費、その他事業,,,,,,,,Taxes,,,jpfr-t-rwy,TaxesOEOther,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,減価償却費,減価償却費、営業費、その他事業、鉄道事業,,,,,,,,Depreciation,,,jpfr-t-rwy,DepreciationOEOtherRWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,その他事業営業費,その他事業営業費、鉄道事業,その他事業営業費合計[合計],,,"営業費[標準]
+営業費合計[合計]",,"営業費[標準]
+営業費合計[合計]",,Operating expenses-other,Total operating expenses-other[合計],,jpfr-t-rwy,OperatingExpensesOtherRWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,その他事業営業利益,その他事業営業利益、鉄道事業,"その他事業営業損失（△）[負値]
+その他事業営業利益又はその他事業営業損失（△）[正負]",,,,,,,Operating income-other,"Operating loss-other[負値]
+Operating income (loss)-other[正負]",,jpfr-t-rwy,OperatingIncomeOtherRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+B,兼業営業利益,兼業営業利益、タイトル項目、鉄道事業,"兼業営業損失（△）[負値]
+兼業営業利益又は兼業営業損失（△）[正負]",,,,,,,Operating income-side line,"Operating loss[負値]
+Operating income (loss)[正負]",,jpfr-t-rwy,OperatingIncomeSideLineAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+B,営業収益,営業収益、兼業営業利益、タイトル項目、鉄道事業,,,,,,,,Operating revenue-side line,,,jpfr-t-rwy,OperatingRevenueSideLineAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+B,賃貸収入,賃貸収入、営業収益、兼業,,,,,,,,Revenue-lease,,,jpfr-t-rwy,RevenueLeaseORSideLine,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,航空貨物収入,航空貨物収入、営業収益、兼業,,,,,,,,Air cargo revenue,,,jpfr-t-rwy,AirCargoRevenueORSideLine,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,土地建物売上高,土地建物売上高、営業収益、兼業,,,,,,,,Land and building sales,,,jpfr-t-rwy,LandAndBuildingSalesORSideLine,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,その他の事業収入,その他の事業収入、営業収益、兼業,,,,,,,,Revenue-other,,,jpfr-t-rwy,RevenueOtherORSideLine,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,飲食業収入,飲食業収入、営業収益、兼業,,,,,,,,Revenue-eating,,,jpfr-t-rwy,RevenueEatingORSideLine,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,商品飲食品売上高,商品飲食品売上高、営業収益、兼業,,,,,,,,Goods and eating sales,,,jpfr-t-rwy,GoodsAndEatingSalesORSideLine,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,土地建物分譲収入,土地建物分譲収入、営業収益、兼業,,,,,,,,Revenue-land and building sale in lots,,,jpfr-t-rwy,RevenueLandAndBuildingSaleInLotsORSideLine,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,物品販売業収入,物品販売業収入、営業収益、兼業,,,,,,,,Revenue-goods sales,,,jpfr-t-rwy,RevenueGoodsSalesORSideLine,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,その他の収入,その他の収入、営業収益、兼業,,,,,,,,Other revenue,,,jpfr-t-rwy,OtherRevenueORSideLine,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,兼業営業収益,兼業営業収益、鉄道事業,兼業営業収益合計[合計],,,"営業収益[標準]
+営業収益合計[合計]",,"営業収益[標準]
+営業収益合計[合計]",,Operating revenue-side line,Total operating revenue-another[合計],,jpfr-t-rwy,OperatingRevenueSideLineRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,営業費,営業費、兼業営業利益、タイトル項目、鉄道事業,,,,,,,,Operating expenses,,,jpfr-t-rwy,OperatingExpensesSideLineAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+B,売上原価,売上原価、営業費、兼業、鉄道事業,,,,,,,,Cost of sales,,,jpfr-t-rwy,CostOfSalesOESideLineRWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,旅行業営業費,旅行業営業費、営業費、兼業,,,,,,,,Operating expenses-travel,,,jpfr-t-rwy,OperatingExpensesTravelOESideLine,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,販売費及び一般管理費,販売費及び一般管理費、営業費、兼業,,,,,,,,"Selling, general and administrative expenses",,,jpfr-t-rwy,SellingGeneralAndAdministrativeExpensesOESideLine,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,諸税,諸税、営業費、兼業,,,,,,,,Taxes,,,jpfr-t-rwy,TaxesOESideLine,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,減価償却費,減価償却費、営業費、兼業、鉄道事業,,,,,,,,Depreciation,,,jpfr-t-rwy,DepreciationOESideLineRWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,兼業営業費,兼業営業費、鉄道事業,兼業営業費合計[合計],,,"営業費[標準]
+営業費合計[合計]",,"営業費[標準]
+営業費合計[合計]",,Operating expenses-side line,Total operating expenses-another[合計],,jpfr-t-rwy,OperatingExpensesSideLineRWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,兼業営業利益,兼業営業利益、鉄道事業,"兼業営業損失（△）[負値]
+兼業営業利益又は兼業営業損失（△）[正負]",,,,,,,Operating income-side line,"Operating loss-another[負値]
+Operating income (loss)-another[正負]",,jpfr-t-rwy,OperatingIncomeSideLineRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+B,鉄軌道事業営業利益,鉄軌道事業営業利益、タイトル項目、鉄道事業,,,,,,,,Operating income-railroad,,,jpfr-t-rwy,OperatingIncomeRailroadAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+B,営業収益,営業収益、鉄軌道事業営業利益、タイトル項目、鉄道事業,,,,,,,,Operating revenue,,,jpfr-t-rwy,OperatingRevenueRailroadAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+B,鉄軌道事業営業収益,鉄軌道事業営業収益、鉄道事業,鉄軌道事業営業収益合計[合計],,,"営業収益[標準]
+営業収益合計[合計]",,"営業収益[標準]
+営業収益合計[合計]",,Operating revenue-railroad,Total operating revenue-railroad[合計],,jpfr-t-rwy,OperatingRevenueRailroadRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,3
+B,営業費,営業費、鉄軌道事業営業利益、タイトル項目、鉄道事業,,,,,,,,Operating expenses,,,jpfr-t-rwy,OperatingExpensesRailroadAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+B,鉄軌道事業営業費,鉄軌道事業営業費、鉄道事業,鉄軌道事業営業費合計[合計],,,"営業費[標準]
+営業費合計[合計]",,"営業費[標準]
+営業費合計[合計]",,Operating expenses-railroad,Total operating expenses-railroad[合計],,jpfr-t-rwy,OperatingExpensesRailroadRWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,鉄軌道事業営業利益,鉄軌道事業営業利益、鉄道事業,"鉄軌道事業営業損失（△）[負値]
+鉄軌道事業営業利益又は鉄軌道事業営業損失（△）[正負]",,,,,,,Operating income-railroad,"Operating loss-railroad[負値]
+Operating income (loss)-railroad[正負]",,jpfr-t-rwy,OperatingIncomeRailroadOERWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,営業利益,営業利益,"営業損失（△）[負値]
+営業利益又は営業損失（△）[正負]","全事業営業利益[標準|業]
+全事業営業損失（△）[負値|業]
+全事業営業利益又は全事業営業損失（△）[正負|業]",,,,,,Operating income,"Operating loss[負値]
+Operating income (loss)[正負]","Operating income-all business[標準|業]
+Operating loss-all business[負値|業]
+Operating income (loss)-all business[正負|業]",jpfr-t-cte,OperatingIncome,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,1
+B,全事業営業収益,全事業営業収益、鉄道事業,,,,,,,,Operating revenue-total,,,jpfr-t-rwy,OperatingRevenueTotalRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+B,全事業営業費,全事業営業費、鉄道事業,,,,,,,,Operating expenses-total,,,jpfr-t-rwy,OperatingExpensesTotalRWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+B,営業収益,営業収益、鉄道事業,営業収益合計[合計],,,,,,,Operating revenue,Total operating revenue[合計],,jpfr-t-rwy,OperatingRevenueRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+B,営業費,営業費、タイトル項目、鉄道事業,,,,,,,,Operating expenses,,,jpfr-t-rwy,OperatingExpensesAbstractRWY,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+B,運輸業等営業費及び売上原価,運輸業等営業費及び売上原価、鉄道事業,,,,,,,,Operating expenses and cost of sales of transportation,,,jpfr-t-rwy,OperatingExpensesAndCostOfSalesOfTransportationRWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+A,販売費及び一般管理費,販売費及び一般管理費,販売費及び一般管理費合計[合計],,,,,,,"Selling, general and administrative expenses","Total selling, general and administrative expenses[合計]",,jpfr-t-cte,SellingGeneralAndAdministrativeExpenses,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+B,営業費,営業費、鉄道事業,営業費合計[合計],,,,,,,Operating expenses,Total operating expenses[合計],,jpfr-t-rwy,OperatingExpensesRWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,3
+A,営業外収益,営業外収益、タイトル項目,,,,,,,,Non-operating income,,,jpfr-t-cte,NonOperatingIncomeAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,受取利息・割引料,受取利息・割引料、営業外収益,,,,,,,,Interest and discounts earned,,,jpfr-t-rwy,InterestAndDiscountsEarnedNOIRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,有価証券利息,有価証券利息、営業外収益,,,,,,,,Interest on securities,,,jpfr-t-cte,InterestOnSecuritiesNOI,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,受取配当金,受取配当金、営業外収益,,,,,,,,Dividends income,,,jpfr-t-cte,DividendsIncomeNOI,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,有価証券売却益,有価証券売却益、営業外収益,,,,,,,,Gain on sales of securities,,,jpfr-t-cte,GainOnSalesOfSecuritiesNOI,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,有価証券評価益,有価証券評価益、営業外収益,,,,,,,,Gain on valuation of securities,,,jpfr-t-cte,GainOnValuationOfSecuritiesNOI,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,物品売却益,物品売却益、営業外収益、鉄道事業,,,,,,,,Gain on sales of goods,,,jpfr-t-rwy,GainOnSalesOfGoodsNOIRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,土地物件貸付料,土地物件貸付料、営業外収益、鉄道事業,,,,,,,,Revenue-land rent,,,jpfr-t-rwy,RevenueLandRentNOIRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+B,受託工事事務費戻入,受託工事事務費戻入、営業外収益、鉄道事業,,,,,,,,Reversal of clerical costs on work performed on contract,,,jpfr-t-rwy,ReversalOfClericalCostsOnWorkPerformedOnContractNOIRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,雑収入,雑収入、営業外収益、鉄道事業,,,,,,,,Miscellaneous income,,,jpfr-t-rwy,MiscellaneousIncomeNOIRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,営業外収益,営業外収益,営業外収益合計[合計],,,,,,,Non-operating income,Total non-operating income[合計],,jpfr-t-cte,NonOperatingIncome,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,営業外費用,営業外費用、タイトル項目,,,,,,,,Non-operating expenses,,,jpfr-t-cte,NonOperatingExpensesAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,支払利息・割引料,支払利息・割引料、営業外費用,,,,,,,,Interest and discounts expenses,,,jpfr-t-rwy,InterestAndDiscountsExpensesNOERWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,社債利息,社債利息、営業外費用,,,,,,,,Interest on bonds,,,jpfr-t-cte,InterestOnBondsNOE,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,有価証券売却損,有価証券売却損、営業外費用,,,,,,,,Loss on sales of securities,,,jpfr-t-cte,LossOnSalesOfSecuritiesNOE,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,有価証券評価損,有価証券評価損、営業外費用,,,,,,,,Loss on valuation of securities,,,jpfr-t-cte,LossOnValuationOfSecuritiesNOE,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,物品売却損,物品売却損、営業外費用、鉄道事業,,,,,,,,Loss on sales of goods,,,jpfr-t-rwy,LossOnSalesOfGoodsNOERWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+B,鉄道施設購入長期未払金利息,鉄道施設購入長期未払金利息、鉄道事業,,,,,,,,Interest on long term accounts payable-railway equipment,,,jpfr-t-rwy,InterestOnLongTermAccountsPayableRailwayEquipmentRWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+B,鉄道施設購入長期未払金返済損,鉄道施設購入長期未払金返済損、鉄道事業,,,,,,,,Loss on long term accounts payable-railway facilities,,,jpfr-t-rwy,LossOnLongTermAccountsPayableRailwayFacilitiesRWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,雑支出,雑支出、営業外費用、鉄道事業,,,,,,,,Miscellaneous expenses,,,jpfr-t-rwy,MiscellaneousExpensesNOERWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,営業外費用,営業外費用,営業外費用合計[合計],,,,,,,Non-operating expenses,Total non-operating expenses[合計],,jpfr-t-cte,NonOperatingExpenses,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,経常利益,経常利益,"経常損失（△）[負値]
+経常利益又は経常損失（△）[正負]",,,,,,,Ordinary income,"Ordinary loss[負値]
+Ordinary income (loss)[正負]",,jpfr-t-cte,OrdinaryIncome,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,1
+A,特別利益,特別利益、タイトル項目,,,,,,,,Extraordinary income,,,jpfr-t-cte,ExtraordinaryIncomeAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,固定資産売却益,固定資産売却益、特別利益,,,,,,,,Gain on sales of noncurrent assets,,,jpfr-t-cte,GainOnSalesOfNoncurrentAssetsEI,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,補助金,補助金、特別利益、鉄道事業,,,,,,,,Subsidy,,,jpfr-t-rwy,SubsidyEIRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,鉄道施設受贈財産評価額,鉄道施設受贈財産評価額、特別利益、鉄道事業,,,,,,,,Evaluation on railway facilities as received property,,,jpfr-t-rwy,EvaluationOnRailwayFacilitiesAsReceivedPropertyEIRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,鉄道施設建設受入寄附金,鉄道施設建設受入寄附金、特別利益、鉄道事業,,,,,,,,Donation for railway facilities construction,,,jpfr-t-rwy,DonationForRailwayFacilitiesConstructionEIRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,特定都市鉄道整備準備金取崩額,特定都市鉄道整備準備金取崩額、特別利益、鉄道事業,,,,,,,,Reversal of special reserve for expansion of railway transport capacity,,,jpfr-t-rwy,ReversalOfSpecialReserveForExpansionOfRailwayTransportCapacityEIRWY,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,特別利益,特別利益,特別利益合計[合計],,,,,,,Extraordinary income,Total extraordinary income[合計],,jpfr-t-cte,ExtraordinaryIncome,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,特別損失,特別損失、タイトル項目,,,,,,,,Extraordinary loss,,,jpfr-t-cte,ExtraordinaryLossAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,固定資産売却損,固定資産売却損、特別損失,,,,,,,,Loss on sales of noncurrent assets,,,jpfr-t-cte,LossOnSalesOfNoncurrentAssetsEL,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,減損損失,減損損失、特別損失,,,,,,,,Impairment loss,,,jpfr-t-cte,ImpairmentLossEL,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,臨時損失,臨時損失、特別損失,,,,,,,,Nonrecurring loss,,,jpfr-t-cte,NonrecurringLossEL,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,除却費,除却費、特別損失、鉄道事業,,,,,,,,Retirement expenses,,,jpfr-t-rwy,RetirementExpensesELRWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,災害損失等繰延額償却,災害損失等繰延額償却、鉄道事業,,,,,,,,Amortization of deferred disaster loss,,,jpfr-t-rwy,AmortizationOfDeferredDisasterLossRWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,特定都市鉄道整備準備金繰入額,特定都市鉄道整備準備金繰入額、特別損失、鉄道事業,,,,,,,,Provision of special reserve for expansion of railway transport capacity,,,jpfr-t-rwy,ProvisionOfSpecialReserveForExpansionOfRailwayTransportCapacityELRWY,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,特別損失,特別損失,特別損失合計[合計],,,,,,,Extraordinary loss,Total extraordinary losses[合計],,jpfr-t-cte,ExtraordinaryLoss,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,税引前当期純利益,税引前当期純利益,"税引前当期純損失（△）[負値]
+税引前当期純利益又は税引前当期純損失（△）[正負]",,"税金等調整前当期純利益[標準]
+税金等調整前当期純損失（△）[負値]
+税金等調整前当期純利益又は税金等調整前当期純損失（△）[正負]","税引前四半期純利益[標準]
+税引前四半期純損失（△）[負値]
+税引前四半期純利益又は税引前四半期純損失（△）[正負]","税金等調整前四半期純利益[標準]
+税金等調整前四半期純損失（△）[負値]
+税金等調整前四半期純利益又は税金等調整前四半期純損失（△）[正負]","税引前中間純利益[標準]
+税引前中間純損失（△）[負値]
+税引前中間純利益又は税引前中間純損失（△）[正負]","税金等調整前中間純利益[標準]
+税金等調整前中間純損失（△）[負値]
+税金等調整前中間純利益又は税金等調整前中間純損失（△）[正負]",Income before income taxes,"Loss before income taxes[負値]
+Income (loss) before income taxes[正負]",,jpfr-t-cte,IncomeBeforeIncomeTaxes,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,1
+A,法人税等,法人税等,法人税等合計[合計],,,,,,,Income taxes,Total income taxes[合計],,jpfr-t-cte,IncomeTaxes,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,1
+A,法人税、住民税及び事業税,法人税、住民税及び事業税,,,,,,,,Income taxes-current,,,jpfr-t-cte,IncomeTaxesCurrent,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,法人税等調整額,法人税等調整額,,,,,,,,Income taxes-deferred,,,jpfr-t-cte,IncomeTaxesDeferred,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,少数株主損益調整前当期純利益,少数株主損益調整前当期純利益,"少数株主損益調整前当期純損失（△）[負値]
+少数株主損益調整前当期純利益又は少数株主損益調整前当期純損失（△）[正負]",,,,"少数株主損益調整前四半期純利益[標準]
+少数株主損益調整前四半期純損失（△）[負値]
+少数株主損益調整前四半期純利益又は少数株主損益調整前四半期純損失（△）[正負]",,"少数株主損益調整前中間純利益[標準]
+少数株主損益調整前中間純損失（△）[負値]
+少数株主損益調整前中間純利益又は少数株主損益調整前中間純損失（△）[正負]",Income before minority interests,"Loss before minority interests[負値]
+Income (loss) before minority interests[正負]",,jpfr-t-cte,IncomeBeforeMinorityInterests,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,1
+A,少数株主利益,少数株主利益,"少数株主損失（△）[負値]
+少数株主利益又は少数株主損失（△）[正負]",,,,,,,Minority interests in income,"Minority interests in loss[負値]
+Minority interests in income (loss)[正負]",,jpfr-t-cte,MinorityInterestsInIncome,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,1
+A,当期純利益,当期純利益,"当期純損失（△）[負値]
+当期純利益又は当期純損失（△）[正負]",,,"四半期純利益[標準]
+四半期純損失（△）[負値]
+四半期純利益又は四半期純損失（△）[正負]","四半期純利益[標準]
+四半期純損失（△）[負値]
+四半期純利益又は四半期純損失（△）[正負]","中間純利益[標準]
+中間純損失（△）[負値]
+中間純利益又は中間純損失（△）[正負]","中間純利益[標準]
+中間純損失（△）[負値]
+中間純利益又は中間純損失（△）[正負]",Net income,"Net loss[負値]
+Net income (loss)[正負]",,jpfr-t-cte,NetIncome,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,1
+,,,,,,,,,,,,,,,,,,,,,,
+株主資本等変動計算書（鉄道事業）,,,,,,,,,,,,,,,,,,,,,,
+科目分類,標準ラベル（日本語）,冗長ラベル（日本語）,用途別ラベル（日本語）,業種ラベル（日本語）,連結,四半期個別,四半期連結,中間個別,中間連結,標準ラベル（英語）,用途別ラベル（英語）,業種ラベル（英語）,名前空間プレフィックス,要素名,type,enumerations,substitutionGroup,periodType,balance,abstract,nillable,depth
+-,株主資本等変動計算書,株主資本等変動計算書、タイトル項目,,,連結株主資本等変動計算書[標準],,,中間株主資本等変動計算書[標準],中間連結株主資本等変動計算書[標準],Statements of changes in net assets,,,jpfr-t-cte,StatementsOfChangesInNetAssetsAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,0
+A,株主資本,株主資本、株主資本等変動計算書、タイトル項目,,,,,,,,Shareholders' equity,,,jpfr-t-cte,ShareholdersEquitySSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,資本金,資本金、株主資本等変動計算書、タイトル項目,,,,,,,,Capital stock,,,jpfr-t-cte,CapitalStockSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+A,資本金,資本金,"当期首残高[期首]
+当期末残高[期末]",,,,,"資本金[標準]
+当期首残高[期首]
+当中間期末残高[期末]","資本金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Capital stock,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,CapitalStock,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,当期変動額,当期変動額、資本金、タイトル項目,,,,,,当中間期変動額[標準],当中間期変動額[標準],Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodCAPAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,資本剰余金,資本剰余金、株主資本等変動計算書、タイトル項目,,,,,,,,Capital surplus,,,jpfr-t-cte,CapitalSurplusSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+A,資本準備金,資本準備金、株主資本等変動計算書、タイトル項目,,,,,,,,Legal capital surplus,,,jpfr-t-cte,LegalCapitalSurplusSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,資本準備金,資本準備金,"当期首残高[期首]
+当期末残高[期末]",,,,,"資本準備金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",,Legal capital surplus,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,LegalCapitalSurplus,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+A,当期変動額,当期変動額、資本準備金、タイトル項目,,,,,,当中間期変動額[標準],,Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodLCSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,4
+A,その他資本剰余金,その他資本剰余金、株主資本等変動計算書、タイトル項目,,,,,,,,Other capital surplus,,,jpfr-t-cte,OtherCapitalSurplusSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,その他資本剰余金,その他資本剰余金,"その他資本剰余金合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,,,,"その他資本剰余金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",,Other capital surplus,"Total other capital surplus[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,OtherCapitalSurplus,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+A,当期変動額,当期変動額、その他資本剰余金、タイトル項目,,,,,,当中間期変動額[標準],,Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodOCSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,4
+A,資本剰余金合計,資本剰余金合計、株主資本等変動計算書、タイトル項目,資本剰余金合計[合計],,,,,,,Total capital surplus,Total capital surplus[合計],,jpfr-t-cte,TotalCapitalSurplusSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,資本剰余金,資本剰余金,"資本剰余金合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,,,,"資本剰余金[標準]
+当期首残高[期首]
+当中間期末残高[期末]","資本剰余金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Capital surplus,"Total capital surpluses[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,CapitalSurplus,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+A,当期変動額,当期変動額、資本剰余金、タイトル項目,,,,,,当中間期変動額[標準],当中間期変動額[標準],Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodCSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,4
+A,利益剰余金,利益剰余金、株主資本等変動計算書、タイトル項目,,,,,,,,Retained earnings,,,jpfr-t-cte,RetainedEarningsSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+A,利益準備金,利益準備金、株主資本等変動計算書、タイトル項目,,,,,,,,Legal retained earnings,,,jpfr-t-cte,LegalRetainedEarningsSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,利益準備金,利益準備金,"当期首残高[期首]
+当期末残高[期末]",,,,,"利益準備金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",,Legal retained earnings,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,LegalRetainedEarnings,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+A,当期変動額,当期変動額、利益準備金、タイトル項目,,,,,,当中間期変動額[標準],,Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodLREAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,4
+A,その他利益剰余金,その他利益剰余金、株主資本等変動計算書、タイトル項目,,,,,,,,Other retained earnings,,,jpfr-t-cte,OtherRetainedEarningsSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,繰越利益剰余金,繰越利益剰余金、株主資本等変動計算書、タイトル項目,,,,,,,,Retained earnings brought forward,,,jpfr-t-cte,RetainedEarningsBroughtForwardSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,4
+A,繰越利益剰余金,繰越利益剰余金,"当期首残高[期首]
+当期末残高[期末]",,,,,"繰越利益剰余金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",,Retained earnings brought forward,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,RetainedEarningsBroughtForward,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,5
+A,会計方針の変更による累積的影響額,会計方針の変更による累積的影響額、繰越利益剰余金,会計方針の変更による累積的影響額[期首],,,,,,,Cumulative effect of changes in accounting policies,Cumulative effect of changes in accounting policies[期首],,jpfr-t-cte,CumulativeEffectOfChangesInAccountingPoliciesREBF,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,5
+A,遡及処理後当期首残高,遡及処理後当期首残高、繰越利益剰余金,遡及処理後当期首残高[期首],,,,,,,Retained earnings brought forward as restated,Retained earnings brought forward as restated[期首],,jpfr-t-cte,RetainedEarningsBroughtForwardAsRestated,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,5
+A,当期変動額,当期変動額、繰越利益剰余金、タイトル項目,,,,,,当中間期変動額[標準],,Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodREBFAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,5
+A,その他利益剰余金,その他利益剰余金,"その他利益剰余金合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,,,,"その他利益剰余金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",,Other retained earnings,"Total other retained earnings[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,OtherRetainedEarnings,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+B,当期変動額,当期変動額、その他利益剰余金、タイトル項目,,,,,,当中間期変動額[標準],,Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodOREAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,4
+A,利益剰余金合計,利益剰余金合計、株主資本等変動計算書、タイトル項目,利益剰余金合計[合計],,,,,,,Total retained earnings,Total retained earnings[合計],,jpfr-t-cte,TotalRetainedEarningsSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,利益剰余金,利益剰余金,"利益剰余金合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,,,,"利益剰余金[標準]
+当期首残高[期首]
+当中間期末残高[期末]","利益剰余金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Retained earnings,"Total retained earnings[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,RetainedEarnings,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+A,会計方針の変更による累積的影響額,会計方針の変更による累積的影響額、利益剰余金,会計方針の変更による累積的影響額[期首],,,,,,,Cumulative effect of changes in accounting policies,Cumulative effect of changes in accounting policies[期首],,jpfr-t-cte,CumulativeEffectOfChangesInAccountingPoliciesRE,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+A,遡及処理後当期首残高,遡及処理後当期首残高、利益剰余金,遡及処理後当期首残高[期首],,,,,,,Retained earnings as restated,Retained earnings as restated[期首],,jpfr-t-cte,RetainedEarningsAsRestated,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+A,当期変動額,当期変動額、利益剰余金、タイトル項目,,,,,,当中間期変動額[標準],当中間期変動額[標準],Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodREAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,4
+A,自己株式,自己株式、株主資本等変動計算書、タイトル項目,,,,,,,,Treasury stock,,,jpfr-t-cte,TreasuryStockSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+A,自己株式,自己株式,"当期首残高[期首]
+当期末残高[期末]",,,,,"自己株式[標準]
+当期首残高[期首]
+当中間期末残高[期末]","自己株式[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Treasury stock,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,TreasuryStock,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,当期変動額,当期変動額、自己株式、タイトル項目,,,,,,当中間期変動額[標準],当中間期変動額[標準],Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodTSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,株主資本合計,株主資本合計、株主資本等変動計算書、タイトル項目,株主資本合計[合計],,,,,,,Total shareholders' equity,Total shareholders' equity[合計],,jpfr-t-cte,TotalShareholdersEquitySSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+A,株主資本,株主資本,"株主資本合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,,,,"株主資本[標準]
+当期首残高[期首]
+当中間期末残高[期末]","株主資本[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Shareholders' equity,"Total shareholders' equity[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,ShareholdersEquity,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,会計方針の変更による累積的影響額,会計方針の変更による累積的影響額、株主資本,会計方針の変更による累積的影響額[期首],,,,,,,Cumulative effect of changes in accounting policies,Cumulative effect of changes in accounting policies[期首],,jpfr-t-cte,CumulativeEffectOfChangesInAccountingPoliciesSE,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,遡及処理後当期首残高,遡及処理後当期首残高、株主資本,遡及処理後当期首残高[期首],,,,,,,Shareholders equity as restated,Shareholders equity as restated[期首],,jpfr-t-cte,ShareholdersEquityAsRestated,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,当期変動額,当期変動額、株主資本、タイトル項目,,,,,,当中間期変動額[標準],当中間期変動額[標準],Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodSEAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,評価・換算差額等,評価・換算差額等、株主資本等変動計算書、タイトル項目,,,その他の包括利益累計額[標準],,その他の包括利益累計額[標準],,その他の包括利益累計額[標準],Valuation and translation adjustments,,,jpfr-t-cte,ValuationAndTranslationAdjustmentsSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,その他有価証券評価差額金,その他有価証券評価差額金、株主資本等変動計算書、タイトル項目,,,,,,,,Valuation difference on available-for-sale securities,,,jpfr-t-cte,ValuationDifferenceOnAvailableForSaleSecuritiesSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+A,その他有価証券評価差額金,その他有価証券評価差額金,"当期首残高[期首]
+当期末残高[期末]",,,,,"その他有価証券評価差額金[標準]
+当期首残高[期首]
+当中間期末残高[期末]","その他有価証券評価差額金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Valuation difference on available-for-sale securities,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,ValuationDifferenceOnAvailableForSaleSecurities,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,当期変動額,当期変動額、その他有価証券評価差額金、タイトル項目,,,,,,当中間期変動額[標準],当中間期変動額[標準],Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodAFSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,繰延ヘッジ損益,繰延ヘッジ損益、株主資本等変動計算書、タイトル項目,,,,,,,,Deferred gains or losses on hedges,,,jpfr-t-cte,DeferredGainsOrLossesOnHedgesSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+A,繰延ヘッジ損益,繰延ヘッジ損益,"当期首残高[期首]
+当期末残高[期末]",,,,,"繰延ヘッジ損益[標準]
+当期首残高[期首]
+当中間期末残高[期末]","繰延ヘッジ損益[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Deferred gains or losses on hedges,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,DeferredGainsOrLossesOnHedges,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,当期変動額,当期変動額、繰延ヘッジ損益、タイトル項目,,,,,,当中間期変動額[標準],当中間期変動額[標準],Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodDeferredGainOrLossOnHedgesAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,土地再評価差額金,土地再評価差額金、株主資本等変動計算書、タイトル項目,,,,,,,,Revaluation reserve for land,,,jpfr-t-cte,RevaluationReserveForLandSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+A,土地再評価差額金,土地再評価差額金,"当期首残高[期首]
+当期末残高[期末]",,,,,"土地再評価差額金[標準]
+当期首残高[期首]
+当中間期末残高[期末]","土地再評価差額金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Revaluation reserve for land,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,RevaluationReserveForLand,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,当期変動額,当期変動額、土地再評価差額金、タイトル項目,,,,,,当中間期変動額[標準],当中間期変動額[標準],Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodRevaluationReserveForLandAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,為替換算調整勘定,為替換算調整勘定、株主資本等変動計算書、タイトル項目,,,,,,,,Foreign currency translation adjustment,,,jpfr-t-cte,ForeignCurrencyTranslationAdjustmentSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+A,為替換算調整勘定,為替換算調整勘定,"当期首残高[期首]
+当期末残高[期末]",,,,,,"為替換算調整勘定[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Foreign currency translation adjustment,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,ForeignCurrencyTranslationAdjustment,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,当期変動額,当期変動額、為替換算調整勘定、タイトル項目,,,,,,,当中間期変動額[標準],Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodFTAAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,評価・換算差額等合計,評価・換算差額等合計、株主資本等変動計算書、タイトル項目,評価・換算差額等合計[合計],,"その他の包括利益累計額[標準]
+その他の包括利益累計額合計[合計]",,"その他の包括利益累計額[標準]
+その他の包括利益累計額合計[合計]",,"その他の包括利益累計額[標準]
+その他の包括利益累計額合計[合計]",Total valuation and translation adjustments,Total valuation and translation adjustments[合計],,jpfr-t-cte,TotalValuationAndTranslationAdjustmentsSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+A,評価・換算差額等,評価・換算差額等,"評価・換算差額等合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,"その他の包括利益累計額[標準]
+その他の包括利益累計額合計[合計]",,"その他の包括利益累計額[標準]
+その他の包括利益累計額合計[合計]","評価・換算差額等[標準]
+当期首残高[期首]
+当中間期末残高[期末]","その他の包括利益累計額[標準]
+その他の包括利益累計額合計[合計]
+当期首残高[期首]
+当中間期末残高[期末]",Valuation and translation adjustments,"Total valuation and translation adjustments[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,ValuationAndTranslationAdjustments,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,当期変動額,当期変動額、評価・換算差額等、タイトル項目,,,,,,当中間期変動額[標準],当中間期変動額[標準],Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodVTAAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,新株予約権,新株予約権、株主資本等変動計算書、タイトル項目,,,,,,,,Subscription rights to shares,,,jpfr-t-cte,SubscriptionRightsToSharesSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,新株予約権,新株予約権,"当期首残高[期首]
+当期末残高[期末]",,,,,"新株予約権[標準]
+当期首残高[期首]
+当中間期末残高[期末]","新株予約権[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Subscription rights to shares,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,SubscriptionRightsToShares,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,2
+A,当期変動額,当期変動額、新株予約権、タイトル項目,,,,,,当中間期変動額[標準],当中間期変動額[標準],Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodSRSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+A,少数株主持分,少数株主持分、株主資本等変動計算書、タイトル項目,,,,,,,,Minority interests,,,jpfr-t-cte,MinorityInterestsSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,少数株主持分,少数株主持分,"当期首残高[期首]
+当期末残高[期末]",,,,,,"少数株主持分[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Minority interests,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,MinorityInterests,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,2
+A,当期変動額,当期変動額、少数株主持分、タイトル項目,,,,,,,当中間期変動額[標準],Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodMIAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+A,純資産,純資産、株主資本等変動計算書、タイトル項目,純資産合計[合計],,,,,,,Net assets,Total net assets[合計],,jpfr-t-cte,NetAssetsSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,純資産,純資産,"純資産合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,,,,"純資産[標準]
+当期首残高[期首]
+当中間期末残高[期末]","純資産[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Net assets,"Total net assets[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,NetAssets,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,2
+A,会計方針の変更による累積的影響額,会計方針の変更による累積的影響額、純資産,会計方針の変更による累積的影響額[期首],,,,,,,Cumulative effect of changes in accounting policies,Cumulative effect of changes in accounting policies[期首],,jpfr-t-cte,CumulativeEffectOfChangesInAccountingPoliciesNA,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,2
+A,遡及処理後当期首残高,遡及処理後当期首残高、純資産,遡及処理後当期首残高[期首],,,,,,,Net assets as restated,Net assets as restated[期首],,jpfr-t-cte,NetAssetsAsRestated,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,2
+A,当期変動額,当期変動額、純資産、タイトル項目,,,,,,当中間期変動額[標準],当中間期変動額[標準],Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodNAAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+,,,,,,,,,,,,,,,,,,,,,,
+キャッシュ・フロー計算書（鉄道事業）,,,,,,,,,,,,,,,,,,,,,,
+科目分類,標準ラベル（日本語）,冗長ラベル（日本語）,用途別ラベル（日本語）,業種ラベル（日本語）,連結,四半期個別,四半期連結,中間個別,中間連結,標準ラベル（英語）,用途別ラベル（英語）,業種ラベル（英語）,名前空間プレフィックス,要素名,type,enumerations,substitutionGroup,periodType,balance,abstract,nillable,depth
+-,キャッシュ・フロー計算書,キャッシュ・フロー計算書、タイトル項目,,,連結キャッシュ・フロー計算書[標準],四半期キャッシュ・フロー計算書[標準],四半期連結キャッシュ・フロー計算書[標準],中間キャッシュ・フロー計算書[標準],中間連結キャッシュ・フロー計算書[標準],Statements of cash flows,,,jpfr-t-cte,StatementsOfCashFlowsAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,0
+A,営業活動によるキャッシュ・フロー,営業活動によるキャッシュ・フロー、タイトル項目,,,,,,,,Net cash provided by (used in) operating activities,,,jpfr-t-cte,NetCashProvidedByUsedInOperatingActivitiesAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,小計,小計、営業活動によるキャッシュ・フロー,小計[合計],,,,,,,Subtotal,Subtotal[合計],,jpfr-t-cte,SubtotalOpeCF,xbrli:monetaryItemType,,xbrli:item,duration,,false,true,2
+B,特定都市鉄道整備準備金の増減額（△は減少）,特定都市鉄道整備準備金の増減額（△は減少）、営業活動によるキャッシュ・フロー、鉄道事業,,,,,,,,Increase (decrease) in special reserve for expansion of railway transport capacity,,,jpfr-t-rwy,IncreaseDecreaseInSpecialReserveForExpansionOfRailwayTransportCapacityOpeCFRWY,xbrli:monetaryItemType,,xbrli:item,duration,,false,true,3
+B,新幹線鉄道大規模改修引当金の増減額（△は減少）,新幹線鉄道大規模改修引当金の増減額（△は減少）、営業活動によるキャッシュ・フロー、鉄道事業,,,,,,,,Increase (decrease) in provision for large scale renovation of the Shinkansen infrastructure,,,jpfr-t-rwy,IncreaseDecreaseInProvisionForLargeScaleRenovationOfTheShinkansenInfrastructureOpeCFRWY,xbrli:monetaryItemType,,xbrli:item,duration,,false,true,3
+A,投資活動によるキャッシュ・フロー,投資活動によるキャッシュ・フロー、タイトル項目,,,,,,,,Net cash provided by (used in) investing activities,,,jpfr-t-cte,NetCashProvidedByUsedInInvestmentActivitiesAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,財務活動によるキャッシュ・フロー,財務活動によるキャッシュ・フロー、タイトル項目,,,,,,,,Net cash provided by (used in) financing activities,,,jpfr-t-cte,NetCashProvidedByUsedInFinancingActivitiesAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+B,長期未払金の返済による支出,長期未払金の返済による支出、財務活動によるキャッシュ・フロー、鉄道事業,,,,,,,,Payments for long-term accounts payable-other,,,jpfr-t-rwy,PaymentsForLongTermAccountsPayableOtherFinCFRWY,xbrli:monetaryItemType,,xbrli:item,duration,,false,true,2
+B,鉄道施設購入長期未払金の支払による支出,鉄道施設購入長期未払金の支払による支出、財務活動によるキャッシュ・フロー、鉄道事業,,,,,,,,Payments for long-term accounts payable-railway equipment,,,jpfr-t-rwy,PaymentsForLongTermAccountsPayableRailwayEquipmentFinCFRWY,xbrli:monetaryItemType,,xbrli:item,duration,,false,true,2
+B,鉄道・運輸機構未払金の返済による支出,鉄道・運輸機構未払金の返済による支出、財務活動によるキャッシュ・フロー、鉄道事業,,,,,,,,"Redemption of accounts payable to Japan railway construction, transport and technology agency",,,jpfr-t-rwy,RedemptionOfAccountsPayableToJapanRailwayConstructionTransportAndTechnologyAgencyFinCFRWY,xbrli:monetaryItemType,,xbrli:item,duration,,false,true,2

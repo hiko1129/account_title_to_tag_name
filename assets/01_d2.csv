@@ -1,0 +1,543 @@
+貸借対照表（建設業）,,,,,,,,,,,,,,,,,,,,,,
+科目分類,標準ラベル（日本語）,冗長ラベル（日本語）,用途別ラベル（日本語）,業種ラベル（日本語）,連結,四半期個別,四半期連結,中間個別,中間連結,標準ラベル（英語）,用途別ラベル（英語）,業種ラベル（英語）,名前空間プレフィックス,要素名,type,enumerations,substitutionGroup,periodType,balance,abstract,nillable,depth
+-,貸借対照表,貸借対照表、タイトル項目,,,連結貸借対照表[標準],四半期貸借対照表[標準],四半期連結貸借対照表[標準],中間貸借対照表[標準],中間連結貸借対照表[標準],Balance sheets,,,jpfr-t-cte,BalanceSheetsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,0
+A,資産の部,資産の部、タイトル項目,,,,,,,,Assets,,,jpfr-t-cte,AssetsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,1
+A,流動資産,流動資産、タイトル項目,,,,,,,,Current assets,,,jpfr-t-cte,CurrentAssetsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,2
+A,現金及び預金,現金及び預金,,現金預金[標準|業],,,,,,Cash and deposits,,Cash and deposits[標準|業],jpfr-t-cte,CashAndDeposits,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+B,受取手形・完成工事未収入金等,受取手形・完成工事未収入金等、建設業,,,,,,,,"Notes receivable, accounts receivable from completed construction contracts and other",,,jpfr-t-cns,NotesReceivableAccountsReceivableFromCompletedConstructionContractsAndOtherCNS,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+B,受取手形・完成工事未収入金,受取手形・完成工事未収入金、建設業,,,,,,,,"Notes receivable, accounts receivable from completed construction contracts",,,jpfr-t-cns,NotesReceivableAccountsReceivableFromCompletedConstructionContractsCNS,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,受取手形,受取手形,,,,,,,,Notes receivable-trade,,,jpfr-t-cte,NotesReceivableTrade,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,完成工事未収入金,完成工事未収入金、建設業,,,,,,,,Accounts receivable from completed construction contracts,,,jpfr-t-cns,AccountsReceivableFromCompletedConstructionContractsCNS,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,有価証券,有価証券,,,,,,,,Securities,,,jpfr-t-cte,ShortTermInvestmentSecurities,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,たな卸資産,たな卸資産,,,,,,,,Inventories,,,jpfr-t-cte,Inventories,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,未成工事支出金,未成工事支出金、建設業,,,,,,,,Costs on uncompleted construction contracts,,,jpfr-t-cns,CostsOnUncompletedConstructionContractsCNS,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,未成工事支出金等,未成工事支出金等、建設業,,,,,,,,Costs on uncompleted construction contracts and other,,,jpfr-t-cns,CostsOnUncompletedConstructionContractsAndOtherCNS,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,たな卸不動産,たな卸不動産、建設業,,,,,,,,Real estate for sale and development projects in progress,,,jpfr-t-cns,RealEstateForSaleAndDevelopmentProjectsInProgressCNS,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,販売用不動産,販売用不動産、建設業,,,,,,,,Real estate for sale,,,jpfr-t-cns,RealEstateForSaleCNS,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,商品及び製品,商品及び製品,,,,,,,,Merchandise and finished goods,,,jpfr-t-cte,MerchandiseAndFinishedGoods,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,仕掛品,仕掛品,,,,,,,,Work in process,,,jpfr-t-cte,WorkInProcess,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,材料貯蔵品,材料貯蔵品、建設業,,,,,,,,Raw materials and supplies,,,jpfr-t-cns,RawMaterialsAndSuppliesCNS,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,その他のたな卸資産,その他のたな卸資産,,,,,,,,Other inventories,,,jpfr-t-cte,OtherInventories,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,短期貸付金,短期貸付金,,,,,,,,Short-term loans receivable,,,jpfr-t-cte,ShortTermLoansReceivable,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,前払費用,前払費用,,,,,,,,Prepaid expenses,,,jpfr-t-cte,PrepaidExpenses,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,繰延税金資産,繰延税金資産、流動資産,,,,,,,,Deferred tax assets,,,jpfr-t-cte,DeferredTaxAssetsCA,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,その他,その他、流動資産,,,,,,,,Other,,,jpfr-t-cte,OtherCA,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,貸倒引当金,貸倒引当金、流動資産、一括控除,,,,,,,,Allowance for doubtful accounts,,,jpfr-t-cte,AllowanceForDoubtfulAccountsCA,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,流動資産,流動資産,流動資産合計[合計],,,,,,,Current assets,Total current assets[合計],,jpfr-t-cte,CurrentAssets,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,固定資産,固定資産、タイトル項目,,,,,,,,Noncurrent assets,,,jpfr-t-cte,NoncurrentAssetsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,2
+A,有形固定資産,有形固定資産、タイトル項目,,,,,,,,"Property, plant and equipment",,,jpfr-t-cte,PropertyPlantAndEquipmentAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,3
+A,建物及び構築物,建物及び構築物,,建物・構築物[標準|業],,,,,,Buildings and structures,,Buildings and structures[標準|業],jpfr-t-cte,BuildingsAndStructures,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,減価償却累計額,減価償却累計額、建物及び構築物,,,,,,,,Accumulated depreciation,,,jpfr-t-cte,AccumulatedDepreciationBuildingsAndStructures,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+A,建物及び構築物（純額）,建物及び構築物（純額）,,建物・構築物（純額）[標準|業],,,,,,"Buildings and structures, net",,"Buildings and structures, net[標準|業]",jpfr-t-cte,BuildingsAndStructuresNet,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+A,機械装置及び運搬具,機械装置及び運搬具,,機械・運搬具[標準|業],,,,,,"Machinery, equipment and vehicles",,Machinery and vehicles[標準|業],jpfr-t-cte,MachineryEquipmentAndVehicles,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,減価償却累計額,減価償却累計額、機械装置及び運搬具,,,,,,,,Accumulated depreciation,,,jpfr-t-cte,AccumulatedDepreciationMachineryEquipmentAndVehicles,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+A,機械装置及び運搬具（純額）,機械装置及び運搬具（純額）,,機械・運搬具（純額）[標準|業],,,,,,"Machinery, equipment and vehicles, net",,"Machinery and vehicles, net[標準|業]",jpfr-t-cte,MachineryEquipmentAndVehiclesNet,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+A,工具、器具及び備品,工具、器具及び備品,,工具器具・備品[標準|業],,,,,,"Tools, furniture and fixtures",,"Tools, furniture and fixtures[標準|業]",jpfr-t-cte,ToolsFurnitureAndFixtures,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,減価償却累計額,減価償却累計額、工具、器具及び備品,,,,,,,,Accumulated depreciation,,,jpfr-t-cte,AccumulatedDepreciationToolsFurnitureAndFixtures,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+A,工具、器具及び備品（純額）,工具、器具及び備品（純額）,,工具器具・備品（純額）[標準|業],,,,,,"Tools, furniture and fixtures, net",,"Tools, furniture and fixtures, net[標準|業]",jpfr-t-cte,ToolsFurnitureAndFixturesNet,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+A,土地,土地,,,,,,,,Land,,,jpfr-t-cte,Land,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,リース資産,リース資産、有形固定資産,,,,,,,,Lease assets,,,jpfr-t-cte,LeaseAssetsPPE,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,減価償却累計額,減価償却累計額、リース資産、有形固定資産,,,,,,,,Accumulated depreciation,,,jpfr-t-cte,AccumulatedDepreciationLeaseAssetsPPE,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+A,リース資産（純額）,リース資産（純額）、有形固定資産,,,,,,,,"Lease assets, net",,,jpfr-t-cte,LeaseAssetsNetPPE,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+A,建設仮勘定,建設仮勘定,,,,,,,,Construction in progress,,,jpfr-t-cte,ConstructionInProgress,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,その他,その他、有形固定資産,,,,,,,,Other,,,jpfr-t-cte,OtherPPE,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,減価償却累計額,減価償却累計額、その他、有形固定資産,,,,,,,,Accumulated depreciation,,,jpfr-t-cte,AccumulatedDepreciationOtherPPE,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+A,その他（純額）,その他（純額）、有形固定資産,,,,,,,,"Other, net",,,jpfr-t-cte,OtherNetPPE,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,5
+A,有形固定資産,有形固定資産,有形固定資産合計[合計],,,,,,,"Property, plant and equipment","Total property, plant and equipment[合計]",,jpfr-t-cte,PropertyPlantAndEquipment,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,無形固定資産,無形固定資産、タイトル項目,,,,,,,,Intangible assets,,,jpfr-t-cte,IntangibleAssetsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,3
+A,特許権,特許権,,,,,,,,Patent right,,,jpfr-t-cte,PatentRight,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,借地権,借地権,,,,,,,,Leasehold right,,,jpfr-t-cte,LeaseholdRight,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,のれん,のれん,,,,,,,,Goodwill,,,jpfr-t-cte,Goodwill,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,リース資産,リース資産、無形固定資産,,,,,,,,Lease assets,,,jpfr-t-cte,LeaseAssetsIA,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,その他,その他、無形固定資産,,,,,,,,Other,,,jpfr-t-cte,OtherIA,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,無形固定資産,無形固定資産,無形固定資産合計[合計],,,,,,,Intangible assets,Total intangible assets[合計],,jpfr-t-cte,IntangibleAssets,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,投資その他の資産,投資その他の資産、タイトル項目,,,,,,,,Investments and other assets,,,jpfr-t-cte,InvestmentsAndOtherAssetsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,3
+A,投資有価証券,投資有価証券,,,,,,,,Investment securities,,,jpfr-t-cte,InvestmentSecurities,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,関係会社株式・関係会社出資金,関係会社株式・関係会社出資金、建設業,,,,,,,,Stocks and investments in capital of subsidiaries and affiliates,,,jpfr-t-cns,StocksAndInvestmentsInCapitalOfSubsidiariesAndAffiliatesCNS,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,長期貸付金,長期貸付金,,,,,,,,Long-term loans receivable,,,jpfr-t-cte,LongTermLoansReceivable,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,破産更生債権等,破産更生債権等,,,,,,,,"Claims provable in bankruptcy, claims provable in rehabilitation and other",,,jpfr-t-cte,ClaimsProvableInBankruptcyClaimsProvableInRehabilitationAndOther,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,長期前払費用,長期前払費用,,,,,,,,Long-term prepaid expenses,,,jpfr-t-cte,LongTermPrepaidExpenses,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,繰延税金資産,繰延税金資産、投資その他の資産,,,,,,,,Deferred tax assets,,,jpfr-t-cte,DeferredTaxAssetsIOA,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,その他,その他、投資その他の資産,,,,,,,,Other,,,jpfr-t-cte,OtherIOA,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,貸倒引当金,貸倒引当金、投資その他の資産、一括控除,,,,,,,,Allowance for doubtful accounts,,,jpfr-t-cte,AllowanceForDoubtfulAccountsIOAByGroup,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,投資その他の資産,投資その他の資産,投資その他の資産合計[合計],,,,,,,Investments and other assets,Total investments and other assets[合計],,jpfr-t-cte,InvestmentsAndOtherAssets,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,固定資産,固定資産,固定資産合計[合計],,,,,,,Noncurrent assets,Total noncurrent assets[合計],,jpfr-t-cte,NoncurrentAssets,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,繰延資産,繰延資産、タイトル項目,,,,,,,,Deferred assets,,,jpfr-t-cte,DeferredAssetsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,2
+A,創立費,創立費、繰延資産,,,,,,,,Deferred organization expenses,,,jpfr-t-cte,DeferredOrganizationExpensesDA,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,開業費,開業費、繰延資産,,,,,,,,Business commencement expenses,,,jpfr-t-cte,BusinessCommencementExpensesDA,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,株式交付費,株式交付費、繰延資産,,,,,,,,Stock issuance cost,,,jpfr-t-cte,StockIssuanceCostDA,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,社債発行費,社債発行費、繰延資産,,,,,,,,Bond issuance cost,,,jpfr-t-cte,BondIssuanceCostDA,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,開発費,開発費、繰延資産,,,,,,,,Development expenses,,,jpfr-t-cte,DevelopmentExpensesDA,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,繰延資産,繰延資産,繰延資産合計[合計],,,,,,,Deferred assets,Total deferred assets[合計],,jpfr-t-cte,DeferredAssets,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,資産,資産,資産合計[合計],,,,,,,Assets,Total assets[合計],,jpfr-t-cte,Assets,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,2
+A,負債の部,負債の部、タイトル項目,,,,,,,,Liabilities,,,jpfr-t-cte,LiabilitiesAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,1
+A,流動負債,流動負債、タイトル項目,,,,,,,,Current liabilities,,,jpfr-t-cte,CurrentLiabilitiesAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,2
+B,支払手形・工事未払金等,支払手形・工事未払金等、建設業,,,,,,,,"Notes payable, accounts payable for construction contracts and other",,,jpfr-t-cns,NotesPayableAccountsPayableForConstructionContractsAndOtherCNS,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+B,支払手形・工事未払金,支払手形・工事未払金、建設業,,,,,,,,"Notes payable, accounts payable for construction contracts",,,jpfr-t-cns,NotesPayableAccountsPayableForConstructionContractsCNS,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,支払手形,支払手形,,,,,,,,Notes payable-trade,,,jpfr-t-cte,NotesPayableTrade,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,工事未払金,工事未払金、建設業,,,,,,,,Accounts payable for construction contracts,,,jpfr-t-cns,AccountsPayableForConstructionContractsCNS,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,短期借入金,短期借入金,,,,,,,,Short-term loans payable,,,jpfr-t-cte,ShortTermLoansPayable,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,リース債務,リース債務、流動負債,,,,,,,,Lease obligations,,,jpfr-t-cte,LeaseObligationsCL,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,未払金,未払金,,,,,,,,Accounts payable-other,,,jpfr-t-cte,AccountsPayableOther,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,未払費用,未払費用,,,,,,,,Accrued expenses,,,jpfr-t-cte,AccruedExpenses,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,未払法人税等,未払法人税等,,,,,,,,Income taxes payable,,,jpfr-t-cte,IncomeTaxesPayable,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,繰延税金負債,繰延税金負債、流動負債,,,,,,,,Deferred tax liabilities,,,jpfr-t-cte,DeferredTaxLiabilitiesCL,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,未成工事受入金,未成工事受入金、建設業,,,,,,,,Advances received on uncompleted construction contracts,,,jpfr-t-cns,AdvancesReceivedOnUncompletedConstructionContractsCNS,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,預り金,預り金,,,,,,,,Deposits received,,,jpfr-t-cte,DepositsReceived,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,前受収益,前受収益,,,,,,,,Unearned revenue,,,jpfr-t-cte,UnearnedRevenue,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,その他,その他、流動負債,,,,,,,,Other,,,jpfr-t-cte,OtherCL,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,流動負債,流動負債,流動負債合計[合計],,,,,,,Current liabilities,Total current liabilities[合計],,jpfr-t-cte,CurrentLiabilities,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,固定負債,固定負債、タイトル項目,,,,,,,,Noncurrent liabilities,,,jpfr-t-cte,NoncurrentLiabilitiesAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,2
+A,社債,社債,,,,,,,,Bonds payable,,,jpfr-t-cte,BondsPayable,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,長期借入金,長期借入金,,,,,,,,Long-term loans payable,,,jpfr-t-cte,LongTermLoansPayable,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,リース債務,リース債務、固定負債,,,,,,,,Lease obligations,,,jpfr-t-cte,LeaseObligationsNCL,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,繰延税金負債,繰延税金負債、固定負債,,,,,,,,Deferred tax liabilities,,,jpfr-t-cte,DeferredTaxLiabilitiesNCL,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+B,負ののれん,負ののれん,,,,,,,,Negative goodwill,,,jpfr-t-cte,NegativeGoodwill,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,その他,その他、固定負債,,,,,,,,Other,,,jpfr-t-cte,OtherNCL,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,固定負債,固定負債,固定負債合計[合計],,,,,,,Noncurrent liabilities,Total noncurrent liabilities[合計],,jpfr-t-cte,NoncurrentLiabilities,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,負債,負債,負債合計[合計],,,,,,,Liabilities,Total liabilities[合計],,jpfr-t-cte,Liabilities,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,2
+A,純資産の部,純資産の部、タイトル項目,,,,,,,,Net assets,,,jpfr-t-cte,NetAssetsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,1
+A,株主資本,株主資本、タイトル項目,,,,,,,,Shareholders' equity,,,jpfr-t-cte,ShareholdersEquityAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,2
+A,資本金,資本金,"当期首残高[期首]
+当期末残高[期末]",,,,,"資本金[標準]
+当期首残高[期首]
+当中間期末残高[期末]","資本金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Capital stock,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,CapitalStock,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,新株式申込証拠金,新株式申込証拠金,"当期首残高[期首]
+当期末残高[期末]",,,,,"新株式申込証拠金[標準]
+当期首残高[期首]
+当中間期末残高[期末]","新株式申込証拠金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Deposit for subscriptions to shares,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,DepositForSubscriptionsToShares,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,資本剰余金,資本剰余金、タイトル項目,,,,,,,,Capital surplus,,,jpfr-t-cte,CapitalSurplusAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,3
+A,資本準備金,資本準備金,"当期首残高[期首]
+当期末残高[期末]",,,,,"資本準備金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",,Legal capital surplus,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,LegalCapitalSurplus,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+A,その他資本剰余金,その他資本剰余金,"その他資本剰余金合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,,,,"その他資本剰余金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",,Other capital surplus,"Total other capital surplus[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,OtherCapitalSurplus,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+A,資本剰余金,資本剰余金,"資本剰余金合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,,,,"資本剰余金[標準]
+当期首残高[期首]
+当中間期末残高[期末]","資本剰余金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Capital surplus,"Total capital surpluses[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,CapitalSurplus,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+A,利益剰余金,利益剰余金、タイトル項目,,,,,,,,Retained earnings,,,jpfr-t-cte,RetainedEarningsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,3
+A,利益準備金,利益準備金,"当期首残高[期首]
+当期末残高[期末]",,,,,"利益準備金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",,Legal retained earnings,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,LegalRetainedEarnings,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+A,その他利益剰余金,その他利益剰余金、タイトル項目,,,,,,,,Other retained earnings,,,jpfr-t-cte,OtherRetainedEarningsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,4
+A,繰越利益剰余金,繰越利益剰余金,"当期首残高[期首]
+当期末残高[期末]",,,,,"繰越利益剰余金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",,Retained earnings brought forward,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,RetainedEarningsBroughtForward,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,5
+A,利益剰余金,利益剰余金,"利益剰余金合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,,,,"利益剰余金[標準]
+当期首残高[期首]
+当中間期末残高[期末]","利益剰余金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Retained earnings,"Total retained earnings[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,RetainedEarnings,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+A,自己株式,自己株式,"当期首残高[期首]
+当期末残高[期末]",,,,,"自己株式[標準]
+当期首残高[期首]
+当中間期末残高[期末]","自己株式[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Treasury stock,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,TreasuryStock,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,自己株式申込証拠金,自己株式申込証拠金,"当期首残高[期首]
+当期末残高[期末]",,,,,"自己株式申込証拠金[標準]
+当期首残高[期首]
+当中間期末残高[期末]","自己株式申込証拠金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Deposit for subscriptions to treasury stock,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,DepositForSubscriptionsToTreasuryStock,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,株主資本,株主資本,"株主資本合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,,,,"株主資本[標準]
+当期首残高[期首]
+当中間期末残高[期末]","株主資本[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Shareholders' equity,"Total shareholders' equity[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,ShareholdersEquity,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,評価・換算差額等,評価・換算差額等、タイトル項目,,,その他の包括利益累計額[標準],,その他の包括利益累計額[標準],,その他の包括利益累計額[標準],Valuation and translation adjustments,,,jpfr-t-cte,ValuationAndTranslationAdjustmentsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,2
+A,その他有価証券評価差額金,その他有価証券評価差額金,"当期首残高[期首]
+当期末残高[期末]",,,,,"その他有価証券評価差額金[標準]
+当期首残高[期首]
+当中間期末残高[期末]","その他有価証券評価差額金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Valuation difference on available-for-sale securities,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,ValuationDifferenceOnAvailableForSaleSecurities,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,繰延ヘッジ損益,繰延ヘッジ損益,"当期首残高[期首]
+当期末残高[期末]",,,,,"繰延ヘッジ損益[標準]
+当期首残高[期首]
+当中間期末残高[期末]","繰延ヘッジ損益[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Deferred gains or losses on hedges,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,DeferredGainsOrLossesOnHedges,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,土地再評価差額金,土地再評価差額金,"当期首残高[期首]
+当期末残高[期末]",,,,,"土地再評価差額金[標準]
+当期首残高[期首]
+当中間期末残高[期末]","土地再評価差額金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Revaluation reserve for land,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,RevaluationReserveForLand,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,評価・換算差額等,評価・換算差額等,"評価・換算差額等合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,"その他の包括利益累計額[標準]
+その他の包括利益累計額合計[合計]",,"その他の包括利益累計額[標準]
+その他の包括利益累計額合計[合計]","評価・換算差額等[標準]
+当期首残高[期首]
+当中間期末残高[期末]","その他の包括利益累計額[標準]
+その他の包括利益累計額合計[合計]
+当期首残高[期首]
+当中間期末残高[期末]",Valuation and translation adjustments,"Total valuation and translation adjustments[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,ValuationAndTranslationAdjustments,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,新株予約権,新株予約権,"当期首残高[期首]
+当期末残高[期末]",,,,,"新株予約権[標準]
+当期首残高[期首]
+当中間期末残高[期末]","新株予約権[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Subscription rights to shares,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,SubscriptionRightsToShares,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,2
+A,純資産,純資産,"純資産合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,,,,"純資産[標準]
+当期首残高[期首]
+当中間期末残高[期末]","純資産[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Net assets,"Total net assets[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,NetAssets,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,2
+A,負債純資産,負債純資産,負債純資産合計[合計],,,,,,,Liabilities and net assets,Total liabilities and net assets[合計],,jpfr-t-cte,LiabilitiesAndNetAssets,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,1
+,,,,,,,,,,,,,,,,,,,,,,
+損益計算書（建設業）,,,,,,,,,,,,,,,,,,,,,,
+科目分類,標準ラベル（日本語）,冗長ラベル（日本語）,用途別ラベル（日本語）,業種ラベル（日本語）,連結,四半期個別,四半期連結,中間個別,中間連結,標準ラベル（英語）,用途別ラベル（英語）,業種ラベル（英語）,名前空間プレフィックス,要素名,type,enumerations,substitutionGroup,periodType,balance,abstract,nillable,depth
+-,損益計算書,損益（及び包括利益）計算書、タイトル項目,,,連結損益（及び包括利益）計算書[標準],四半期損益計算書[標準],四半期連結損益（及び包括利益）計算書[標準],中間損益計算書[標準],中間連結損益（及び包括利益）計算書[標準],Statements of income,,,jpfr-t-cte,StatementsOfIncomeAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,0
+A,売上高,売上高、タイトル項目,,,,,,,,Net sales,,,jpfr-t-cte,NetSalesAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,完成工事高,完成工事高、建設業,,,,,,,,Net sales of completed construction contracts,,,jpfr-t-cns,NetSalesOfCompletedConstructionContractsCNS,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,兼業事業売上高,兼業事業売上高、建設業,,,,,,,,Net sales of side line business,,,jpfr-t-cns,NetSalesOfSideLineBusinessCNS,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+B,開発事業等売上高,開発事業等売上高、建設業,,,,,,,,Net sales of development business and other,,,jpfr-t-cns,NetSalesOfDevelopmentBusinessAndOtherCNS,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+B,不動産事業等売上高,不動産事業等売上高、建設業,,,,,,,,Net sales of real estate business and other,,,jpfr-t-cns,NetSalesOfRealEstateBusinessAndOtherCNS,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,売上高,売上高,売上高合計[合計],,,,,,,Net sales,Total net sales[合計],,jpfr-t-cte,NetSales,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,売上原価,売上原価、タイトル項目,,,,,,,,Cost of sales,,,jpfr-t-cte,CostOfSalesAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,完成工事原価,完成工事原価、建設業,,,,,,,,Cost of sales of completed construction contracts,,,jpfr-t-cns,CostOfSalesOfCompletedConstructionContractsCNS,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,兼業事業売上原価,兼業事業売上原価、建設業,,,,,,,,Cost of sales on side line business,,,jpfr-t-cns,CostOfSalesOnSideLineBusinessCNS,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+B,開発事業等売上原価,開発事業等売上原価、建設業,,,,,,,,Cost of sales on development business and other,,,jpfr-t-cns,CostOfSalesOnDevelopmentBusinessAndOtherCNS,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+B,不動産事業等売上原価,不動産事業等売上原価、建設業,,,,,,,,Cost of sales on real estate business and other,,,jpfr-t-cns,CostOfSalesOnRealEstateBusinessAndOtherCNS,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,売上原価,売上原価,売上原価合計[合計],,,,,,,Cost of sales,Total cost of sales[合計],,jpfr-t-cte,CostOfSales,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,売上総利益,売上総利益、タイトル項目、建設業,,,,,,,,Gross profit,,,jpfr-t-cns,GrossProfitAbstractCNS,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,完成工事総利益,完成工事総利益、建設業,"完成工事総損失（△）[負値]
+完成工事総利益又は完成工事総損失（△）[正負]",,,,,,,Gross profit on completed construction contracts,"Gross loss on completed construction contracts[負値]
+Gross profit (loss) on completed construction contracts[正負]",,jpfr-t-cns,GrossProfitOnCompletedConstructionContractsCNS,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,兼業事業総利益,兼業事業総利益、建設業,"兼業事業総損失（△）[負値]
+兼業事業総利益又は兼業事業総損失（△）[正負]",,,,,,,Gross profit on side line business,"Gross loss on other related business[負値]
+Gross profit (loss) on other related business[正負]",,jpfr-t-cns,GrossProfitOnSideLineBusinessCNS,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+B,開発事業等総利益,開発事業等総利益、建設業,"開発事業等総損失（△）[負値]
+開発事業等総利益又は開発事業等総損失（△）[正負]",,,,,,,Gross profit on development business and other,"Gross loss on development business and other[負値]
+Gross profit (loss) on development business and other[正負]",,jpfr-t-cns,GrossProfitOnDevelopmentBusinessAndOtherCNS,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+B,不動産事業等総利益,不動産事業等総利益、建設業,"不動産事業等総損失（△）[負値]
+不動産事業等総利益又は不動産事業等総損失（△）[正負]",,,,,,,Gross profit on real estate business and other,"Gross loss on real estate business and other[負値]
+Gross profit (loss) on real estate business and other[正負]",,jpfr-t-cns,GrossProfitOnRealEstateBusinessAndOtherCNS,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,売上総利益,売上総利益,"売上総利益合計[合計]
+売上総損失（△）[負値]
+売上総利益又は売上総損失（△）[正負]",,,,,,,Gross profit,"Total gross profit[合計]
+Gross loss[負値]
+Gross profit (loss)[正負]",,jpfr-t-cte,GrossProfit,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,販売費及び一般管理費,販売費及び一般管理費、タイトル項目,,,,,,,,"Selling, general and administrative expenses",,,jpfr-t-cte,SellingGeneralAndAdministrativeExpensesAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,役員報酬,役員報酬、販売費及び一般管理費,,,,,,,,Directors' compensations,,,jpfr-t-cte,DirectorsCompensationsSGA,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,従業員給料手当,従業員給料手当、販売費及び一般管理費、建設業,,,,,,,,Employees' salaries and allowances,,,jpfr-t-cns,EmployeesSalariesAndAllowancesSGACNS,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,退職金,退職金、販売費及び一般管理費,,,,,,,,Retirement payments,,,jpfr-t-cte,RetirementPaymentsSGA,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,法定福利費,法定福利費、販売費及び一般管理費,,,,,,,,Legal welfare expenses,,,jpfr-t-cte,LegalWelfareExpensesSGA,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,福利厚生費,福利厚生費、販売費及び一般管理費,,,,,,,,Welfare expenses,,,jpfr-t-cte,WelfareExpensesSGA,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,修繕維持費,修繕維持費、販売費及び一般管理費,,,,,,,,Repair and maintenance,,,jpfr-t-cte,RepairAndMaintenanceSGA,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,事務用品費,事務用品費、販売費及び一般管理費,,,,,,,,Stationery expenses,,,jpfr-t-cte,StationeryExpensesSGA,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,通信交通費,通信交通費、販売費及び一般管理費,,,,,,,,Correspondence and transportation expenses,,,jpfr-t-cte,CorrespondenceAndTransportationExpensesSGA,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,動力用水光熱費,動力用水光熱費、販売費及び一般管理費,,,,,,,,Power utilities expenses,,,jpfr-t-cte,PowerUtilitiesExpensesSGA,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,調査研究費,調査研究費、販売費及び一般管理費,,,,,,,,Research study expenses,,,jpfr-t-cte,ResearchStudyExpensesSGA,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,広告宣伝費,広告宣伝費、販売費及び一般管理費,,,,,,,,Advertising expenses,,,jpfr-t-cte,AdvertisingExpensesSGA,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,貸倒引当金繰入額,貸倒引当金繰入額、販売費及び一般管理費,,,,,,,,Provision of allowance for doubtful accounts,,,jpfr-t-cte,ProvisionOfAllowanceForDoubtfulAccountsSGA,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,貸倒損失,貸倒損失、販売費及び一般管理費,,,,,,,,Bad debts expenses,,,jpfr-t-cte,BadDebtsExpensesSGA,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,交際費,交際費、販売費及び一般管理費,,,,,,,,Entertainment expenses,,,jpfr-t-cte,EntertainmentExpensesSGA,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,寄付金,寄付金、販売費及び一般管理費,,,,,,,,Contribution,,,jpfr-t-cte,ContributionSGA,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,地代家賃,地代家賃、販売費及び一般管理費,,,,,,,,Rents,,,jpfr-t-cte,RentsSGA,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,減価償却費,減価償却費、販売費及び一般管理費,,,,,,,,Depreciation,,,jpfr-t-cte,DepreciationSGA,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,開発費償却,開発費償却、販売費及び一般管理費,,,,,,,,Amortization of development expenses,,,jpfr-t-cte,AmortizationOfDevelopmentExpensesSGA,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,租税公課,租税公課、販売費及び一般管理費,,,,,,,,Taxes and dues,,,jpfr-t-cte,TaxesAndDuesSGA,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,保険料,保険料、販売費及び一般管理費,,,,,,,,Insurance expenses,,,jpfr-t-cte,InsuranceExpensesSGA,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,雑費,雑費、販売費及び一般管理費,,,,,,,,Miscellaneous expenses,,,jpfr-t-cte,MiscellaneousExpensesSGA,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,販売費及び一般管理費,販売費及び一般管理費,販売費及び一般管理費合計[合計],,,,,,,"Selling, general and administrative expenses","Total selling, general and administrative expenses[合計]",,jpfr-t-cte,SellingGeneralAndAdministrativeExpenses,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,営業利益,営業利益,"営業損失（△）[負値]
+営業利益又は営業損失（△）[正負]",,,,,,,Operating income,"Operating loss[負値]
+Operating income (loss)[正負]",,jpfr-t-cte,OperatingIncome,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,1
+A,営業外収益,営業外収益、タイトル項目,,,,,,,,Non-operating income,,,jpfr-t-cte,NonOperatingIncomeAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,受取利息及び配当金,受取利息及び配当金、営業外収益,,,,,,,,Interest and dividends income,,,jpfr-t-cte,InterestAndDividendsIncomeNOI,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,その他,その他、営業外収益,,,,,,,,Other,,,jpfr-t-cte,OtherNOI,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,営業外収益,営業外収益,営業外収益合計[合計],,,,,,,Non-operating income,Total non-operating income[合計],,jpfr-t-cte,NonOperatingIncome,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,営業外費用,営業外費用、タイトル項目,,,,,,,,Non-operating expenses,,,jpfr-t-cte,NonOperatingExpensesAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,支払利息,支払利息、営業外費用,,,,,,,,Interest expenses,,,jpfr-t-cte,InterestExpensesNOE,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,貸倒引当金繰入額,貸倒引当金繰入額、営業外費用,,,,,,,,Provision of allowance for doubtful accounts,,,jpfr-t-cte,ProvisionOfAllowanceForDoubtfulAccountsNOE,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,貸倒損失,貸倒損失、営業外費用,,,,,,,,Bad debts expenses,,,jpfr-t-cte,BadDebtsExpensesNOE,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,その他,その他、営業外費用,,,,,,,,Other,,,jpfr-t-cte,OtherNOE,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,営業外費用,営業外費用,営業外費用合計[合計],,,,,,,Non-operating expenses,Total non-operating expenses[合計],,jpfr-t-cte,NonOperatingExpenses,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,経常利益,経常利益,"経常損失（△）[負値]
+経常利益又は経常損失（△）[正負]",,,,,,,Ordinary income,"Ordinary loss[負値]
+Ordinary income (loss)[正負]",,jpfr-t-cte,OrdinaryIncome,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,1
+A,特別利益,特別利益、タイトル項目,,,,,,,,Extraordinary income,,,jpfr-t-cte,ExtraordinaryIncomeAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,その他,その他、特別利益,,,,,,,,Other,,,jpfr-t-cte,OtherEI,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,特別利益,特別利益,特別利益合計[合計],,,,,,,Extraordinary income,Total extraordinary income[合計],,jpfr-t-cte,ExtraordinaryIncome,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,特別損失,特別損失、タイトル項目,,,,,,,,Extraordinary loss,,,jpfr-t-cte,ExtraordinaryLossAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,その他,その他、特別損失,,,,,,,,Other,,,jpfr-t-cte,OtherEL,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,特別損失,特別損失,特別損失合計[合計],,,,,,,Extraordinary loss,Total extraordinary losses[合計],,jpfr-t-cte,ExtraordinaryLoss,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,税引前当期純利益,税引前当期純利益,"税引前当期純損失（△）[負値]
+税引前当期純利益又は税引前当期純損失（△）[正負]",,"税金等調整前当期純利益[標準]
+税金等調整前当期純損失（△）[負値]
+税金等調整前当期純利益又は税金等調整前当期純損失（△）[正負]","税引前四半期純利益[標準]
+税引前四半期純損失（△）[負値]
+税引前四半期純利益又は税引前四半期純損失（△）[正負]","税金等調整前四半期純利益[標準]
+税金等調整前四半期純損失（△）[負値]
+税金等調整前四半期純利益又は税金等調整前四半期純損失（△）[正負]","税引前中間純利益[標準]
+税引前中間純損失（△）[負値]
+税引前中間純利益又は税引前中間純損失（△）[正負]","税金等調整前中間純利益[標準]
+税金等調整前中間純損失（△）[負値]
+税金等調整前中間純利益又は税金等調整前中間純損失（△）[正負]",Income before income taxes,"Loss before income taxes[負値]
+Income (loss) before income taxes[正負]",,jpfr-t-cte,IncomeBeforeIncomeTaxes,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,1
+A,法人税等,法人税等,法人税等合計[合計],,,,,,,Income taxes,Total income taxes[合計],,jpfr-t-cte,IncomeTaxes,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,1
+A,法人税、住民税及び事業税,法人税、住民税及び事業税,,,,,,,,Income taxes-current,,,jpfr-t-cte,IncomeTaxesCurrent,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,法人税等調整額,法人税等調整額,,,,,,,,Income taxes-deferred,,,jpfr-t-cte,IncomeTaxesDeferred,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,少数株主損益調整前当期純利益,少数株主損益調整前当期純利益,"少数株主損益調整前当期純損失（△）[負値]
+少数株主損益調整前当期純利益又は少数株主損益調整前当期純損失（△）[正負]",,,,"少数株主損益調整前四半期純利益[標準]
+少数株主損益調整前四半期純損失（△）[負値]
+少数株主損益調整前四半期純利益又は少数株主損益調整前四半期純損失（△）[正負]",,"少数株主損益調整前中間純利益[標準]
+少数株主損益調整前中間純損失（△）[負値]
+少数株主損益調整前中間純利益又は少数株主損益調整前中間純損失（△）[正負]",Income before minority interests,"Loss before minority interests[負値]
+Income (loss) before minority interests[正負]",,jpfr-t-cte,IncomeBeforeMinorityInterests,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,1
+A,少数株主利益,少数株主利益,"少数株主損失（△）[負値]
+少数株主利益又は少数株主損失（△）[正負]",,,,,,,Minority interests in income,"Minority interests in loss[負値]
+Minority interests in income (loss)[正負]",,jpfr-t-cte,MinorityInterestsInIncome,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,1
+A,当期純利益,当期純利益,"当期純損失（△）[負値]
+当期純利益又は当期純損失（△）[正負]",,,"四半期純利益[標準]
+四半期純損失（△）[負値]
+四半期純利益又は四半期純損失（△）[正負]","四半期純利益[標準]
+四半期純損失（△）[負値]
+四半期純利益又は四半期純損失（△）[正負]","中間純利益[標準]
+中間純損失（△）[負値]
+中間純利益又は中間純損失（△）[正負]","中間純利益[標準]
+中間純損失（△）[負値]
+中間純利益又は中間純損失（△）[正負]",Net income,"Net loss[負値]
+Net income (loss)[正負]",,jpfr-t-cte,NetIncome,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,1
+,,,,,,,,,,,,,,,,,,,,,,
+株主資本等変動計算書（建設業）,,,,,,,,,,,,,,,,,,,,,,
+科目分類,標準ラベル（日本語）,冗長ラベル（日本語）,用途別ラベル（日本語）,業種ラベル（日本語）,連結,四半期個別,四半期連結,中間個別,中間連結,標準ラベル（英語）,用途別ラベル（英語）,業種ラベル（英語）,名前空間プレフィックス,要素名,type,enumerations,substitutionGroup,periodType,balance,abstract,nillable,depth
+-,株主資本等変動計算書,株主資本等変動計算書、タイトル項目,,,連結株主資本等変動計算書[標準],,,中間株主資本等変動計算書[標準],中間連結株主資本等変動計算書[標準],Statements of changes in net assets,,,jpfr-t-cte,StatementsOfChangesInNetAssetsAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,0
+A,株主資本,株主資本、株主資本等変動計算書、タイトル項目,,,,,,,,Shareholders' equity,,,jpfr-t-cte,ShareholdersEquitySSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,資本金,資本金、株主資本等変動計算書、タイトル項目,,,,,,,,Capital stock,,,jpfr-t-cte,CapitalStockSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+A,資本金,資本金,"当期首残高[期首]
+当期末残高[期末]",,,,,"資本金[標準]
+当期首残高[期首]
+当中間期末残高[期末]","資本金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Capital stock,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,CapitalStock,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,当期変動額,当期変動額、資本金、タイトル項目,,,,,,当中間期変動額[標準],当中間期変動額[標準],Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodCAPAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,資本剰余金,資本剰余金、株主資本等変動計算書、タイトル項目,,,,,,,,Capital surplus,,,jpfr-t-cte,CapitalSurplusSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+A,資本準備金,資本準備金、株主資本等変動計算書、タイトル項目,,,,,,,,Legal capital surplus,,,jpfr-t-cte,LegalCapitalSurplusSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,資本準備金,資本準備金,"当期首残高[期首]
+当期末残高[期末]",,,,,"資本準備金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",,Legal capital surplus,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,LegalCapitalSurplus,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+A,当期変動額,当期変動額、資本準備金、タイトル項目,,,,,,当中間期変動額[標準],,Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodLCSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,4
+A,その他資本剰余金,その他資本剰余金、株主資本等変動計算書、タイトル項目,,,,,,,,Other capital surplus,,,jpfr-t-cte,OtherCapitalSurplusSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,その他資本剰余金,その他資本剰余金,"その他資本剰余金合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,,,,"その他資本剰余金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",,Other capital surplus,"Total other capital surplus[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,OtherCapitalSurplus,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+A,当期変動額,当期変動額、その他資本剰余金、タイトル項目,,,,,,当中間期変動額[標準],,Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodOCSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,4
+A,資本剰余金合計,資本剰余金合計、株主資本等変動計算書、タイトル項目,資本剰余金合計[合計],,,,,,,Total capital surplus,Total capital surplus[合計],,jpfr-t-cte,TotalCapitalSurplusSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,資本剰余金,資本剰余金,"資本剰余金合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,,,,"資本剰余金[標準]
+当期首残高[期首]
+当中間期末残高[期末]","資本剰余金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Capital surplus,"Total capital surpluses[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,CapitalSurplus,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+A,当期変動額,当期変動額、資本剰余金、タイトル項目,,,,,,当中間期変動額[標準],当中間期変動額[標準],Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodCSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,4
+A,利益剰余金,利益剰余金、株主資本等変動計算書、タイトル項目,,,,,,,,Retained earnings,,,jpfr-t-cte,RetainedEarningsSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+A,利益準備金,利益準備金、株主資本等変動計算書、タイトル項目,,,,,,,,Legal retained earnings,,,jpfr-t-cte,LegalRetainedEarningsSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,利益準備金,利益準備金,"当期首残高[期首]
+当期末残高[期末]",,,,,"利益準備金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",,Legal retained earnings,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,LegalRetainedEarnings,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+A,当期変動額,当期変動額、利益準備金、タイトル項目,,,,,,当中間期変動額[標準],,Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodLREAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,4
+A,その他利益剰余金,その他利益剰余金、株主資本等変動計算書、タイトル項目,,,,,,,,Other retained earnings,,,jpfr-t-cte,OtherRetainedEarningsSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,繰越利益剰余金,繰越利益剰余金、株主資本等変動計算書、タイトル項目,,,,,,,,Retained earnings brought forward,,,jpfr-t-cte,RetainedEarningsBroughtForwardSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,4
+A,繰越利益剰余金,繰越利益剰余金,"当期首残高[期首]
+当期末残高[期末]",,,,,"繰越利益剰余金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",,Retained earnings brought forward,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,RetainedEarningsBroughtForward,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,5
+A,会計方針の変更による累積的影響額,会計方針の変更による累積的影響額、繰越利益剰余金,会計方針の変更による累積的影響額[期首],,,,,,,Cumulative effect of changes in accounting policies,Cumulative effect of changes in accounting policies[期首],,jpfr-t-cte,CumulativeEffectOfChangesInAccountingPoliciesREBF,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,5
+A,遡及処理後当期首残高,遡及処理後当期首残高、繰越利益剰余金,遡及処理後当期首残高[期首],,,,,,,Retained earnings brought forward as restated,Retained earnings brought forward as restated[期首],,jpfr-t-cte,RetainedEarningsBroughtForwardAsRestated,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,5
+A,当期変動額,当期変動額、繰越利益剰余金、タイトル項目,,,,,,当中間期変動額[標準],,Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodREBFAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,5
+A,その他利益剰余金,その他利益剰余金,"その他利益剰余金合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,,,,"その他利益剰余金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",,Other retained earnings,"Total other retained earnings[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,OtherRetainedEarnings,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+B,当期変動額,当期変動額、その他利益剰余金、タイトル項目,,,,,,当中間期変動額[標準],,Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodOREAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,4
+A,利益剰余金合計,利益剰余金合計、株主資本等変動計算書、タイトル項目,利益剰余金合計[合計],,,,,,,Total retained earnings,Total retained earnings[合計],,jpfr-t-cte,TotalRetainedEarningsSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,利益剰余金,利益剰余金,"利益剰余金合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,,,,"利益剰余金[標準]
+当期首残高[期首]
+当中間期末残高[期末]","利益剰余金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Retained earnings,"Total retained earnings[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,RetainedEarnings,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+A,会計方針の変更による累積的影響額,会計方針の変更による累積的影響額、利益剰余金,会計方針の変更による累積的影響額[期首],,,,,,,Cumulative effect of changes in accounting policies,Cumulative effect of changes in accounting policies[期首],,jpfr-t-cte,CumulativeEffectOfChangesInAccountingPoliciesRE,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+A,遡及処理後当期首残高,遡及処理後当期首残高、利益剰余金,遡及処理後当期首残高[期首],,,,,,,Retained earnings as restated,Retained earnings as restated[期首],,jpfr-t-cte,RetainedEarningsAsRestated,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+A,当期変動額,当期変動額、利益剰余金、タイトル項目,,,,,,当中間期変動額[標準],当中間期変動額[標準],Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodREAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,4
+A,自己株式,自己株式、株主資本等変動計算書、タイトル項目,,,,,,,,Treasury stock,,,jpfr-t-cte,TreasuryStockSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+A,自己株式,自己株式,"当期首残高[期首]
+当期末残高[期末]",,,,,"自己株式[標準]
+当期首残高[期首]
+当中間期末残高[期末]","自己株式[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Treasury stock,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,TreasuryStock,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,当期変動額,当期変動額、自己株式、タイトル項目,,,,,,当中間期変動額[標準],当中間期変動額[標準],Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodTSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,株主資本合計,株主資本合計、株主資本等変動計算書、タイトル項目,株主資本合計[合計],,,,,,,Total shareholders' equity,Total shareholders' equity[合計],,jpfr-t-cte,TotalShareholdersEquitySSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+A,株主資本,株主資本,"株主資本合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,,,,"株主資本[標準]
+当期首残高[期首]
+当中間期末残高[期末]","株主資本[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Shareholders' equity,"Total shareholders' equity[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,ShareholdersEquity,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,会計方針の変更による累積的影響額,会計方針の変更による累積的影響額、株主資本,会計方針の変更による累積的影響額[期首],,,,,,,Cumulative effect of changes in accounting policies,Cumulative effect of changes in accounting policies[期首],,jpfr-t-cte,CumulativeEffectOfChangesInAccountingPoliciesSE,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,遡及処理後当期首残高,遡及処理後当期首残高、株主資本,遡及処理後当期首残高[期首],,,,,,,Shareholders equity as restated,Shareholders equity as restated[期首],,jpfr-t-cte,ShareholdersEquityAsRestated,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,当期変動額,当期変動額、株主資本、タイトル項目,,,,,,当中間期変動額[標準],当中間期変動額[標準],Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodSEAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,評価・換算差額等,評価・換算差額等、株主資本等変動計算書、タイトル項目,,,その他の包括利益累計額[標準],,その他の包括利益累計額[標準],,その他の包括利益累計額[標準],Valuation and translation adjustments,,,jpfr-t-cte,ValuationAndTranslationAdjustmentsSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,その他有価証券評価差額金,その他有価証券評価差額金、株主資本等変動計算書、タイトル項目,,,,,,,,Valuation difference on available-for-sale securities,,,jpfr-t-cte,ValuationDifferenceOnAvailableForSaleSecuritiesSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+A,その他有価証券評価差額金,その他有価証券評価差額金,"当期首残高[期首]
+当期末残高[期末]",,,,,"その他有価証券評価差額金[標準]
+当期首残高[期首]
+当中間期末残高[期末]","その他有価証券評価差額金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Valuation difference on available-for-sale securities,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,ValuationDifferenceOnAvailableForSaleSecurities,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,当期変動額,当期変動額、その他有価証券評価差額金、タイトル項目,,,,,,当中間期変動額[標準],当中間期変動額[標準],Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodAFSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,繰延ヘッジ損益,繰延ヘッジ損益、株主資本等変動計算書、タイトル項目,,,,,,,,Deferred gains or losses on hedges,,,jpfr-t-cte,DeferredGainsOrLossesOnHedgesSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+A,繰延ヘッジ損益,繰延ヘッジ損益,"当期首残高[期首]
+当期末残高[期末]",,,,,"繰延ヘッジ損益[標準]
+当期首残高[期首]
+当中間期末残高[期末]","繰延ヘッジ損益[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Deferred gains or losses on hedges,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,DeferredGainsOrLossesOnHedges,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,当期変動額,当期変動額、繰延ヘッジ損益、タイトル項目,,,,,,当中間期変動額[標準],当中間期変動額[標準],Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodDeferredGainOrLossOnHedgesAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,土地再評価差額金,土地再評価差額金、株主資本等変動計算書、タイトル項目,,,,,,,,Revaluation reserve for land,,,jpfr-t-cte,RevaluationReserveForLandSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+A,土地再評価差額金,土地再評価差額金,"当期首残高[期首]
+当期末残高[期末]",,,,,"土地再評価差額金[標準]
+当期首残高[期首]
+当中間期末残高[期末]","土地再評価差額金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Revaluation reserve for land,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,RevaluationReserveForLand,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,当期変動額,当期変動額、土地再評価差額金、タイトル項目,,,,,,当中間期変動額[標準],当中間期変動額[標準],Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodRevaluationReserveForLandAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,為替換算調整勘定,為替換算調整勘定、株主資本等変動計算書、タイトル項目,,,,,,,,Foreign currency translation adjustment,,,jpfr-t-cte,ForeignCurrencyTranslationAdjustmentSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+A,為替換算調整勘定,為替換算調整勘定,"当期首残高[期首]
+当期末残高[期末]",,,,,,"為替換算調整勘定[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Foreign currency translation adjustment,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,ForeignCurrencyTranslationAdjustment,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,当期変動額,当期変動額、為替換算調整勘定、タイトル項目,,,,,,,当中間期変動額[標準],Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodFTAAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,評価・換算差額等合計,評価・換算差額等合計、株主資本等変動計算書、タイトル項目,評価・換算差額等合計[合計],,"その他の包括利益累計額[標準]
+その他の包括利益累計額合計[合計]",,"その他の包括利益累計額[標準]
+その他の包括利益累計額合計[合計]",,"その他の包括利益累計額[標準]
+その他の包括利益累計額合計[合計]",Total valuation and translation adjustments,Total valuation and translation adjustments[合計],,jpfr-t-cte,TotalValuationAndTranslationAdjustmentsSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+A,評価・換算差額等,評価・換算差額等,"評価・換算差額等合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,"その他の包括利益累計額[標準]
+その他の包括利益累計額合計[合計]",,"その他の包括利益累計額[標準]
+その他の包括利益累計額合計[合計]","評価・換算差額等[標準]
+当期首残高[期首]
+当中間期末残高[期末]","その他の包括利益累計額[標準]
+その他の包括利益累計額合計[合計]
+当期首残高[期首]
+当中間期末残高[期末]",Valuation and translation adjustments,"Total valuation and translation adjustments[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,ValuationAndTranslationAdjustments,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,当期変動額,当期変動額、評価・換算差額等、タイトル項目,,,,,,当中間期変動額[標準],当中間期変動額[標準],Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodVTAAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,3
+A,新株予約権,新株予約権、株主資本等変動計算書、タイトル項目,,,,,,,,Subscription rights to shares,,,jpfr-t-cte,SubscriptionRightsToSharesSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,新株予約権,新株予約権,"当期首残高[期首]
+当期末残高[期末]",,,,,"新株予約権[標準]
+当期首残高[期首]
+当中間期末残高[期末]","新株予約権[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Subscription rights to shares,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,SubscriptionRightsToShares,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,2
+A,当期変動額,当期変動額、新株予約権、タイトル項目,,,,,,当中間期変動額[標準],当中間期変動額[標準],Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodSRSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+A,少数株主持分,少数株主持分、株主資本等変動計算書、タイトル項目,,,,,,,,Minority interests,,,jpfr-t-cte,MinorityInterestsSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,少数株主持分,少数株主持分,"当期首残高[期首]
+当期末残高[期末]",,,,,,"少数株主持分[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Minority interests,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,MinorityInterests,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,2
+A,当期変動額,当期変動額、少数株主持分、タイトル項目,,,,,,,当中間期変動額[標準],Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodMIAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+A,純資産,純資産、株主資本等変動計算書、タイトル項目,純資産合計[合計],,,,,,,Net assets,Total net assets[合計],,jpfr-t-cte,NetAssetsSSAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,純資産,純資産,"純資産合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,,,,"純資産[標準]
+当期首残高[期首]
+当中間期末残高[期末]","純資産[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Net assets,"Total net assets[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,NetAssets,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,2
+A,会計方針の変更による累積的影響額,会計方針の変更による累積的影響額、純資産,会計方針の変更による累積的影響額[期首],,,,,,,Cumulative effect of changes in accounting policies,Cumulative effect of changes in accounting policies[期首],,jpfr-t-cte,CumulativeEffectOfChangesInAccountingPoliciesNA,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,2
+A,遡及処理後当期首残高,遡及処理後当期首残高、純資産,遡及処理後当期首残高[期首],,,,,,,Net assets as restated,Net assets as restated[期首],,jpfr-t-cte,NetAssetsAsRestated,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,2
+A,当期変動額,当期変動額、純資産、タイトル項目,,,,,,当中間期変動額[標準],当中間期変動額[標準],Changes of items during the period,,,jpfr-t-cte,ChangesOfItemsDuringThePeriodNAAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,2
+,,,,,,,,,,,,,,,,,,,,,,
+キャッシュ・フロー計算書（建設業）,,,,,,,,,,,,,,,,,,,,,,
+科目分類,標準ラベル（日本語）,冗長ラベル（日本語）,用途別ラベル（日本語）,業種ラベル（日本語）,連結,四半期個別,四半期連結,中間個別,中間連結,標準ラベル（英語）,用途別ラベル（英語）,業種ラベル（英語）,名前空間プレフィックス,要素名,type,enumerations,substitutionGroup,periodType,balance,abstract,nillable,depth
+-,キャッシュ・フロー計算書,キャッシュ・フロー計算書、タイトル項目,,,連結キャッシュ・フロー計算書[標準],四半期キャッシュ・フロー計算書[標準],四半期連結キャッシュ・フロー計算書[標準],中間キャッシュ・フロー計算書[標準],中間連結キャッシュ・フロー計算書[標準],Statements of cash flows,,,jpfr-t-cte,StatementsOfCashFlowsAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,0
+A,営業活動によるキャッシュ・フロー,営業活動によるキャッシュ・フロー、タイトル項目,,,,,,,,Net cash provided by (used in) operating activities,,,jpfr-t-cte,NetCashProvidedByUsedInOperatingActivitiesAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,小計,小計、営業活動によるキャッシュ・フロー,小計[合計],,,,,,,Subtotal,Subtotal[合計],,jpfr-t-cte,SubtotalOpeCF,xbrli:monetaryItemType,,xbrli:item,duration,,false,true,2
+B,未成工事受入金の増減額（△は減少）,未成工事受入金の増減額（△は減少）、営業活動によるキャッシュ・フロー、建設業,,,,,,,,Increase (decrease) in advances received on uncompleted construction contracts,,,jpfr-t-cns,IncreaseDecreaseInAdvancesReceivedOnUncompletedConstructionContractsOpeCFCNS,xbrli:monetaryItemType,,xbrli:item,duration,,false,true,3
+B,未成工事支出金の増減額（△は増加）,未成工事支出金の増減額（△は増加）、営業活動によるキャッシュ・フロー、建設業,,,,,,,,Decrease (increase) in costs on uncompleted construction contracts,,,jpfr-t-cns,DecreaseIncreaseInCostsOnUncompletedConstructionContractsOpeCFCNS,xbrli:monetaryItemType,,xbrli:item,duration,,false,true,3
+B,未成工事支出金等の増減額（△は増加）,未成工事支出金等の増減額（△は増加）、営業活動によるキャッシュ・フロー、建設業,,,,,,,,Decrease (increase) in costs on uncompleted construction contracts and other,,,jpfr-t-cns,DecreaseIncreaseInCostsOnUncompletedConstructionContractsAndOtherOpeCFCNS,xbrli:monetaryItemType,,xbrli:item,duration,,false,true,3
+B,その他のたな卸資産の増減額（△は増加）,その他のたな卸資産の増減額（△は増加）、営業活動によるキャッシュ・フロー、建設業,,,,,,,,Decrease (increase) in other inventories,,,jpfr-t-cns,DecreaseIncreaseInOtherInventoriesOpeCFCNS,xbrli:monetaryItemType,,xbrli:item,duration,,false,true,3
+A,投資活動によるキャッシュ・フロー,投資活動によるキャッシュ・フロー、タイトル項目,,,,,,,,Net cash provided by (used in) investing activities,,,jpfr-t-cte,NetCashProvidedByUsedInInvestmentActivitiesAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,財務活動によるキャッシュ・フロー,財務活動によるキャッシュ・フロー、タイトル項目,,,,,,,,Net cash provided by (used in) financing activities,,,jpfr-t-cte,NetCashProvidedByUsedInFinancingActivitiesAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1

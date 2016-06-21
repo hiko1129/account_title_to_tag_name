@@ -1,0 +1,269 @@
+貸借対照表（投資信託受益証券）,,,,,,,,,,,,,,,,,,,,,,
+科目分類,標準ラベル（日本語）,冗長ラベル（日本語）,用途別ラベル（日本語）,業種ラベル（日本語）,連結,四半期個別,四半期連結,中間個別,中間連結,標準ラベル（英語）,用途別ラベル（英語）,業種ラベル（英語）,名前空間プレフィックス,要素名,type,enumerations,substitutionGroup,periodType,balance,abstract,nillable,depth
+-,貸借対照表,貸借対照表、タイトル項目,,,連結貸借対照表[標準],四半期貸借対照表[標準],四半期連結貸借対照表[標準],中間貸借対照表[標準],中間連結貸借対照表[標準],Balance sheets,,,jpfr-t-cte,BalanceSheetsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,0
+A,資産の部,資産の部、タイトル項目,,,,,,,,Assets,,,jpfr-t-cte,AssetsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,1
+A,流動資産,流動資産、タイトル項目,,,,,,,,Current assets,,,jpfr-t-cte,CurrentAssetsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,2
+A,預金,預金、流動資産、投資信託,,,,,,,,Deposits,,,jpfr-t-fnd,DepositsCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,金銭信託,金銭信託、流動資産、投資信託,,,,,,,,Money held in trust,,,jpfr-t-fnd,MoneyHeldInTrustCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,コール・ローン,コール・ローン、流動資産、投資信託,,,,,,,,Call loans,,,jpfr-t-fnd,CallLoansCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,抵当証券,抵当証券、流動資産、投資信託,,,,,,,,Mortgage securities,,,jpfr-t-fnd,MortgageSecuritiesCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,金銭債権,金銭債権、流動資産、投資信託,,,,,,,,Monetary claim,,,jpfr-t-fnd,MonetaryClaimCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,約束手形,約束手形、流動資産、投資信託,,,,,,,,Promissory note,,,jpfr-t-fnd,PromissoryNoteCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,信託受益権,信託受益権、流動資産、投資信託,,,,,,,,Trust beneficiary right,,,jpfr-t-fnd,TrustBeneficiaryRightCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,受益証券発行信託の受益証券,受益証券発行信託の受益証券、流動資産、投資信託,,,,,,,,Money trust beneficiary right,,,jpfr-t-fnd,MoneyTrustBeneficiaryRightCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,株式,株式、流動資産、投資信託,,,,,,,,Stocks,,,jpfr-t-fnd,StocksCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+B,新株予約権証券,新株予約権証券、流動資産、投資信託,,,,,,,,Warrant,,,jpfr-t-fnd,WarrantCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,国債証券,国債証券、流動資産、投資信託,,,,,,,,Government bonds,,,jpfr-t-fnd,GovernmentBondsCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,地方債証券,地方債証券、流動資産、投資信託,,,,,,,,Municipal bonds,,,jpfr-t-fnd,MunicipalBondsCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,特殊債券,特殊債券、流動資産、投資信託,,,,,,,,Special bonds,,,jpfr-t-fnd,SpecialBondsCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,社債券,社債券、流動資産、投資信託,,,,,,,,Corporate bonds,,,jpfr-t-fnd,CorporateBondsCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+B,投資信託受益証券,投資信託受益証券、流動資産、投資信託,,,,,,,,Security investment trust beneficiary securities,,,jpfr-t-fnd,SecurityInvestmentTrustBeneficiarySecuritiesCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,投資証券,投資証券、流動資産、投資信託,,,,,,,,Investment securities,,,jpfr-t-fnd,InvestmentSecuritiesCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,その他有価証券,その他有価証券、流動資産、投資信託,,,,,,,,Other securities,,,jpfr-t-fnd,OtherSecuritiesCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,親投資信託受益証券,親投資信託受益証券、流動資産、投資信託,,,,,,,,Parents trust beneficiary securities,,,jpfr-t-fnd,ParentsTrustBeneficiarySecuritiesCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+B,コマーシャル・ペーパー,コマーシャル・ペーパー、流動資産、投資信託,,,,,,,,Commercial papers,,,jpfr-t-fnd,CommercialPapersCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,商品,商品、流動資産、投資信託,,,,,,,,Commodity,,,jpfr-t-fnd,CommodityCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,コール・オプション（買）,コール・オプション（買）、流動資産、投資信託,,,,,,,,Call option,,,jpfr-t-fnd,CallOptionCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,プット・オプション（買）,プット・オプション（買）、流動資産、投資信託,,,,,,,,Put option,,,jpfr-t-fnd,PutOptionCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,派生商品評価勘定,派生商品評価勘定、流動資産、投資信託,,,,,,,,Derivative evaluation account,,,jpfr-t-fnd,DerivativeEvaluationAccountCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,現先取引勘定,現先取引勘定、流動資産、投資信託,,,,,,,,Gensaki transaction account,,,jpfr-t-fnd,GensakiTransactionAccountCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,未収入金,未収入金,,未収入金[標準|業],,,,,,Accounts receivable-other,,Accounts receivable[標準|業],jpfr-t-cte,AccountsReceivableOther,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,信用取引預け金,信用取引預け金、流動資産、投資信託,,,,,,,,Deposits for margin transaction,,,jpfr-t-fnd,DepositsForMarginTransactionCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,未収配当金,未収配当金、流動資産、投資信託,,,,,,,,Accrued dividend receivable,,,jpfr-t-fnd,AccruedDividendReceivableCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,未収利息,未収利息,,,,,,,,Accrued interest,,,jpfr-t-cte,AccruedInterest,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,前払金,前払金、流動資産、投資信託,,,,,,,,Advance payments,,,jpfr-t-fnd,AdvancePaymentsCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,前払費用,前払費用,,,,,,,,Prepaid expenses,,,jpfr-t-cte,PrepaidExpenses,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,その他未収収益,その他未収収益、流動資産、投資信託,,,,,,,,Other accrued revenue,,,jpfr-t-fnd,OtherAccruedRevenueCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,差入保証金,差入保証金、流動資産、投資信託,,,,,,,,Guarantee deposits,,,jpfr-t-fnd,GuaranteeDepositsCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,差入委託証拠金,差入委託証拠金、流動資産、投資信託,,,,,,,,Customers' margin,,,jpfr-t-fnd,CustomersMarginCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,その他の金融商品,その他の金融商品、流動資産、投資信託,,,,,,,,Other financial instruments,,,jpfr-t-fnd,OtherFinancialInstrumentsCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,優先出資証券,優先出資証券、流動資産、投資信託,,,,,,,,Preferred securities,,,jpfr-t-fnd,PreferredSecuritiesCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,優先出資引受権証書,優先出資引受権証書、流動資産、投資信託,,,,,,,,Preferred securities on deeds,,,jpfr-t-fnd,PreferredSecuritiesOnDeedsCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,想定元本受取資産,想定元本受取資産、流動資産、投資信託,,,,,,,,Notional principal receivable assets,,,jpfr-t-fnd,NotionalPrincipalReceivableAssetsCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,想定元本支払負債見合,想定元本支払負債見合、流動資産、投資信託,,,,,,,,Corresponding account of notional principal payable liability,,,jpfr-t-fnd,CorrespondingAccountOfNotionalPrincipalPayableLiabilityCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,貸付有価証券,貸付有価証券、流動資産、投資信託,,,,,,,,Securities loaned,,,jpfr-t-fnd,SecuritiesLoanedCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,借入取引有価証券,借入取引有価証券、流動資産、投資信託,,,,,,,,Borrowing trade securities,,,jpfr-t-fnd,BorrowingTradeSecuritiesCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,先物取引買勘定,先物取引買勘定、流動資産、投資信託,,,,,,,,Purchase account of futures markets,,,jpfr-t-fnd,PurchaseAccountOfFuturesMarketsCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,為替未収入金,為替未収入金、流動資産、投資信託,,,,,,,,Accounts receivable-foreign exchange,,,jpfr-t-fnd,AccountsReceivableForeignExchangeCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,買為替,買為替、流動資産、投資信託,,,,,,,,Purchase-foreign exchange,,,jpfr-t-fnd,PurchaseForeignExchangeCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,先物取引未収入金,先物取引未収入金、流動資産、投資信託,,,,,,,,Accounts receivable-futures markets,,,jpfr-t-fnd,AccountsReceivableFuturesMarketsCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,受入担保金代用有価証券,受入担保金代用有価証券、流動資産、投資信託,,,,,,,,Securities received as customers' deposits for cash collateral received,,,jpfr-t-fnd,SecuritiesReceivedAsCustomersDepositsForCashCollateralReceivedCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,外国投資勘定,外国投資勘定、流動資産、投資信託,,,,,,,,Foreign investment accounts,,,jpfr-t-fnd,ForeignInvestmentAccountsCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,買取受益証券,買取受益証券、流動資産、投資信託,,,,,,,,Acquired beneficiary securities,,,jpfr-t-fnd,AcquiredBeneficiarySecuritiesCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,流動資産,流動資産,流動資産合計[合計],,,,,,,Current assets,Total current assets[合計],,jpfr-t-cte,CurrentAssets,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,固定資産,固定資産、タイトル項目,,,,,,,,Noncurrent assets,,,jpfr-t-cte,NoncurrentAssetsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,2
+A,有形固定資産,有形固定資産、タイトル項目,,,,,,,,"Property, plant and equipment",,,jpfr-t-cte,PropertyPlantAndEquipmentAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,3
+A,有形固定資産,有形固定資産,有形固定資産合計[合計],,,,,,,"Property, plant and equipment","Total property, plant and equipment[合計]",,jpfr-t-cte,PropertyPlantAndEquipment,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,無形固定資産,無形固定資産、タイトル項目,,,,,,,,Intangible assets,,,jpfr-t-cte,IntangibleAssetsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,3
+A,無形固定資産,無形固定資産,無形固定資産合計[合計],,,,,,,Intangible assets,Total intangible assets[合計],,jpfr-t-cte,IntangibleAssets,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,投資その他の資産,投資その他の資産、タイトル項目,,,,,,,,Investments and other assets,,,jpfr-t-cte,InvestmentsAndOtherAssetsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,3
+B,国債証券,国債証券、固定資産、投資信託,,,,,,,,Government bonds,,,jpfr-t-fnd,GovernmentBondsNCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,地方債証券,地方債証券、固定資産、投資信託,,,,,,,,Municipal bonds,,,jpfr-t-fnd,MunicipalBondsNCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,特殊債券,特殊債券、固定資産、投資信託,,,,,,,,Special bonds,,,jpfr-t-fnd,SpecialBondsNCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+B,社債券,社債券、固定資産、投資信託,,,,,,,,Corporate bonds,,,jpfr-t-fnd,CorporateBondsNCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,出資金,出資金（匿名組合出資持分等）、固定資産、投資信託,,,,,,,,Investments in capital,,,jpfr-t-fnd,InvestmentsInCapitalSilentPartnershipAndOtherNCAFND,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,投資その他の資産,投資その他の資産,投資その他の資産合計[合計],,,,,,,Investments and other assets,Total investments and other assets[合計],,jpfr-t-cte,InvestmentsAndOtherAssets,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,4
+A,固定資産,固定資産,固定資産合計[合計],,,,,,,Noncurrent assets,Total noncurrent assets[合計],,jpfr-t-cte,NoncurrentAssets,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,繰延資産,繰延資産、タイトル項目,,,,,,,,Deferred assets,,,jpfr-t-cte,DeferredAssetsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,2
+A,繰延資産,繰延資産,繰延資産合計[合計],,,,,,,Deferred assets,Total deferred assets[合計],,jpfr-t-cte,DeferredAssets,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,3
+A,資産,資産,資産合計[合計],,,,,,,Assets,Total assets[合計],,jpfr-t-cte,Assets,xbrli:monetaryItemType,,xbrli:item,instant,debit,false,true,2
+A,負債の部,負債の部、タイトル項目,,,,,,,,Liabilities,,,jpfr-t-cte,LiabilitiesAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,1
+A,流動負債,流動負債、タイトル項目,,,,,,,,Current liabilities,,,jpfr-t-cte,CurrentLiabilitiesAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,2
+A,信用売証券,信用売証券、流動負債、投資信託,,,,,,,,Sales securities for margin trading,,,jpfr-t-fnd,SalesSecuritiesForMarginTradingCLFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,売却借入有価証券,売却借入有価証券、流動負債、投資信託,,,,,,,,Sales of securities borrowed,,,jpfr-t-fnd,SalesOfSecuritiesBorrowedCLFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,売付債券,売付債券、流動負債、投資信託,,,,,,,,Bonds sold,,,jpfr-t-fnd,BondsSoldCLFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,コール・オプション（売）,コール・オプション（売）、流動負債、投資信託,,,,,,,,Call option,,,jpfr-t-fnd,CallOptionCLFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,プット・オプション（売）,プット・オプション（売）、流動負債、投資信託,,,,,,,,Put option,,,jpfr-t-fnd,PutOptionCLFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,派生商品評価勘定,派生商品評価勘定、流動負債、投資信託,,,,,,,,Derivative evaluation account,,,jpfr-t-fnd,DerivativeEvaluationAccountCLFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,現先取引勘定,現先取引勘定、流動負債、投資信託,,,,,,,,Gensaki transaction account,,,jpfr-t-fnd,GensakiTransactionAccountCLFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,短期借入金,短期借入金,,借入金[標準|業],,,,,,Short-term loans payable,,Short-term loans repayable[標準|業],jpfr-t-cte,ShortTermLoansPayable,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,前受金,前受金,,,,,,,,Advances received,,,jpfr-t-cte,AdvancesReceived,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,前受収益,前受収益,,,,,,,,Unearned revenue,,,jpfr-t-cte,UnearnedRevenue,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,未払金,未払金,,"未払金[標準|業]
+未払金計[合計|業]",,,,,,Accounts payable-other,,"Accounts payable[標準|業]
+Total accounts payable[合計|業]",jpfr-t-cte,AccountsPayableOther,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,未払株式払込金,未払株式払込金、流動負債、投資信託,,,,,,,,Unpaid stock subscription,,,jpfr-t-fnd,UnpaidStockSubscriptionCLFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,未払収益分配金,未払収益分配金、流動負債、投資信託,,,,,,,,Unpaid dividends,,,jpfr-t-fnd,UnpaidDividendsCLFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,未払解約金,未払解約金、流動負債、投資信託,,,,,,,,Redemption payable,,,jpfr-t-fnd,RedemptionPayableCLFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,未払受託者報酬,未払受託者報酬、流動負債、投資信託,,,,,,,,Trustee fee payable,,,jpfr-t-fnd,TrusteeFeePayableCLFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,未払委託者報酬,未払委託者報酬、流動負債、投資信託,,,,,,,,Investment trust management fee payable,,,jpfr-t-fnd,InvestmentTrustManagementFeePayableCLFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,未払利息,未払利息、流動負債、投資信託,,,,,,,,Accrued interest expenses,,,jpfr-t-fnd,AccruedInterestExpensesCLFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,受入担保金,受入担保金、流動負債、投資信託,,,,,,,,Cash collateral received,,,jpfr-t-fnd,CashCollateralReceivedCLFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,その他未払費用,その他未払費用、流動負債、投資信託,,,,,,,,Other accrued expenses,,,jpfr-t-fnd,OtherAccruedExpensesCLFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,想定元本受取資産見合,想定元本受取資産見合、流動負債、投資信託,,,,,,,,Corresponding account of notional principal receivable assets,,,jpfr-t-fnd,CorrespondingAccountOfNotionalPrincipalReceivableAssetsCLFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,想定元本支払負債,想定元本支払負債、流動負債、投資信託,,,,,,,,Notional principal payable liability,,,jpfr-t-fnd,NotionalPrincipalPayableLiabilityCLFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,貸付取引有価証券,貸付取引有価証券、流動負債、投資信託,,,,,,,,Securities of loan trade,,,jpfr-t-fnd,SecuritiesOfLoanTradeCLFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,借入有価証券,借入有価証券、流動負債、投資信託,,,,,,,,Securities borrowed,,,jpfr-t-fnd,SecuritiesBorrowedCLFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,売為替,売為替、流動負債、投資信託,,,,,,,,Sales-foreign exchange,,,jpfr-t-fnd,SalesForeignExchangeCLFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,為替未払金,為替未払金、流動負債、投資信託,,,,,,,,Accounts payable-foreign exchange,,,jpfr-t-fnd,AccountsPayableForeignExchangeCLFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,先物取引未払金,先物取引未払金、流動負債、投資信託,,,,,,,,Accounts payable-futures markets,,,jpfr-t-fnd,AccountsPayableFuturesMarketsCLFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,先物取引売勘定,先物取引売勘定、流動負債、投資信託,,,,,,,,Sales account of futures markets,,,jpfr-t-fnd,SalesAccountOfFuturesMarketsCLFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,差入保証金代用有価証券,差入保証金代用有価証券、流動負債、投資信託,,,,,,,,Securities received as customers' deposits for guarantee deposits,,,jpfr-t-fnd,SecuritiesReceivedAsCustomersDepositsForGuaranteeDepositsCLFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,差入委託証拠金代用有価証券,差入委託証拠金代用有価証券、流動負債、投資信託,,,,,,,,Securities received as customers' deposits for customers' margin,,,jpfr-t-fnd,SecuritiesReceivedAsCustomersDepositsForCustomersMarginCLFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,流動負債,流動負債,流動負債合計[合計],,,,,,,Current liabilities,Total current liabilities[合計],,jpfr-t-cte,CurrentLiabilities,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,固定負債,固定負債、タイトル項目,,,,,,,,Noncurrent liabilities,,,jpfr-t-cte,NoncurrentLiabilitiesAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,2
+A,固定負債,固定負債,固定負債合計[合計],,,,,,,Noncurrent liabilities,Total noncurrent liabilities[合計],,jpfr-t-cte,NoncurrentLiabilities,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,負債,負債,負債合計[合計],,,,,,,Liabilities,Total liabilities[合計],,jpfr-t-cte,Liabilities,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,2
+A,純資産の部,純資産の部、タイトル項目,,,,,,,,Net assets,,,jpfr-t-cte,NetAssetsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,1
+A,元本等,元本等、投資信託、タイトル項目,,,,,,,,Principal and other,,,jpfr-t-fnd,PrincipalAndOtherAbstractFND,xbrli:stringItemType,,xbrli:item,instant,,true,true,2
+A,元本,元本、投資信託,,,,,,,,Principal,,,jpfr-t-fnd,PrincipalFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,元本調整引当額,元本調整引当額、投資信託,,,,,,,,Reserve for principal,,,jpfr-t-fnd,ReserveForPrincipalFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,剰余金,剰余金、タイトル項目、投資信託,,,,,,,,Surplus,,,jpfr-t-fnd,SurplusAbstractFND,xbrli:stringItemType,,xbrli:item,instant,,true,true,3
+A,剰余金又は欠損金（△）,剰余金又は欠損金（△）、投資信託,"剰余金又は欠損金（△）合計[合計]
+期首剰余金又は期首欠損金（△）[期首]
+期末剰余金又は期末欠損金（△）[期末]",,,,,"剰余金又は欠損金（△）[標準]
+期首剰余金又は期首欠損金（△）[期首]
+中間剰余金又は中間欠損金（△）[期末]",,Surplus (deficit),"Total surplus (deficit)[合計]
+Surplus (deficit) at beginning of period[期首]
+Surplus (deficit) at end of period[期末]",,jpfr-t-fnd,SurplusDeficitFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+A,（分配準備積立金）,（分配準備積立金）、投資信託,,,,,,,,Reserve for distribution,,,jpfr-t-fnd,ReserveForDistributionFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+A,（株価変動準備金）,（株価変動準備金）、投資信託,,,,,,,,Reserve for stock price fluctuation,,,jpfr-t-fnd,ReserveForStockPriceFluctuationFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,4
+A,買取受益権,買取受益権、純資産の部、投資信託,,,,,,,,Acquired beneficiary right,,,jpfr-t-fnd,AcquiredBeneficiaryRightNAFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,元本等,元本等、投資信託,元本等合計[合計],,,,,,,Principal and other,Total principal and other[合計],,jpfr-t-fnd,PrincipalAndOtherFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,評価・換算差額等,評価・換算差額等、タイトル項目,,,その他の包括利益累計額[標準],,その他の包括利益累計額[標準],,その他の包括利益累計額[標準],Valuation and translation adjustments,,,jpfr-t-cte,ValuationAndTranslationAdjustmentsAbstract,xbrli:stringItemType,,xbrli:item,instant,,true,true,2
+A,その他有価証券評価差額金,その他有価証券評価差額金,"当期首残高[期首]
+当期末残高[期末]",,,,,"その他有価証券評価差額金[標準]
+当期首残高[期首]
+当中間期末残高[期末]","その他有価証券評価差額金[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Valuation difference on available-for-sale securities,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,ValuationDifferenceOnAvailableForSaleSecurities,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,繰延ヘッジ損益,繰延ヘッジ損益,"当期首残高[期首]
+当期末残高[期末]",,,,,"繰延ヘッジ損益[標準]
+当期首残高[期首]
+当中間期末残高[期末]","繰延ヘッジ損益[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Deferred gains or losses on hedges,"Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,DeferredGainsOrLossesOnHedges,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,評価・換算差額等,評価・換算差額等,"評価・換算差額等合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,"その他の包括利益累計額[標準]
+その他の包括利益累計額合計[合計]",,"その他の包括利益累計額[標準]
+その他の包括利益累計額合計[合計]","評価・換算差額等[標準]
+当期首残高[期首]
+当中間期末残高[期末]","その他の包括利益累計額[標準]
+その他の包括利益累計額合計[合計]
+当期首残高[期首]
+当中間期末残高[期末]",Valuation and translation adjustments,"Total valuation and translation adjustments[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,ValuationAndTranslationAdjustments,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,3
+A,純資産,純資産,"純資産合計[合計]
+当期首残高[期首]
+当期末残高[期末]",,,,,"純資産[標準]
+当期首残高[期首]
+当中間期末残高[期末]","純資産[標準]
+当期首残高[期首]
+当中間期末残高[期末]",Net assets,"Total net assets[合計]
+Balance at the beginning of current period[期首]
+Balance at the end of current period[期末]",,jpfr-t-cte,NetAssets,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,2
+A,負債純資産,負債純資産,負債純資産合計[合計],,,,,,,Liabilities and net assets,Total liabilities and net assets[合計],,jpfr-t-cte,LiabilitiesAndNetAssets,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,1
+,,,,,,,,,,,,,,,,,,,,,,
+損益及び剰余金計算書（投資信託受益証券）,,,,,,,,,,,,,,,,,,,,,,
+科目分類,標準ラベル（日本語）,冗長ラベル（日本語）,用途別ラベル（日本語）,業種ラベル（日本語）,連結,四半期個別,四半期連結,中間個別,中間連結,標準ラベル（英語）,用途別ラベル（英語）,業種ラベル（英語）,名前空間プレフィックス,要素名,type,enumerations,substitutionGroup,periodType,balance,abstract,nillable,depth
+-,損益及び剰余金計算書,損益及び剰余金計算書、タイトル項目、投資信託,,,,,,中間損益及び剰余金計算書[標準],,Statements of income and retained earnings,,,jpfr-t-fnd,StatementsOfIncomeAndRetainedEarningsAbstractFND,xbrli:stringItemType,,xbrli:item,duration,,true,true,0
+A,営業収益,営業収益、投資信託、タイトル項目,,,,,,,,Operating revenue,,,jpfr-t-fnd,OperatingRevenueAbstractFND,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,受取配当金,受取配当金、営業収入、投資信託,,,,,,,,Dividends income,,,jpfr-t-fnd,DividendsIncomeOIFND,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,配当株式,配当株式、営業収入、投資信託,,,,,,,,Dividends stock,,,jpfr-t-fnd,DividendsStockOIFND,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,受取利息,受取利息、営業収入、投資信託,,,,,,,,Interest income,,,jpfr-t-fnd,InterestIncomeOIFND,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,有価証券売買等損益,有価証券売買等損益、営業収入、投資信託,,,,,,,,Profit and loss on buying and selling of securities and other,,,jpfr-t-fnd,ProfitAndLossOnBuyingAndSellingOfSecuritiesAndOtherOIFND,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,派生商品取引等損益,派生商品取引等損益、営業収入、投資信託,,,,,,,,Profit and loss on dealing of derivatives,,,jpfr-t-fnd,ProfitAndLossOnDealingOfDerivativesOIFND,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,為替差損益,為替差損益、営業収入、投資信託,,,,,,,,Foreign exchange gains or losses,,,jpfr-t-fnd,ForeignExchangeGainsOrLossesOIFND,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+B,その他収益,その他収益、営業収入、投資信託,,,,,,,,Other revenue,,,jpfr-t-fnd,OtherRevenueOIFND,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,有価証券売買益,有価証券売買益、営業収入、投資信託,,,,,,,,Gain on securities transactions,,,jpfr-t-fnd,GainOnSecuritiesTransactionsOIFND,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,先物取引等取引益,先物取引等取引益、営業収入、投資信託,,,,,,,,Gain on transactions of futures markets,,,jpfr-t-fnd,GainOnTransactionsOfFuturesMarketsOIFND,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,解約差益金,解約差益金、営業収入、投資信託,,,,,,,,Gain on cancellation,,,jpfr-t-fnd,GainOnCancellationOIFND,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,追加信託差益金,追加信託差益金、営業収入、投資信託,,,,,,,,Gain on additional subscriptions,,,jpfr-t-fnd,GainOnAdditionalSubscriptionsOIFND,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,その他外貨収益金,その他外貨収益金、営業収入、投資信託,,,,,,,,Other foreign currency revenue,,,jpfr-t-fnd,OtherForeignCurrencyRevenueOIFND,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,株価変動準備金取崩し額,株価変動準備金取崩し額、営業収入、投資信託,,,,,,,,Reversal of reserve for stock price fluctuation,,,jpfr-t-fnd,ReversalOfReserveForStockPriceFluctuationOIFND,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,価額変動準備金取崩し額,価額変動準備金取崩し額、営業収入、投資信託,,,,,,,,Reversal of reserve for price fluctuation,,,jpfr-t-fnd,ReversalOfReserveForPriceFluctuationOIFND,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,収益調整金,収益調整金、営業収入、投資信託,,,,,,,,Revenue adjustment,,,jpfr-t-fnd,RevenueAdjustmentOIFND,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,評価益調整勘定,評価益調整勘定、営業収入、投資信託,,,,,,,,Valuation gain adjustment accounts,,,jpfr-t-fnd,ValuationGainAdjustmentAccountsOIFND,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,分配準備積立金取崩し額,分配準備積立金取崩し額、営業収入、投資信託,,,,,,,,Reversal of reserve for dividends,,,jpfr-t-fnd,ReversalOfReserveForDividendsOIFND,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,営業収益,営業収益、投資信託,営業収益合計[合計],,,,,,,Operating revenue,Total operating revenue[合計],,jpfr-t-fnd,OperatingRevenueFND,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,営業費用,営業費用、タイトル項目、投資信託,,,,,,,,Operating expenses,,,jpfr-t-fnd,OperatingExpensesAbstractFND,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,募集手数料,募集手数料、営業費用、投資信託,,,,,,,,Subscription fee,,,jpfr-t-fnd,SubscriptionFeeOEFND,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,支払利息,支払利息、営業費用、投資信託,,,,,,,,Interest expenses,,,jpfr-t-fnd,InterestExpensesOEFND,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,受託者報酬,受託者報酬、営業費用、投資信託,,,,,,,,Trustee fee,,,jpfr-t-fnd,TrusteeFeeOEFND,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,委託者報酬,委託者報酬、営業費用、投資信託,,,,,,,,Investment trust management fee,,,jpfr-t-fnd,InvestmentTrustManagementFeeOEFND,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,その他費用,その他費用、営業費用、投資信託,,,,,,,,Other expenses,,,jpfr-t-fnd,OtherExpensesOEFND,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,有価証券売買損,有価証券売買損、営業費用、投資信託,,,,,,,,Loss on securities transactions,,,jpfr-t-fnd,LossOnSecuritiesTransactionsOEFND,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,先物取引等取引損,先物取引等取引損、営業費用、投資信託,,,,,,,,Loss on transactions of futures markets,,,jpfr-t-fnd,LossOnTransactionsOfFuturesMarketsOEFND,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,解約差損金,解約差損金、営業費用、投資信託,,,,,,,,Loss on cancellation,,,jpfr-t-fnd,LossOnCancellationOEFND,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,追加信託差損金,追加信託差損金、営業費用、投資信託,,,,,,,,Loss on additional subscriptions,,,jpfr-t-fnd,LossOnAdditionalSubscriptionsOEFND,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,その他外貨費用,その他外貨費用、営業費用、投資信託,,,,,,,,Other foreign currency costs,,,jpfr-t-fnd,OtherForeignCurrencyCostsOEFND,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,収益分配金,収益分配金、営業費用、投資信託,,,,,,,,Dividends,,,jpfr-t-fnd,DividendsOEFND,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,株価変動準備金積立額,株価変動準備金積立額、営業費用、投資信託,,,,,,,,Provision of reserve for stock price fluctuation,,,jpfr-t-fnd,ProvisionOfReserveForStockPriceFluctuationOEFND,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,価額変動準備金積立額,価額変動準備金積立額、営業費用、投資信託,,,,,,,,Provision of reserve for price fluctuation,,,jpfr-t-fnd,ProvisionOfReserveForPriceFluctuationOEFND,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,分配準備積立金積立額,分配準備積立金積立額、営業費用、投資信託,,,,,,,,Provision of reserve for dividends,,,jpfr-t-fnd,ProvisionOfReserveForDividendsOEFND,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,収益調整金,収益調整金、営業費用、投資信託,,,,,,,,Revenue adjustment,,,jpfr-t-fnd,RevenueAdjustmentOEFND,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,評価損調整勘定,評価損調整勘定、営業費用、投資信託,,,,,,,,Valuation loss adjustment accounts,,,jpfr-t-fnd,ValuationLossAdjustmentAccountsOEFND,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,繰越欠損金補てん額,繰越欠損金補てん額、営業費用、投資信託,,,,,,,,Repayment for retained loss,,,jpfr-t-fnd,RepaymentForRetainedLossOEFND,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,営業費用,営業費用、投資信託,営業費用合計[合計],,,,,,,Operating expenses,Total operating expenses[合計],,jpfr-t-fnd,OperatingExpensesFND,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,営業利益,営業利益,"営業損失（△）[負値]
+営業利益又は営業損失（△）[正負]",,,,,,,Operating income,"Operating loss[負値]
+Operating income (loss)[正負]",,jpfr-t-cte,OperatingIncome,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,1
+A,営業外収益,営業外収益、タイトル項目,,,,,,,,Non-operating income,,,jpfr-t-cte,NonOperatingIncomeAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,営業外収益,営業外収益,営業外収益合計[合計],,,,,,,Non-operating income,Total non-operating income[合計],,jpfr-t-cte,NonOperatingIncome,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,営業外費用,営業外費用、タイトル項目,,,,,,,,Non-operating expenses,,,jpfr-t-cte,NonOperatingExpensesAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,営業外費用,営業外費用,営業外費用合計[合計],,,,,,,Non-operating expenses,Total non-operating expenses[合計],,jpfr-t-cte,NonOperatingExpenses,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,経常利益,経常利益,"経常損失（△）[負値]
+経常利益又は経常損失（△）[正負]",,,,,,,Ordinary income,"Ordinary loss[負値]
+Ordinary income (loss)[正負]",,jpfr-t-cte,OrdinaryIncome,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,1
+A,特別利益,特別利益、タイトル項目,,,,,,,,Extraordinary income,,,jpfr-t-cte,ExtraordinaryIncomeAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,特別利益,特別利益,特別利益合計[合計],,,,,,,Extraordinary income,Total extraordinary income[合計],,jpfr-t-cte,ExtraordinaryIncome,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,特別損失,特別損失、タイトル項目,,,,,,,,Extraordinary loss,,,jpfr-t-cte,ExtraordinaryLossAbstract,xbrli:stringItemType,,xbrli:item,duration,,true,true,1
+A,特別損失,特別損失,特別損失合計[合計],,,,,,,Extraordinary loss,Total extraordinary losses[合計],,jpfr-t-cte,ExtraordinaryLoss,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,税引前当期純利益,税引前当期純利益,"税引前当期純損失（△）[負値]
+税引前当期純利益又は税引前当期純損失（△）[正負]",,"税金等調整前当期純利益[標準]
+税金等調整前当期純損失（△）[負値]
+税金等調整前当期純利益又は税金等調整前当期純損失（△）[正負]","税引前四半期純利益[標準]
+税引前四半期純損失（△）[負値]
+税引前四半期純利益又は税引前四半期純損失（△）[正負]","税金等調整前四半期純利益[標準]
+税金等調整前四半期純損失（△）[負値]
+税金等調整前四半期純利益又は税金等調整前四半期純損失（△）[正負]","税引前中間純利益[標準]
+税引前中間純損失（△）[負値]
+税引前中間純利益又は税引前中間純損失（△）[正負]","税金等調整前中間純利益[標準]
+税金等調整前中間純損失（△）[負値]
+税金等調整前中間純利益又は税金等調整前中間純損失（△）[正負]",Income before income taxes,"Loss before income taxes[負値]
+Income (loss) before income taxes[正負]",,jpfr-t-cte,IncomeBeforeIncomeTaxes,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,1
+A,法人税、住民税及び事業税,法人税、住民税及び事業税,,,,,,,,Income taxes-current,,,jpfr-t-cte,IncomeTaxesCurrent,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,1
+A,法人税等調整額,法人税等調整額,,,,,,,,Income taxes-deferred,,,jpfr-t-cte,IncomeTaxesDeferred,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,1
+A,当期純利益,当期純利益,"当期純損失（△）[負値]
+当期純利益又は当期純損失（△）[正負]",,,"四半期純利益[標準]
+四半期純損失（△）[負値]
+四半期純利益又は四半期純損失（△）[正負]","四半期純利益[標準]
+四半期純損失（△）[負値]
+四半期純利益又は四半期純損失（△）[正負]","中間純利益[標準]
+中間純損失（△）[負値]
+中間純利益又は中間純損失（△）[正負]","中間純利益[標準]
+中間純損失（△）[負値]
+中間純利益又は中間純損失（△）[正負]",Net income,"Net loss[負値]
+Net income (loss)[正負]",,jpfr-t-cte,NetIncome,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,1
+B,一部解約に伴う当期純利益金額の分配額,一部解約に伴う当期純利益金額の分配額、投資信託,"一部解約に伴う当期純損失金額の分配額（△）[負値]
+一部解約に伴う当期純利益金額の分配額又は一部解約に伴う当期純損失金額の分配額（△）[正負]",,,,,"一部解約に伴う中間純利益金額の分配額[標準]
+一部解約に伴う中間純損失金額の分配額（△）[負値]
+一部解約に伴う中間純利益金額の分配額又は一部解約に伴う中間純損失金額の分配額（△）[正負]",,Distribution of net income from partial redemptions,"Distribution of net loss from partial redemptions[負値]
+Distribution of net income (loss) from partial redemptions[正負]",,jpfr-t-fnd,DistributionOfNetIncomeFromPartialRedemptionsFND,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,1
+B,一部交換に伴う当期純利益金額の分配額,一部交換に伴う当期純利益金額の分配額、投資信託,"一部交換に伴う当期純損失金額の分配額（△）[負値]
+一部交換に伴う当期純利益金額の分配額又は一部交換に伴う当期純損失金額の分配額（△）[正負]",,,,,"一部交換に伴う中間純利益金額の分配額[標準]
+一部交換に伴う中間純損失金額の分配額（△）[負値]
+一部交換に伴う中間純利益金額の分配額又は一部交換に伴う中間純損失金額の分配額（△）[正負]",,Distribution of net income from partial exchange,"Distribution of net loss from partial exchange[負値]
+Distribution of net income (loss) from partial exchange[正負]",,jpfr-t-fnd,DistributionOfNetIncomeFromPartialExchangeFND,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,1
+A,遡及処理前期首剰余金又は期首欠損金（△）,遡及処理前期首剰余金又は期首欠損金（△）、投資信託,遡及処理前期首剰余金又は期首欠損金（△）[期首],,,,,,,Surplus (deficit) at beginning of period before retrospective application and retrospective restatement,Surplus (deficit) at beginning of period before retrospective application and retrospective restatement[期首],,jpfr-t-fnd,SurplusDeficitAtBeginningOfPeriodBeforeRetrospectiveApplicationAndRetrospectiveRestatementFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,1
+A,遡及処理の累積的影響額,遡及処理の累積的影響額、投資信託,遡及処理の累積的影響額[期首],,,,,,,Cumulative effect of retrospective application and retrospective restatement,Cumulative effect of retrospective application and retrospective restatement[期首],,jpfr-t-fnd,CumulativeEffectOfRetrospectiveApplicationAndRetrospectiveRestatementFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,1
+A,剰余金又は欠損金（△）,剰余金又は欠損金（△）、投資信託,"剰余金又は欠損金（△）合計[合計]
+期首剰余金又は期首欠損金（△）[期首]
+期末剰余金又は期末欠損金（△）[期末]",,,,,"剰余金又は欠損金（△）[標準]
+期首剰余金又は期首欠損金（△）[期首]
+中間剰余金又は中間欠損金（△）[期末]",,Surplus (deficit),"Total surplus (deficit)[合計]
+Surplus (deficit) at beginning of period[期首]
+Surplus (deficit) at end of period[期末]",,jpfr-t-fnd,SurplusDeficitFND,xbrli:monetaryItemType,,xbrli:item,instant,credit,false,true,1
+A,剰余金増加額又は欠損金減少額,剰余金増加額又は欠損金減少額、投資信託,,,,,,,,Increase in surplus or decrease in deficit,,,jpfr-t-fnd,IncreaseInSurplusOrDecreaseInDeficitFND,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,1
+A,当期一部解約に伴う剰余金増加額又は欠損金減少額,当期一部解約に伴う剰余金増加額又は欠損金減少額、投資信託,,,,,,中間一部解約に伴う剰余金増加額又は欠損金減少額[標準],,Increase in surplus or decrease in deficit from partial redemptions,,,jpfr-t-fnd,IncreaseInSurplusOrDecreaseInDeficitFromPartialRedemptionsFND,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,当期追加信託に伴う剰余金増加額又は欠損金減少額,当期追加信託に伴う剰余金増加額又は欠損金減少額、投資信託,,,,,,中間追加信託に伴う剰余金増加額又は欠損金減少額[標準],,Increase in surplus or decrease in deficit from additional subscriptions for the period,,,jpfr-t-fnd,IncreaseInSurplusOrDecreaseInDeficitFromAdditionalSubscriptionsForThePeriodFND,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+B,当期一部交換に伴う剰余金増加額又は欠損金減少額,当期一部交換に伴う剰余金増加額又は欠損金減少額、投資信託,,,,,,中間一部交換に伴う剰余金増加額又は欠損金減少額[標準],,Increase in surplus or decrease in deficit from partial exchange,,,jpfr-t-fnd,IncreaseInSurplusOrDecreaseInDeficitFromPartialExchangeFND,xbrli:monetaryItemType,,xbrli:item,duration,credit,false,true,2
+A,剰余金減少額又は欠損金増加額,剰余金減少額又は欠損金増加額、投資信託,,,,,,,,Decrease in surplus or increase in deficit,,,jpfr-t-fnd,DecreaseInSurplusOrIncreaseInDeficitFND,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,1
+A,当期一部解約に伴う剰余金減少額又は欠損金増加額,当期一部解約に伴う剰余金減少額又は欠損金増加額、投資信託,,,,,,中間一部解約に伴う剰余金減少額又は欠損金増加額[標準],,Decrease in surplus or increase in deficit from partial redemptions,,,jpfr-t-fnd,DecreaseInSurplusOrIncreaseInDeficitFromPartialRedemptionsFND,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,当期追加信託に伴う剰余金減少額又は欠損金増加額,当期追加信託に伴う剰余金減少額又は欠損金増加額、投資信託,,,,,,中間追加信託に伴う剰余金減少額又は欠損金増加額[標準],,Decrease in surplus or increase in deficit from additional subscriptions for the period,,,jpfr-t-fnd,DecreaseInSurplusOrIncreaseInDeficitFromAdditionalSubscriptionsForThePeriodFND,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+B,当期一部交換に伴う剰余金減少額又は欠損金増加額,当期一部交換に伴う剰余金減少額又は欠損金増加額、投資信託,,,,,,中間一部交換に伴う剰余金減少額又は欠損金増加額[標準],,Decrease in surplus or increase in deficit from partial exchange,,,jpfr-t-fnd,DecreaseInSurplusOrIncreaseInDeficitFromPartialExchangeFND,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,2
+A,分配金,分配金、投資信託,,,,,,,,Dividends,,,jpfr-t-fnd,DividendsFND,xbrli:monetaryItemType,,xbrli:item,duration,debit,false,true,1
