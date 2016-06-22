@@ -1,6 +1,7 @@
 require 'csv'
 require 'pp'
 
+# XBRL上での業種
 type_of_industry = [
   '一般商工業',
   '建設業',
@@ -26,13 +27,15 @@ type_of_industry = [
   'リース事業'
 ]
 
+# headerをキーとしたHashを返す、値にはデータの配列を格納
 def create_data(input_data, input_num)
-  output_data = {}
-  header = input_data[input_num + 1]
+  output_data = {} # 戻り値
+  header = input_data[input_num + 1] # ヘッダー部分（Hashのキー）
   header.size.times do |j|
-    head = header[j]
+    head = header[j] # headerの個々のデータ
     output_data[head] = []
     row_num = input_num + 2
+    # headerに対する列を格納 exp. 標準ラベルをキー、実データの勘定科目全体の配列をバリューとしてHashに格納
     until input_data[row_num].nil? || input_data[row_num][j].nil?
       output_data[head] << input_data[row_num][j]
       row_num += 1
@@ -41,6 +44,7 @@ def create_data(input_data, input_num)
   output_data
 end
 
+# 勘定科目をキー、タグ名を値としたハッシュを返す
 def answer(input_data, input_string, key_array)
   unless input_data.nil?
     q_list =  input_data[key_array[1]].find_all { |n| n.match(input_string) }
@@ -66,21 +70,24 @@ financial_statements = { bs: '貸借対照表', pl: '損益計算書', cf: 'キ�
 puts '勘定科目名を入力してください。'
 input_string = gets.chomp
 
-(1..23).each do  |file_number|
+(1..type_of_industry.size).each do  |file_number|
   temp_data = CSV.read("01_d#{file_number}.csv")
   bs_data, pl_data, cf_data = nil, nil, nil
 
   temp_data.size.times do |i|
     comparison_title = temp_data[i][0]
 
+    # 貸借対照表の場合
     if !comparison_title.nil? && comparison_title.include?(financial_statements[:bs])
       bs_data = create_data(temp_data, i)
     end
 
+    # 損益計算書の場合
     if !comparison_title.nil? && comparison_title.include?(financial_statements[:pl])
       pl_data = create_data(temp_data, i)
     end
 
+    # キャッシュ・フロー計算書の場合
     if !comparison_title.nil? && comparison_title.include?(financial_statements[:cf])
       cf_data = create_data(temp_data, i)
     end
@@ -102,6 +109,7 @@ input_string = gets.chomp
   pl_flag = true if pl_answer.empty?
   cf_flag = true if cf_answer.empty?
 
+  # 業種、勘定科目、タグ名を表示
   puts "# #{type_of_industry[file_number - 1]}" unless bs_flag && pl_flag && cf_flag
   pp bs_answer unless bs_flag
   pp pl_answer unless pl_flag
