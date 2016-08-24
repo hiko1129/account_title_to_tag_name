@@ -1,6 +1,8 @@
 require 'csv'
 require 'pp'
 
+# 投資信託受益証券の検索ができていない。固定資産の検索時に発生。
+# TODO 一部修正する。
 # XBRL上での業種
 type_of_industry = [
   '一般商工業',
@@ -112,6 +114,9 @@ input_string = gets.chomp
   # 業種、勘定科目、タグ名を表示
   puts "# #{type_of_industry[file_number - 1]}" unless bs_flag && pl_flag && cf_flag
   pp bs_answer unless bs_flag
+  puts
   pp pl_answer unless pl_flag
+  puts
   pp cf_answer unless cf_flag
+  puts
 end
